@@ -22,7 +22,7 @@ public class CommonAPI {
     }
     @AfterMethod
     public void logoutPage () {
-        //webDriver.close();
+        webDriver.close();
     }
 
 

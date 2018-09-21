@@ -9,14 +9,12 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
-    <parameter name="url" value="https://www.chase.com/"/>
+    <parameter name="url" value="https://www.target.com/"/>
 
     <test name = "Search Test">
         <classes>
-      <class name="HomePageTest.HomePageFunctions" />
-            <class name="SearchFunctions.SearchFunctionsTest"/>
-            <class name="SignInFunctions.SignInTest"/>
-
+            <class name="MainPage.MainPageTest"></class>
+            <class name="SignIn.SignInTest"></class>
         </classes>
     </test>
 

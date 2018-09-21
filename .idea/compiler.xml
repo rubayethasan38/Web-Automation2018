@@ -9,6 +9,7 @@
         <module name="ChaseBank" />
         <module name="Generic" />
         <module name="KhanAcademy" />
+        <module name="Target" />
       </profile>
     </annotationProcessing>
   </component>

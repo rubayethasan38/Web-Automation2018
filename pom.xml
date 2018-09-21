@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>KhanAcademy</module>
         <module>ChaseBank</module>
+        <module>VapeNw</module>
     </modules>
 
     <dependencyManagement>
