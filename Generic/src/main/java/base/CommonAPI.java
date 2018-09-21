@@ -14,7 +14,7 @@ public class CommonAPI {
     public WebDriver webDriver = null;
     @Parameters({"url"})
     @BeforeMethod
-    public void loginPage (@Optional("https://www.chase.com/") String url) {
+    public void loginPage (@Optional("https://www.wellsfargo.com/") String url) {
         System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

@@ -12,7 +12,9 @@
     <parameter name="url" value="https://www.wellsfargo.com/"/>
     <test name = "Search Test">
         <classes>
-           <class name="HomePageTest.HomePageFeatures"></class>
+        <class name="HomePageTest.HomePageFeatures"></class>
+        <class name="signIn.singIn"></class>
+            <class name="HomePageTest.OptionMenu"></class>
         </classes>
     </test>
 
