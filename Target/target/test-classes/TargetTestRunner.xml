@@ -13,7 +13,7 @@
 
     <test name = "Search Test">
         <classes>
-            <class name="MainPage.MainPageTest"></class>
+           <!-- <class name="MainPage.MainPageTest"></class>!-->
             <class name="SignIn.SignInTest"></class>
         </classes>
     </test>
