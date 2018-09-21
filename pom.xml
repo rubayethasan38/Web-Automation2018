@@ -12,7 +12,7 @@
         <module>Generic</module>
         <module>KhanAcademy</module>
         <module>ChaseBank</module>
-        <module>target</module>
+        <module>WellsFargo</module>
     </modules>
 
     <dependencyManagement>

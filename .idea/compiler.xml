@@ -10,8 +10,11 @@
         <module name="Generic" />
         <module name="KhanAcademy" />
         <module name="Target" />
-        <module name="VapeNw" />
+        <module name="WellsFargo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="VapeNw" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
