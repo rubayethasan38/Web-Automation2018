@@ -14,6 +14,9 @@
     <test name = "Search Test">
         <classes>
       <class name="HomePageTest.HomePageFunctions" />
+            <class name="SearchFunctions.SearchFunctionsTest"/>
+            <class name="SignInFunctions.SignInTest"/>
+            <class name="MenuOptions.MenuOptionsTest"/>
         </classes>
     </test>
 
