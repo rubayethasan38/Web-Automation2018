@@ -6,6 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
@@ -46,7 +47,17 @@ public class OptionMenu extends CommonAPI {
       webDriver.findElement(By.xpath("//*[@id=\"taskbar\"]/div/ul/li[4]/div/div[1]")).click();
       webDriver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
       webDriver.findElement(By.xpath("//*[@id=\"location\"]")).sendKeys("33027", Keys.ENTER);
+  }
+  @Test
+  public void hurricaneAlertLearnMore () {
+    webDriver.findElement(By.xpath("//*[@id=\"mainContent\"]/div[1]/p/a")).click();
+    String Expected = "Disaster response services";
+    WebElement Actual = webDriver.findElement(By.xpath("//*[@id=\"skip\"]"));
+      System.out.println(Actual);
+      Assert.assertEquals(Actual, Expected);
+
 
   }
+
 
 }
