@@ -18,5 +18,25 @@ public class CommercialHome extends CommonAPI {
        webDriver.findElement(By.xpath("//*[@id=\"user_id\"]")).sendKeys("2342423");
        webDriver.findElement(By.xpath("//*[@id=\"passwordIdField\"]")).sendKeys("23242", Keys.ENTER);
    }
+    @Test
+     public void watchvideoSuccessStories () throws InterruptedException {
+     webDriver.findElement(By.xpath("//*[@id=\"tabNavCommercial\"]")).click();
+     webDriver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+     webDriver.findElement(By.xpath("//*[@id=\"NID1_8_3_1_2_1_1_1_3_1\"]")).click();
+     webDriver.findElement(By.xpath("/html/body")).click();
+     webDriver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+ }
+    @Test
+    public void productsAndServicesB (){
+       webDriver.findElement(By.xpath("//*[@id=\"tabNavCommercial\"]")).click();
+       webDriver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+       webDriver.findElement(By.xpath("//*[@id=\"NID1_8_3_1_1_1_3_7_1\"]")).click();
+   }
 
+ @Test
+    public void moreIndustries(){
+     webDriver.findElement(By.xpath("//*[@id=\"tabNavCommercial\"]")).click();
+     webDriver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+     webDriver.findElement(By.xpath("//*[@id=\"NID1_8_3_1_1_1_4_7_1\"]")).click();
+ }
 }
