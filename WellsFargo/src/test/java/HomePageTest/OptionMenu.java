@@ -57,8 +57,8 @@ public class OptionMenu extends CommonAPI {
   @Test
   public void hurricaneAlertLearnMore () {
     webDriver.findElement(By.xpath("//*[@id=\"mainContent\"]/div[1]/p/a")).click();
-    String Expected = "Disaster response services";
-    WebElement Actual = webDriver.findElement(By.xpath("//*[@id=\"skip\"]"));
+    String Expected = "Disaster Response Services - Wells Fargo";
+    String Actual = webDriver.getTitle();
       System.out.println(Actual);
       Assert.assertEquals(Actual, Expected);
 
