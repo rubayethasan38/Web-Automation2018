@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7982a99c-de8b-43b5-ab46-3276df9a4144" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/EnterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/EnterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/SelectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/SelectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/TestPage/SelectPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/TestPage/SelectPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,25 +35,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="1" />
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="615" />
+          <entry key="java" value="743" />
           <entry key="xml" value="346" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="615" />
+          <entry key="JAVA" value="743" />
           <entry key="XML" value="346" />
         </counts>
       </usages-collector>
@@ -58,15 +61,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,13 +103,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/EnterPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,20 +120,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/SelectPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/SearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/ShowPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#189#190#0" expanded="true" />
@@ -190,9 +204,10 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Generic/src/test/java/TestPage/EnterPage.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/resources/BHPhotoTestRunner.xml" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/EnterPage.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/SelectPage.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/ShowPage.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/SelectPage.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/EnterPage.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/SearchPage.java" />
       </list>
     </option>
   </component>
@@ -264,32 +279,7 @@
             <path>
               <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="BHPhoto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="BHPhoto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="BHPhoto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="BHPhoto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestPage" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -300,7 +290,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537494454200" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537624421831" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -328,8 +318,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ShowPage">
-    <configuration name="EnterPage.click" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.EnterPage">
+    <configuration name="EnterPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BHPhoto" />
       <extension name="coverage">
         <pattern>
@@ -339,15 +329,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestPage" />
       <option name="MAIN_CLASS_NAME" value="TestPage.EnterPage" />
-      <option name="METHOD_NAME" value="click" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnterPage.loginAccount" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BHPhoto" />
       <extension name="coverage">
         <pattern>
@@ -356,8 +344,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestPage" />
-      <option name="MAIN_CLASS_NAME" value="TestPage.EnterPage" />
-      <option name="METHOD_NAME" value="loginAccount" />
+      <option name="MAIN_CLASS_NAME" value="TestPage.SearchPage" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchPage.inputData" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BHPhoto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestPage" />
+      <option name="MAIN_CLASS_NAME" value="TestPage.SearchPage" />
+      <option name="METHOD_NAME" value="inputData" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -381,24 +385,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectPage.addCart" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BHPhoto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestPage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestPage" />
-      <option name="MAIN_CLASS_NAME" value="TestPage.SelectPage" />
-      <option name="METHOD_NAME" value="addCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShowPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BHPhoto" />
       <extension name="coverage">
@@ -416,19 +402,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.EnterPage.loginAccount" />
-      <item itemvalue="TestNG.EnterPage.click" />
-      <item itemvalue="TestNG.SelectPage" />
-      <item itemvalue="TestNG.SelectPage.addCart" />
       <item itemvalue="TestNG.ShowPage" />
+      <item itemvalue="TestNG.EnterPage" />
+      <item itemvalue="TestNG.SelectPage" />
+      <item itemvalue="TestNG.SearchPage" />
+      <item itemvalue="TestNG.SearchPage.inputData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EnterPage" />
+        <item itemvalue="TestNG.SearchPage.inputData" />
         <item itemvalue="TestNG.ShowPage" />
+        <item itemvalue="TestNG.SearchPage" />
         <item itemvalue="TestNG.SelectPage" />
-        <item itemvalue="TestNG.SelectPage.addCart" />
-        <item itemvalue="TestNG.EnterPage.click" />
-        <item itemvalue="TestNG.EnterPage.loginAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -446,41 +432,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnterPage_click - 2018.09.20 at 20h 17m 45s.xml">
-      <configuration name="EnterPage.click" configurationId="TestNG" />
+    <history-entry file="SearchPage - 2018.09.21 at 15h 43m 42s.xml">
+      <configuration name="SearchPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EnterPage_click - 2018.09.20 at 21h 16m 19s.xml">
-      <configuration name="EnterPage.click" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SelectPage - 2018.09.20 at 21h 16m 43s.xml">
-      <configuration name="SelectPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SelectPage - 2018.09.20 at 21h 17m 44s.xml">
-      <configuration name="SelectPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SelectPage_addCart - 2018.09.20 at 21h 28m 51s.xml">
-      <configuration name="SelectPage.addCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SelectPage_addCart - 2018.09.20 at 21h 29m 33s.xml">
-      <configuration name="SelectPage.addCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SelectPage_addCart - 2018.09.20 at 21h 31m 13s.xml">
-      <configuration name="SelectPage.addCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SelectPage - 2018.09.20 at 21h 31m 35s.xml">
-      <configuration name="SelectPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ShowPage - 2018.09.20 at 21h 46m 47s.xml">
+    <history-entry file="ShowPage - 2018.09.21 at 19h 31m 51s.xml">
       <configuration name="ShowPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ShowPage - 2018.09.20 at 21h 47m 20s.xml">
+    <history-entry file="ShowPage - 2018.09.21 at 19h 32m 39s.xml">
       <configuration name="ShowPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EnterPage - 2018.09.21 at 19h 34m 54s.xml">
+      <configuration name="EnterPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SelectPage - 2018.09.21 at 19h 35m 48s.xml">
+      <configuration name="SelectPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchPage - 2018.09.21 at 19h 36m 58s.xml">
+      <configuration name="SearchPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EnterPage - 2018.09.21 at 19h 38m 34s.xml">
+      <configuration name="EnterPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ShowPage - 2018.09.21 at 19h 39m 10s.xml">
+      <configuration name="ShowPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchPage_inputData - 2018.09.21 at 19h 44m 18s.xml">
+      <configuration name="SearchPage.inputData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="EnterPage - 2018.09.22 at 09h 37m 45s.xml">
+      <configuration name="EnterPage" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24878837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24878837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,12 +475,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3780822" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3780822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32739726" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32739726" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
@@ -587,26 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/EnterPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/SelectPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/resources/BHPhotoTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -621,14 +587,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/SelectPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/ShowPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#189#190#0" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/TestPage/EnterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
           </folding>
         </state>
       </provider>
