@@ -61,9 +61,15 @@ public class OptionMenu extends CommonAPI {
     String Actual = webDriver.getTitle();
       System.out.println(Actual);
       Assert.assertEquals(Actual, Expected);
-
-
-  }
-
+    }
+  //test26
+    @Test
+   public void missPlacedDebit(){
+        webDriver.findElement(By.xpath("//*[@id=\"mainContent\"]/div[4]/div/div/div[2]/a")).click();
+         String Expected = "Pause Your Debit Card if Misplaced - Wells Fargo" ;
+         String Actual = webDriver.getTitle();
+      System.out.println(Actual);
+      Assert.assertEquals(Actual, Expected);
+    }
 
 }
