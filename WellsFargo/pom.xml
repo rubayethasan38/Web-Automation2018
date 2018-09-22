@@ -25,19 +25,14 @@
                 <version>2.20.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFiles>target/test-classes/ChaseBankTestRunner.xml</suiteXmlFiles>
+                        <suiteXmlFiles>target/test-classes/WellsFargoTestRunner.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
     <dependencies>
-        <dependency>
-            <groupId>Web-Automation</groupId>
-            <artifactId>Generic</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>test</scope>
-        </dependency>
+
         <dependency>
             <groupId>AutomationWebsite</groupId>
             <artifactId>Generic</artifactId>
@@ -55,26 +50,6 @@
             <artifactId>Generic</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>Framework</groupId>
-            <artifactId>Generic</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>Web-Automation</groupId>
-            <artifactId>Generic</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>FrameWorkSelenium</groupId>
-            <artifactId>Generic</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>FrameWorkSelenium</groupId>
-            <artifactId>Generic</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>Web-Automation</groupId>

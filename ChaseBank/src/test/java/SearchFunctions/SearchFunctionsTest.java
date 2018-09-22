@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 public class SearchFunctionsTest extends CommonAPI {
+  //test 8
    @Test
    public void searchTest () {
        webDriver.findElement(By.xpath("/html/body/div/div[5]/header/div[4]/div[3]/a")).click();

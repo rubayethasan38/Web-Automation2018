@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 public class SignInTest extends CommonAPI {
+    //test 9
     @Test
     public void logInFunction() {
         webDriver.switchTo().frame("logonbox");
@@ -17,11 +18,13 @@ public class SignInTest extends CommonAPI {
         webDriver.findElement(By.cssSelector("#password-input-field")).sendKeys("luillo2311");
         webDriver.findElement(By.cssSelector("#signin-button")).click();
     }
+   //test 10
     @Test
    public void forgotUsernamePasswordFunction(){
         webDriver.switchTo().frame("logonbox");
         webDriver.findElement(By.xpath("//*[@id=\"forgotPassword\"]")).click();
    }
+  //test 11
    @Test
     public void signUp(){
         webDriver.switchTo().frame("logonbox");
