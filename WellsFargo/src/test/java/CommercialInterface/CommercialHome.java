@@ -39,4 +39,10 @@ public class CommercialHome extends CommonAPI {
      webDriver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
      webDriver.findElement(By.xpath("//*[@id=\"NID1_8_3_1_1_1_4_7_1\"]")).click();
  }
+@Test
+    public void moreInsightsB(){
+    webDriver.findElement(By.xpath("//*[@id=\"tabNavCommercial\"]")).click();
+    webDriver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+    webDriver.findElement(By.xpath("//*[@id=\"NID1_8_3_1_1_1_1_8_1\"]")).click();
+}
 }
