@@ -9,13 +9,9 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
-    <parameter name="url" value="https://www.wellsfargo.com/"/>
+    <parameter name="url" value="https://www.regions.com/"/>
     <test name = "Search Test">
-        <classes>
-        <class name="HomePageTest.HomePageFeatures"></class>
-        <class name="signIn.singIn"></class>
-            <class name="HomePageTest.HomePageFunctions"></class>
-        </classes>
+
     </test>
 
 </suite>

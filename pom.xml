@@ -11,8 +11,8 @@
     <modules>
         <module>Generic</module>
         <module>KhanAcademy</module>
-        <module>ChaseBank</module>
         <module>WellsFargo</module>
+        <module>RegionsBank</module>
     </modules>
 
     <dependencyManagement>

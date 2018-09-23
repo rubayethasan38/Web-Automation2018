@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ChaseBank" />
         <module name="Generic" />
         <module name="KhanAcademy" />
+        <module name="RegionsBank" />
         <module name="Target" />
         <module name="WellsFargo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ChaseBank" target="1.8" />
       <module name="VapeNw" target="1.8" />
     </bytecodeTargetLevel>
   </component>
