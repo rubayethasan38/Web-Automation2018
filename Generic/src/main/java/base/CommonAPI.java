@@ -11,7 +11,7 @@ import org.testng.annotations.Parameters;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
-    public WebDriver webDriver = null;
+    public static WebDriver webDriver = null;
     @Parameters({"url"})
     @BeforeMethod
     public void loginPage (@Optional("https://www.wellsfargo.com/") String url) {

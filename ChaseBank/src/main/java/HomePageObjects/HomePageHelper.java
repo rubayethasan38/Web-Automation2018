@@ -9,9 +9,6 @@ public class HomePageHelper extends CommonAPI {
     public static WebElement signinButton;
     @FindBy(xpath = "/html/body/div/div[5]/header/div[4]/div[3]/a")
     public static WebElement searchButton;
-
-
-
 }
 
 

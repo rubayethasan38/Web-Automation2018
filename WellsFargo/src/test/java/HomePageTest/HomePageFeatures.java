@@ -1,45 +1,49 @@
 package HomePageTest;
 
-import base.CommonAPI;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
+import Home.HomeHelper;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class HomePageFeatures extends CommonAPI {
-    //test 13
+
+
+public class HomePageFeatures extends HomeHelper {
+
+    HomeHelper objOfHomeHelper;
+    @BeforeMethod
+    public void init(){
+        objOfHomeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
+    }
     @Test
     public void searchBox(){
-        webDriver.findElement(By.xpath("//*[@id=\"inputTopSearchField\"]")).sendKeys("BANK NEAR ME ", Keys.ENTER);
+       setSearchBoxFunction();
     }
-   //test14
     @Test
-    public void findAtms (){
-        webDriver.findElement(By.xpath("//*[@id=\"topSearch\"]/ul/li[3]/a")).click();
+    public void usernameInputT(){
+        usernameInput();
     }
-   //test15
     @Test
-    public void costumerServiceB (){
-        webDriver.findElement(By.xpath("//*[@id=\"topSearch\"]/ul/li[2]/a")).click();
+    public void enrollButtonT(){
+        enrollButtonF();
     }
-    //test16
     @Test
-    public void spanishService (){
-        webDriver.findElement(By.xpath("//*[@id=\"topSearch\"]/ul/li[4]/a")).click();
+    public void careersB(){
+        careersButtonF();
     }
-    //test17
     @Test
-    public void enrollB(){
-        webDriver.findElement(By.xpath("//*[@id=\"topSearch\"]/ul/li[1]")).click();
+    public void userPasswordF(){
+        userPasswordInput();
     }
-    //test18
     @Test
-    public void aboutWellsFargoB (){
-        webDriver.findElement(By.xpath("//*[@id=\"headerTools\"]/nav/ul/li[2]/a")).click();
+    public void costumerServiceF(){
+        costumerService();
     }
-   //test19
     @Test
-    public void financialEducationB(){
-        webDriver.findElement(By.xpath("//*[@id=\"headerTools\"]/nav/ul/li[1]/a")).click();
+    public void moveSlideToRightB(){
+        moveSlidesToRight();
     }
-
+    @Test
+    public void moveSlideToLeftB(){
+        moveSlideToLeft();
+    }
 }

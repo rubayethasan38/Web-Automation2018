@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class BottomOptionsTest extends CommonAPI {
    //test30
-    @Test
+   /* @Test
     public void careersTest(){
     webDriver.findElement(By.xpath("//*[@id=\"pageFooter\"]/div[1]/nav/div/ul/li[2]/a")).click();
     String Expected = "Wells Fargo Careers";
@@ -50,5 +50,5 @@ public class BottomOptionsTest extends CommonAPI {
     @Test
     public void adChoices (){
         webDriver.findElement(By.xpath("//*[@id=\"pageFooter\"]/div[1]/nav/div/ul/li[8]/a")).click();
-    }
+    }*/
 }

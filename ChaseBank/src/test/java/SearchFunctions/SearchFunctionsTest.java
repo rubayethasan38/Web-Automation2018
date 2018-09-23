@@ -15,12 +15,7 @@ public class SearchFunctionsTest extends CommonAPI {
        webDriver.findElement(By.xpath("/html/body/div/div[5]/header/div[4]/div[3]/a")).click();
        webDriver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
        webDriver.findElement(By.xpath("/html/body/div/div[5]/header/div[5]/div/div/form/label/input")).sendKeys("ATM", Keys.ENTER);
-
    }
-
-
-
-
 }
 
 
