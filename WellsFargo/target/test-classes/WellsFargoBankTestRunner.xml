@@ -14,7 +14,7 @@
         <classes>
         <class name="HomePageTest.HomePageFeatures"></class>
         <class name="signIn.singIn"></class>
-            <class name="HomePageTest.OptionMenu"></class>
+            <class name="HomePageTest.HomePageFunctions"></class>
         </classes>
     </test>
 

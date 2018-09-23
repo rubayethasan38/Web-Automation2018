@@ -19,4 +19,28 @@ public class BottomOptionsTest extends BottomOptionsHelper {
     public void aboutWellsFargoFunction(){
         AboutWellsFargoB();
     }
+    @Test
+    public void privacyB(){
+        privacyButton();
+    }
+    @Test
+    public void reportFraudB(){
+        reportFraudB();
+    }
+    @Test
+    public void siteMap(){
+        siteMapB();
+    }
+    @Test
+    public void accesability(){
+        accesabilityB();
+    }
+    @Test
+    public void onlineAccesmentB(){
+        onlineAccesment();
+    }
+    @Test
+    public void addChoicesB(){
+        addChoices();
+    }
 }

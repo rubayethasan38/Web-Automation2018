@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b27728c-a8c4-4787-9627-779c06ea66a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellsFargo/src/main/java/Home/BottomOptionsHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/main/java/Home/BottomOptionsHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellsFargo/src/test/java/CommercialInterface/CommercialHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/test/java/CommercialInterface/CommercialHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellsFargo/src/test/java/SmallBusinessHome/SmallBusineshome.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/test/java/SmallBusinessHome/SmallBusineshome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellsFargo/src/test/java/signIn/singIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/test/java/signIn/singIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoBankTestRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,15 +71,15 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="85" />
-          <entry key="xml" value="18" />
+          <entry key="java" value="106" />
+          <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="85" />
-          <entry key="XML" value="18" />
+          <entry key="JAVA" value="106" />
+          <entry key="XML" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -82,16 +89,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="45" />
-          <entry key="java" value="8123" />
-          <entry key="xml" value="203" />
+          <entry key="dummy" value="54" />
+          <entry key="java" value="10691" />
+          <entry key="xml" value="207" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8123" />
-          <entry key="PLAIN_TEXT" value="45" />
-          <entry key="XML" value="203" />
+          <entry key="JAVA" value="10691" />
+          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="XML" value="207" />
         </counts>
       </usages-collector>
     </session>
@@ -101,43 +108,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/BottomOptionsHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java">
+        <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/SmallBusinessHome/SmallBusineshome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="342">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFeatures.java">
+        <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/SmallBussiness.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="139">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/SignInHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/signIn/singIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/CommercialInterface/CommercialHome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,7 +256,6 @@
         <option value="$PROJECT_DIR$/Target/src/test/java/SignIn/SignInTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/resources/ChaseBankTestRunner.xml" />
-        <option value="$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoBankTestRunner.xml" />
         <option value="$PROJECT_DIR$/WellsFargo/src/main/java/CommercialInterfaceHelper/ComercialInterfaceHelper.java" />
         <option value="$PROJECT_DIR$/WellsFargo/pom.xml" />
         <option value="$PROJECT_DIR$/ChaseBank/src/test/java/HomePageTest/HomePageFunctions.java" />
@@ -194,15 +264,19 @@
         <option value="$PROJECT_DIR$/ChaseBank/src/main/java/HomePageObjects/HomePageHelper.java" />
         <option value="$PROJECT_DIR$/ChaseBank/src/test/java/SearchFunctions/SearchFunctionsTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/WellsFargo/src/test/java/SmallBusinessHome/SmallBusineshome.java" />
-        <option value="$PROJECT_DIR$/WellsFargo/src/test/java/signIn/singIn.java" />
-        <option value="$PROJECT_DIR$/WellsFargo/src/test/java/CommercialInterface/CommercialHome.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFeatures.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/OptionMenu.java" />
-        <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/BottomOptionsHelper.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java" />
+        <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/SignInHelper.java" />
+        <option value="$PROJECT_DIR$/WellsFargo/src/test/java/signIn/singIn.java" />
+        <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java" />
+        <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/CommercialHelper.java" />
+        <option value="$PROJECT_DIR$/WellsFargo/src/test/java/CommercialInterface/CommercialHome.java" />
+        <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/SmallBussiness.java" />
+        <option value="$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoBankTestRunner.xml" />
+        <option value="$PROJECT_DIR$/WellsFargo/src/test/java/SmallBusinessHome/SmallBusineshome.java" />
       </list>
     </option>
   </component>
@@ -235,7 +309,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="191" />
+    <option name="x" value="210" />
     <option name="y" value="23" />
     <option name="width" value="1655" />
     <option name="height" value="711" />
@@ -319,7 +393,42 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CommercialInterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="HomePageTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="signIn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SmallBusinessHome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -331,7 +440,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537663539474" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537715718393" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -368,18 +477,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BottomOptionsTest.aboutWellsFargoFunction">
-    <configuration name="BottomOptionsTest.aboutWellsFargoFunction" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SmallBusineshome.signOnT">
+    <configuration name="CommercialHome.signOn" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WellsFargo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BottomOptions.*" />
+          <option name="PATTERN" value="CommercialInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BottomOptions" />
-      <option name="MAIN_CLASS_NAME" value="BottomOptions.BottomOptionsTest" />
-      <option name="METHOD_NAME" value="aboutWellsFargoFunction" />
+      <option name="PACKAGE_NAME" value="CommercialInterface" />
+      <option name="MAIN_CLASS_NAME" value="CommercialInterface.CommercialHome" />
+      <option name="METHOD_NAME" value="signOn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -387,17 +496,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageFunctions.HurrricaneAlertFunction" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CommercialHome.signOnCommercial" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WellsFargo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomePageTest.*" />
+          <option name="PATTERN" value="CommercialInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomePageTest" />
-      <option name="MAIN_CLASS_NAME" value="HomePageTest.HomePageFunctions" />
-      <option name="METHOD_NAME" value="HurrricaneAlertFunction" />
+      <option name="PACKAGE_NAME" value="CommercialInterface" />
+      <option name="MAIN_CLASS_NAME" value="CommercialInterface.CommercialHome" />
+      <option name="METHOD_NAME" value="signOnCommercial" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -405,17 +514,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageFunctions.earnKBonusB" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CommercialHome.watchSuccessVideo" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WellsFargo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomePageTest.*" />
+          <option name="PATTERN" value="CommercialInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomePageTest" />
-      <option name="MAIN_CLASS_NAME" value="HomePageTest.HomePageFunctions" />
-      <option name="METHOD_NAME" value="earnKBonusB" />
+      <option name="PACKAGE_NAME" value="CommercialInterface" />
+      <option name="MAIN_CLASS_NAME" value="CommercialInterface.CommercialHome" />
+      <option name="METHOD_NAME" value="watchSuccessVideo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -423,17 +532,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageFunctions.makeAnAppointmentF" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CommercialHome.watchvideoSuccessStories" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WellsFargo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomePageTest.*" />
+          <option name="PATTERN" value="CommercialInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomePageTest" />
-      <option name="MAIN_CLASS_NAME" value="HomePageTest.HomePageFunctions" />
-      <option name="METHOD_NAME" value="makeAnAppointmentF" />
+      <option name="PACKAGE_NAME" value="CommercialInterface" />
+      <option name="MAIN_CLASS_NAME" value="CommercialInterface.CommercialHome" />
+      <option name="METHOD_NAME" value="watchvideoSuccessStories" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -441,17 +550,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageFunctions.missPlacedDebitCardB" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SmallBusineshome.signOnT" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WellsFargo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomePageTest.*" />
+          <option name="PATTERN" value="SmallBusinessHome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomePageTest" />
-      <option name="MAIN_CLASS_NAME" value="HomePageTest.HomePageFunctions" />
-      <option name="METHOD_NAME" value="missPlacedDebitCardB" />
+      <option name="PACKAGE_NAME" value="SmallBusinessHome" />
+      <option name="MAIN_CLASS_NAME" value="SmallBusinessHome.SmallBusineshome" />
+      <option name="METHOD_NAME" value="signOnT" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -460,19 +569,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.HomePageFunctions.earnKBonusB" />
-      <item itemvalue="TestNG.HomePageFunctions.makeAnAppointmentF" />
-      <item itemvalue="TestNG.HomePageFunctions.missPlacedDebitCardB" />
-      <item itemvalue="TestNG.HomePageFunctions.HurrricaneAlertFunction" />
-      <item itemvalue="TestNG.BottomOptionsTest.aboutWellsFargoFunction" />
+      <item itemvalue="TestNG.CommercialHome.signOn" />
+      <item itemvalue="TestNG.CommercialHome.watchvideoSuccessStories" />
+      <item itemvalue="TestNG.CommercialHome.signOnCommercial" />
+      <item itemvalue="TestNG.CommercialHome.watchSuccessVideo" />
+      <item itemvalue="TestNG.SmallBusineshome.signOnT" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BottomOptionsTest.aboutWellsFargoFunction" />
-        <item itemvalue="TestNG.HomePageFunctions.HurrricaneAlertFunction" />
-        <item itemvalue="TestNG.HomePageFunctions.missPlacedDebitCardB" />
-        <item itemvalue="TestNG.HomePageFunctions.makeAnAppointmentF" />
-        <item itemvalue="TestNG.HomePageFunctions.earnKBonusB" />
+        <item itemvalue="TestNG.SmallBusineshome.signOnT" />
+        <item itemvalue="TestNG.CommercialHome.watchSuccessVideo" />
+        <item itemvalue="TestNG.CommercialHome.signOnCommercial" />
+        <item itemvalue="TestNG.CommercialHome.watchvideoSuccessStories" />
+        <item itemvalue="TestNG.CommercialHome.signOn" />
       </list>
     </recent_temporary>
   </component>
@@ -490,42 +599,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePageFeatures_moveSlideToRightB - 2018.09.22 at 20h 03m 33s.xml">
-      <configuration name="HomePageFeatures.moveSlideToRightB" configurationId="TestNG" />
+    <history-entry file="BottomOptionsTest_aboutWellsFargoFunction - 2018.09.22 at 20h 45m 59s.xml">
+      <configuration name="BottomOptionsTest.aboutWellsFargoFunction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageFeatures_moveSlideToLeftB - 2018.09.22 at 20h 04m 22s.xml">
-      <configuration name="HomePageFeatures.moveSlideToLeftB" configurationId="TestNG" />
+    <history-entry file="BottomOptionsTest_accesability - 2018.09.23 at 09h 16m 59s.xml">
+      <configuration name="BottomOptionsTest.accesability" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageFunctions_studentLoadsB - 2018.09.22 at 20h 05m 20s.xml">
-      <configuration name="HomePageFunctions.studentLoadsB" configurationId="TestNG" />
+    <history-entry file="singIn_signInT - 2018.09.23 at 09h 30m 26s.xml">
+      <configuration name="singIn.signInT" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageFunctions_studentLoadsB - 2018.09.22 at 20h 05m 48s.xml">
-      <configuration name="HomePageFunctions.studentLoadsB" configurationId="TestNG" />
+    <history-entry file="CommercialHome_signOn - 2018.09.23 at 09h 34m 08s.xml">
+      <configuration name="CommercialHome.signOn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OptionMenu_earnKBonusB - 2018.09.22 at 20h 06m 44s.xml">
-      <configuration name="OptionMenu.earnKBonusB" configurationId="TestNG" />
+    <history-entry file="CommercialHome_watchvideoSuccessStories - 2018.09.23 at 09h 48m 14s.xml">
+      <configuration name="CommercialHome.watchvideoSuccessStories" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageFunctions_earnKBonusB - 2018.09.22 at 20h 11m 05s.xml">
-      <configuration name="HomePageFunctions.earnKBonusB" configurationId="TestNG" />
+    <history-entry file="CommercialHome_signOnCommercial - 2018.09.23 at 10h 15m 37s.xml">
+      <configuration name="CommercialHome.signOnCommercial" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageFunctions_makeAnAppointmentF - 2018.09.22 at 20h 16m 20s.xml">
-      <configuration name="HomePageFunctions.makeAnAppointmentF" configurationId="TestNG" />
+    <history-entry file="CommercialHome_signOnCommercial - 2018.09.23 at 10h 16m 21s.xml">
+      <configuration name="CommercialHome.signOnCommercial" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageFunctions_missPlacedDebitCardB - 2018.09.22 at 20h 24m 19s.xml">
-      <configuration name="HomePageFunctions.missPlacedDebitCardB" configurationId="TestNG" />
+    <history-entry file="CommercialHome_signOnCommercial - 2018.09.23 at 10h 17m 07s.xml">
+      <configuration name="CommercialHome.signOnCommercial" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageFunctions_missPlacedDebitCardB - 2018.09.22 at 20h 27m 41s.xml">
-      <configuration name="HomePageFunctions.missPlacedDebitCardB" configurationId="TestNG" />
+    <history-entry file="CommercialHome_signOnCommercial - 2018.09.23 at 10h 18m 40s.xml">
+      <configuration name="CommercialHome.signOnCommercial" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageFunctions_HurrricaneAlertFunction - 2018.09.22 at 20h 32m 09s.xml">
-      <configuration name="HomePageFunctions.HurrricaneAlertFunction" configurationId="TestNG" />
+    <history-entry file="CommercialHome_watchSuccessVideo - 2018.09.23 at 10h 26m 58s.xml">
+      <configuration name="CommercialHome.watchSuccessVideo" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-18" y="40" width="1655" height="711" extended-state="0" />
+    <frame x="44" y="23" width="1655" height="711" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21574706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1934284" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -534,12 +643,41 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4878837" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24555735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3974152" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.365105" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.365105" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3279483" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.10539368" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1934284" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24555735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3974152" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.365105" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3279483" />
@@ -552,7 +690,7 @@
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.10539368" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -683,47 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoBankTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/SmallBusinessHome/SmallBusineshome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/signIn/singIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/CommercialInterface/CommercialHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -746,18 +843,113 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/BottomOptionsHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/CommercialHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1809#1810#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
+            <element signature="e#1881#1882#0" expanded="true" />
+            <element signature="e#1913#1914#0" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFeatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/CommercialInterface/CommercialHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
+        <state relative-caret-position="374">
           <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
             <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
             <element signature="e#578#579#0" expanded="true" />
             <element signature="e#613#614#0" expanded="true" />
             <element signature="e#664#665#0" expanded="true" />
@@ -768,48 +960,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java">
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/SignInHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/BottomOptionsHelper.java">
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/signIn/singIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoBankTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/SmallBussiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFeatures.java">
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/SmallBusinessHome/SmallBusineshome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="342">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
           </folding>
         </state>
       </provider>

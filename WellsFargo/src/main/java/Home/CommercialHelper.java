@@ -1,0 +1,46 @@
+package Home;
+
+import base.CommonAPI;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class CommercialHelper  extends CommonAPI {
+
+    @FindBy(xpath = "//*[@id=\"tabNavCommercial\"]") public static WebElement CommercialInterface;
+    @FindBy(xpath = "//*[@id=\"btnSignon\"]") public static WebElement SignOnButton;
+    @FindBy(xpath = "//*[@id=\"comp_id\"]") public static WebElement CommercialCompanyId;
+    @FindBy(xpath = "//*[@id=\"user_id\"]") public static WebElement CommercialUserInput;
+    @FindBy(xpath = "//*[@id=\"passwordIdField\"]") public static WebElement CommercialPasswordInput;
+    @FindBy(xpath = "//*[@id=\"ceopLoginButton\"]") public static WebElement CommercialSignOnButton;
+    @FindBy(xpath = "//*[@id=\"NID1_8_3_1_2_1_1_1_3_1\"]") public static WebElement WatchVideo;
+    @FindBy(xpath = "/html/body") public static WebElement PlayVideo;
+    @FindBy(xpath = "//*[@id=\"NID1_8_3_1_1_1_3_7_1\"]") public static WebElement ProductsAndServices;
+    @FindBy(xpath = "//*[@id=\\\"NID1_8_3_1_1_1_4_7_1\\\"]\"") public static WebElement MoreIndustries;
+    @FindBy(xpath = "//*[@id=\"NID1_8_3_1_1_1_1_8_1\"]") public static WebElement MoreInsights;
+
+    public void SignOn(){
+        CommercialInterface.click();
+        SignOnButton.click();
+        CommercialCompanyId.sendKeys("12345");
+        CommercialUserInput.sendKeys("selenium");
+        CommercialPasswordInput.sendKeys("amd123", Keys.ENTER);
+    }
+    public void succesStoriesVideo (){
+        CommercialInterface.click();
+        WatchVideo.click();
+        PlayVideo.click();
+    }
+    public void productsAndServices(){
+        ProductsAndServices.click();
+    }
+    public void commercialSignOnButton(){
+        CommercialSignOnButton.click();
+    }
+    public void moreIndustrices(){
+        MoreIndustries.click();
+    }
+    public void moreInsights(){
+        MoreInsights.click();
+    }
+}
