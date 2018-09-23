@@ -12,7 +12,7 @@ public class CommercialHelper  extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"comp_id\"]") public static WebElement CommercialCompanyId;
     @FindBy(xpath = "//*[@id=\"user_id\"]") public static WebElement CommercialUserInput;
     @FindBy(xpath = "//*[@id=\"passwordIdField\"]") public static WebElement CommercialPasswordInput;
-    @FindBy(xpath = "//*[@id=\"ceopLoginButton\"]") public static WebElement CommercialSignOnButton;
+    @FindBy(xpath = "//*[@id=\"btnSignon\"]") public static WebElement CommercialSignOnButton;
     @FindBy(xpath = "//*[@id=\"NID1_8_3_1_2_1_1_1_3_1\"]") public static WebElement WatchVideo;
     @FindBy(xpath = "/html/body") public static WebElement PlayVideo;
     @FindBy(xpath = "//*[@id=\"NID1_8_3_1_1_1_3_7_1\"]") public static WebElement ProductsAndServices;

@@ -11,7 +11,7 @@ public class SignInHelper extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"password\"]") public static WebElement PasswordInputField;
     @FindBy(xpath = "//*[@id=\"btnSignon\"]") public static WebElement SignInButton;
     @FindBy(xpath = "//*[@id=\"frmSignon\"]/div[6]/a") public static WebElement ForgotPassword;
-
+    @FindBy(xpath = "//*[@id=\"saveuid\"]/label") public static WebElement SaveUsernameBox;
     public void signIn(){
         UserInputField.sendKeys("luillo123");
         PasswordInputField.sendKeys("luilloluilllo");
@@ -22,5 +22,8 @@ public class SignInHelper extends CommonAPI {
     }
     public void forgotPasswordButton(){
         ForgotPassword.click();
+    }
+    public void saveUserName(){
+        SaveUsernameBox.click();
     }
 }

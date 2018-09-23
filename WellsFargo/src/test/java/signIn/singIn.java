@@ -28,4 +28,8 @@ public class singIn  extends SignInHelper {
     public void forgotPasswordB(){
         forgotPasswordButton();
     }
+    @Test
+    public void saveUsernameCheckBox(){
+        saveUserName();
+    }
 }
