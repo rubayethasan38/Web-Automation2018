@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.Map;
@@ -24,6 +25,8 @@ public class HomeHelper extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"taskbar\"]/div/ul/li[3]/div/div/a/div") public static WebElement studentLoans;
     @FindBy(xpath = "//*[@id=\"taskbar\"]/div/ul/li[1]/div/div/a") public static WebElement earnKBonus;
     @FindBy(xpath = "//*[@id=\"taskbar\"]/div/ul/li[4]/div/div[1]") public static WebElement MakeAnAppointment;
+    @FindBy(xpath = "//*[@id=\\\"mainContent\\\"]/div[4]/div/div/div[2]/a\"") public static WebElement MissplacedDebitCard;
+    @FindBy(xpath = "//*[@id=\"mainContent\"]/div[1]/p/a") public static WebElement HurricaneAlertLearnMore;
     public void setSearchBoxFunction(){
         searchBox.sendKeys("Atm near Me");
     }
@@ -65,5 +68,19 @@ public class HomeHelper extends CommonAPI {
          webDriver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
          webDriver.findElement(By.xpath("//*[@id=\"location\"]")).sendKeys("33027", Keys.ENTER);
      }
+    public void missPlacedDebitCard(){
+        MissplacedDebitCard.click();
+        String Expected = "Pause Your Debit Card if Misplaced - Wells Fargo" ;
+        String Actual = webDriver.getTitle();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
+    public void HurricaneAlertLearnMoreF(){
+        HurricaneAlertLearnMore.click();
+        String Expected = "Disaster Response Services - Wells Fargo";
+        String Actual = webDriver.getTitle();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
 }
 

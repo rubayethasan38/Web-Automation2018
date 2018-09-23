@@ -24,5 +24,13 @@ public class HomePageFunctions extends HomeHelper {
     public void makeAnAppointmentF(){
         makeAnAppointment();
     }
+    @Test
+    public void missPlacedDebitCardB() {
+        missPlacedDebitCard();
+    }
+    @Test
+    public void HurrricaneAlertFunction(){
+        HurricaneAlertLearnMoreF();
+    }
 }
 
