@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b27728c-a8c4-4787-9627-779c06ea66a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/OptionMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,14 +64,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="79" />
+          <entry key="java" value="85" />
           <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="79" />
+          <entry key="JAVA" value="85" />
           <entry key="XML" value="18" />
         </counts>
       </usages-collector>
@@ -85,13 +83,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="45" />
-          <entry key="java" value="7831" />
+          <entry key="java" value="8123" />
           <entry key="xml" value="203" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7831" />
+          <entry key="JAVA" value="8123" />
           <entry key="PLAIN_TEXT" value="45" />
           <entry key="XML" value="203" />
         </counts>
@@ -104,52 +102,42 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java">
+        <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/BottomOptionsHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1168">
-              <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+            <state relative-caret-position="240">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-                <element signature="e#1502#1503#0" expanded="true" />
-                <element signature="e#1544#1545#0" expanded="true" />
-                <element signature="e#1584#1585#0" expanded="true" />
-                <element signature="e#1618#1619#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java">
+        <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
                 <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFeatures.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -205,7 +193,6 @@
         <option value="$PROJECT_DIR$/ChaseBank/src/test/java/SignInFunctions/SignInTest.java" />
         <option value="$PROJECT_DIR$/ChaseBank/src/main/java/HomePageObjects/HomePageHelper.java" />
         <option value="$PROJECT_DIR$/ChaseBank/src/test/java/SearchFunctions/SearchFunctionsTest.java" />
-        <option value="$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/java/SmallBusinessHome/SmallBusineshome.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/java/signIn/singIn.java" />
@@ -214,6 +201,8 @@
         <option value="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/OptionMenu.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java" />
+        <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/BottomOptionsHelper.java" />
+        <option value="$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java" />
       </list>
     </option>
   </component>
@@ -246,8 +235,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
-    <option name="y" value="37" />
+    <option name="x" value="191" />
+    <option name="y" value="23" />
     <option name="width" value="1655" />
     <option name="height" value="711" />
   </component>
@@ -321,6 +310,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BottomOptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="HomePageTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -333,7 +331,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537662469713" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537663539474" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -370,7 +368,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomePageFunctions.HurrricaneAlertFunction">
+  <component name="RunManager" selected="TestNG.BottomOptionsTest.aboutWellsFargoFunction">
+    <configuration name="BottomOptionsTest.aboutWellsFargoFunction" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WellsFargo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BottomOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BottomOptions" />
+      <option name="MAIN_CLASS_NAME" value="BottomOptions.BottomOptionsTest" />
+      <option name="METHOD_NAME" value="aboutWellsFargoFunction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomePageFunctions.HurrricaneAlertFunction" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WellsFargo" />
       <extension name="coverage">
@@ -443,38 +459,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionMenu.earnKBonusB" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WellsFargo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomePageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HomePageTest" />
-      <option name="MAIN_CLASS_NAME" value="HomePageTest.OptionMenu" />
-      <option name="METHOD_NAME" value="earnKBonusB" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.OptionMenu.earnKBonusB" />
       <item itemvalue="TestNG.HomePageFunctions.earnKBonusB" />
       <item itemvalue="TestNG.HomePageFunctions.makeAnAppointmentF" />
       <item itemvalue="TestNG.HomePageFunctions.missPlacedDebitCardB" />
       <item itemvalue="TestNG.HomePageFunctions.HurrricaneAlertFunction" />
+      <item itemvalue="TestNG.BottomOptionsTest.aboutWellsFargoFunction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BottomOptionsTest.aboutWellsFargoFunction" />
         <item itemvalue="TestNG.HomePageFunctions.HurrricaneAlertFunction" />
         <item itemvalue="TestNG.HomePageFunctions.missPlacedDebitCardB" />
         <item itemvalue="TestNG.HomePageFunctions.makeAnAppointmentF" />
         <item itemvalue="TestNG.HomePageFunctions.earnKBonusB" />
-        <item itemvalue="TestNG.OptionMenu.earnKBonusB" />
       </list>
     </recent_temporary>
   </component>
@@ -492,9 +490,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePageFeatures_moveSlideToLeft - 2018.09.22 at 20h 03m 09s.xml">
-      <configuration name="HomePageFeatures.moveSlideToLeft" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HomePageFeatures_moveSlideToRightB - 2018.09.22 at 20h 03m 33s.xml">
       <configuration name="HomePageFeatures.moveSlideToRightB" configurationId="TestNG" />
     </history-entry>
@@ -522,9 +517,12 @@
     <history-entry file="HomePageFunctions_missPlacedDebitCardB - 2018.09.22 at 20h 27m 41s.xml">
       <configuration name="HomePageFunctions.missPlacedDebitCardB" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="HomePageFunctions_HurrricaneAlertFunction - 2018.09.22 at 20h 32m 09s.xml">
+      <configuration name="HomePageFunctions.HurrricaneAlertFunction" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="37" width="1655" height="711" extended-state="0" />
+    <frame x="-18" y="40" width="1655" height="711" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21574706" />
@@ -536,12 +534,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4878837" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4878837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3974152" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.365105" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.365105" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3279483" />
@@ -692,16 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/SmallBusinessHome/SmallBusineshome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -748,22 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFeatures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/OptionMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -774,35 +746,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1168">
-          <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="143">
           <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -818,6 +764,52 @@
             <element signature="e#701#702#0" expanded="true" />
             <element signature="e#754#755#0" expanded="true" />
             <element signature="e#796#797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/BottomOptionsHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFeatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
           </folding>
         </state>
       </provider>
