@@ -17,7 +17,7 @@ public class BottomOptionsTest extends BottomOptionsHelper {
     }
     @Test
     public void aboutWellsFargoFunction(){
-        AboutWellsFargoB();
+       AboutWellsFargoB();
     }
     @Test
     public void privacyB(){

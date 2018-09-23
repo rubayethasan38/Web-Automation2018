@@ -31,8 +31,5 @@ public class SlideMenu extends CommonAPI {
         String Expected = "Checking Accounts: Open Online Today | Wells Fargo";
         String Actual = webDriver.getTitle();
         Assert.assertEquals(Actual, Expected);
-
-
     }
-
 }

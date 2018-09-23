@@ -20,8 +20,7 @@ public class SlideMenuTest extends SlideMenu {
         checkingAccountPopup();
     }
     @Test
-    public void openCheckingsAccountT(){
+    public void checkingAccountTittle(){
         titleT();
     }
-
 }
