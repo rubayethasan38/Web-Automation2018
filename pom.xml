@@ -11,8 +11,9 @@
     <modules>
         <module>Generic</module>
         <module>KhanAcademy</module>
+        <module>RegionsBank</module>
+        <module>WellsFargo</module>
     </modules>
-
     <dependencyManagement>
         <dependencies>
 
@@ -32,11 +33,8 @@
                 <artifactId>selenium-server</artifactId>
                 <version>3.14.0</version>
             </dependency>
-
-
         </dependencies>
     </dependencyManagement>
-
     <build>
         <plugins>
             <plugin>
@@ -53,13 +51,9 @@
                 <version>2.20.1</version>
                 <configuration>
                     <suiteXmlFiles>
-
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
-
-
 </project>
