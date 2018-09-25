@@ -7,6 +7,20 @@
     <groupId>Web-Automation</groupId>
     <artifactId>WellsFargo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>Web-Automation</groupId>
+            <artifactId>Generic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>Web-Automation</groupId>
+            <artifactId>Generic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
-    
+
 </project>
