@@ -1,6 +1,7 @@
 package Home;
 
 import base.CommonAPI;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Test;
@@ -35,7 +36,7 @@ public class SignInHelper extends CommonAPI {
         SendKeys(AccountUserInput, email, "account");
         AccountPasswordInput.sendKeys(passCode);
         Thread.sleep(3000);
-        SignInButton.click();
+           SignInButton.click();
         String errorMessage = signInErrorMessage.getText();
         TestLogger.log("Error Message: "+errorMessage);
     }

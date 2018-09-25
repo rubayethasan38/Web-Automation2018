@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.util.concurrent.TimeUnit;
 
@@ -21,18 +22,24 @@ public class SmallBusineshome extends SmallBussiness {
     }
     @Test
     public void signOnT(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         signOn();
     }
     @Test
     public void menuRightArrowClick(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         menuLeftArrow();
     }
     @Test
     public void menuLeftArrowClick(){
-        menuLeftArrow();
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));menuLeftArrow();
     }
     @Test
     public void ZipCodeLocator(){
-        finByZipCode();
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));finByZipCode();
     }
 }

@@ -25,10 +25,8 @@ public class SignInUsingUsingDataProvider extends SignInHelper {
     }
     @DataProvider
     public Iterator<Object[]> supplyData() {
-
         ArrayList<Object[]> testData =
                 XlsDataReaderUtil.getDataFromExcel();
-
         return testData.iterator();
     }
     @Test(dataProvider = "supplyData")
