@@ -14,10 +14,11 @@ public class SignInHelper extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"btnSignon\"]") public static WebElement SignInButton;
     @FindBy(xpath = "//*[@id=\"frmSignon\"]/div[6]/a") public static WebElement ForgotPassword;
     @FindBy(xpath = "//*[@id=\"saveuid\"]/label") public static WebElement SaveUsernameBox;
-    @FindBy(css = "#pageerrors > div > strong > strong") public static WebElement signInErrorMessage;
+    @FindBy(xpath = "//*[@id=\"skip\"]") public static WebElement signInErrorMessage;
     @FindBy(xpath = "//*[@id=\"signOnHeader\"]") public static WebElement Account;
     @FindBy(xpath = "//*[@id=\"j_username\"]") public static WebElement AccountUserInput;
     @FindBy(xpath = "//*[@id=\"j_password\"]") public static WebElement AccountPasswordInput;
+    @FindBy(xpath = "//*[@id=\"Signon\"]/section[1]/div[6]/input") public static WebElement SignOnB;
     public void signIn(){
         UserInputField.sendKeys("luillo123");
         PasswordInputField.sendKeys("luilloluilllo");
@@ -36,7 +37,7 @@ public class SignInHelper extends CommonAPI {
         SendKeys(AccountUserInput, email, "account");
         AccountPasswordInput.sendKeys(passCode);
         Thread.sleep(3000);
-           SignInButton.click();
+           SignOnB.click();
         String errorMessage = signInErrorMessage.getText();
         TestLogger.log("Error Message: "+errorMessage);
     }
