@@ -20,6 +20,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
+import reporting.TestLogger;
 
 import java.io.File;
 import java.io.IOException;
@@ -420,6 +421,12 @@ public class CommonAPI {
             System.out.println("CSS locator didn't work");
         }
     }
+    public void SendKeys(WebElement element, String keys, String elementName){
+        TestLogger.log("Sending Keys to " + elementName);
+        element.sendKeys(keys);
+        TestLogger.log("Keys Sent Successfully to "+ elementName);
+    }
+
 
 
 }
