@@ -12,13 +12,13 @@
     <parameter name="url" value="https://www.wellsfargo.com/"/>
     <test name = "Test">
         <classes>
-            <class name="BottomOptions.BottomOptionsTest"></class>
+            <!-- <class name="BottomOptions.BottomOptionsTest"></class>
             <class name="CommercialInterface.CommercialHome"></class>
             <class name="HomePageTest.HomePageFunctions"></class>
             <class name="HomePageTest.HomePageFeatures"></class>
             <class name="HomePageTest.SlideMenuTest"></class>
             <class name="signIn.singIn"></class>
-            <class name="SmallBusinessHome.SmallBusineshome"></class>
+            <class name="SmallBusinessHome.SmallBusineshome"></class> !-->
             <class name="SignInPageObjects.SignInUsingUsingDataProvider"></class>
         </classes>
     </test>
