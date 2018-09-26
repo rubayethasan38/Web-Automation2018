@@ -38,4 +38,16 @@ public class InterfacesTest extends HomeHelper {
         }.getClass().getEnclosingMethod().getName()));
         recoverPassword();
     }
+    @Test
+    public void searchBranchByLocationTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        searchBranchByLocations();
+    }
+    @Test
+    public void searchBranchByCityAndStateTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        searchBranchByCityAndState();
+    }
 }

@@ -1,6 +1,7 @@
 package Home;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -27,7 +28,16 @@ public class HomeHelper  extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"CardNumber\"]") public static WebElement CardNumberInputBox;
     @FindBy(xpath = "//*[@id=\"PIN\"]") public static WebElement PinInputbox;
     @FindBy(xpath = "//*[@id=\"widget-f2af04e991c64e29b10a3b18d67e3e0f\"]/div/div[3]/form/fieldset/div/button")public static WebElement ContinueButton;
-
+    @FindBy(css = "#regions-location-finder-form-zip-input") public static WebElement branchZipCodeInput;
+    @FindBy(css = "#regions-location-finder-form-city-input") public static WebElement branchCityInput;
+    @FindBy(css = "#regions-location-finder-form-state-input") public static WebElement branchStateInput;
+    @FindBy(xpath = "/html/body/div[1]/header/div/div[2]/ul[2]/li[2]/div/a/span[1]") public static WebElement ServicesInterface;
+    @FindBy(xpath = "/html/body/div[1]/header/div/div[2]/ul[2]/li[2]/div/div/div/div/div[1]/div[1]/ul/li[4]/a") public static WebElement MyStudentLoan;
+    @FindBy(xpath = "//*[@id=\"main-content\"]/div[1]/div[1]/section[2]/p[2]/a") public static WebElement ApplyForStudentLoan;
+    @FindBy(xpath = "/html/body/div[1]/header/div/div[2]/ul[2]/li[2]/div/div/div/div/div[1]/div[1]/ul/li[2]/a") public static WebElement collectionsButton;
+    @FindBy(xpath = "/html/body/div[1]/header/div/div[2]/ul[2]/li[2]/div/div/div/div/div[1]/div[2]/ul/li[2]/a") public static WebElement QuickDeposit;
+    @FindBy(css = "#userid") public static WebElement QuickDepositUserInputBox;
+    @FindBy(css = "#pass") public static WebElement QuickDepositPasswordInputBox;
     public void locations(){
         Locations.click();
     }
@@ -66,7 +76,6 @@ public class HomeHelper  extends CommonAPI {
         String Expected = "Careers | Regions";
         String Actual = webDriver.getTitle();
         Assert.assertEquals(Actual, Expected);
-
     }
     public void contactUs(){
         ContactUs.click();
@@ -84,5 +93,34 @@ public class HomeHelper  extends CommonAPI {
         OnlineIdInputBox.sendKeys("123123123");
         CardNumberInputBox.sendKeys("1232232375849765");
         PinInputbox.sendKeys("5555555",Keys.ENTER);
+    }
+    public void searchBranchByLocations(){
+        Locations.click();
+        branchZipCodeInput.sendKeys("33025",Keys.ENTER);
+        String Expected = "Locator | Regions";
+        String Actual = webDriver.getTitle();
+        Assert.assertEquals(Expected, Actual);
+    }
+    public void searchBranchByCityAndState(){
+        Locations.click();
+        branchCityInput.sendKeys("Miramar");
+        branchStateInput.sendKeys("FL",Keys.ENTER);
+        String Expected = "Locator | Regions";
+        String Actual = webDriver.getTitle();
+        Assert.assertEquals(Actual,Expected);
+    }
+    public void applyForStudentLoan(){
+    ServicesInterface.click();
+    MyStudentLoan.click();
+    }
+    public void collections(){
+    ServicesInterface.click();
+    collectionsButton.click();
+    }
+    public void quickDeposit(){
+        ServicesInterface.click();
+        QuickDeposit.click();
+        QuickDepositUserInputBox.sendKeys("selenium123");
+        QuickDepositPasswordInputBox.sendKeys("244244424424",Keys.ENTER);
     }
 }

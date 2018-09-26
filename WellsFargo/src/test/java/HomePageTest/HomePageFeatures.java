@@ -37,7 +37,7 @@ public class HomePageFeatures extends HomeHelper {
     public void careersB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        careersButtonF();
+        objOfHomeHelper.careersButtonF();
     }
     @Test
     public void userPasswordF(){
@@ -55,12 +55,12 @@ public class HomePageFeatures extends HomeHelper {
     public void moveSlideToRightB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        moveSlidesToRight();
+        objOfHomeHelper.moveSlidesToRight();
     }
     @Test
     public void moveSlideToLeftB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        moveSlideToLeft();
+        objOfHomeHelper.moveSlideToLeft();
     }
 }

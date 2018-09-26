@@ -35,7 +35,6 @@ public class HomeTest extends HomeHelper {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         searchBox();
-
     }
     @Test
     public void signInF(){

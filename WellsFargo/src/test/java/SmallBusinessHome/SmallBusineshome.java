@@ -24,22 +24,28 @@ public class SmallBusineshome extends SmallBussiness {
     public void signOnT(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        ObjOfSmallBussiness.smallBussinessInterface();
         signOn();
     }
     @Test
     public void menuRightArrowClick(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+      smallBussinessInterface();
         menuLeftArrow();
     }
     @Test
     public void menuLeftArrowClick(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));menuLeftArrow();
+        }.getClass().getEnclosingMethod().getName()));
+        smallBussinessInterface();
+        menuLeftArrow();
     }
     @Test
     public void ZipCodeLocator(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));finByZipCode();
+        }.getClass().getEnclosingMethod().getName()));
+        smallBussinessInterface();
+        finByZipCode();
     }
 }
