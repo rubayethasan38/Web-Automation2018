@@ -4,6 +4,8 @@ import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class HomeHelper  extends CommonAPI {
@@ -21,6 +23,11 @@ public class HomeHelper  extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"main-content\"]/div[1]/section[1]/div[1]/div/div/form/fieldset/div/div[1]/div[3]/button") public static WebElement LogIn;
     @FindBy(xpath = "//*[@id=\"contentWrapper\"]/div/div[2]/div/div[1]") public static WebElement signInReply;
     @FindBy(xpath = "//*[@id=\"main-content\"]/div[1]/header/div/div/div/div[1]/h1") public static WebElement searchText;
+    @FindBy(xpath = "//*[@id=\"OnLineId\"]") public static WebElement OnlineIdInputBox;
+    @FindBy(xpath = "//*[@id=\"CardNumber\"]") public static WebElement CardNumberInputBox;
+    @FindBy(xpath = "//*[@id=\"PIN\"]") public static WebElement PinInputbox;
+    @FindBy(xpath = "//*[@id=\"widget-f2af04e991c64e29b10a3b18d67e3e0f\"]/div/div[3]/form/fieldset/div/button")public static WebElement ContinueButton;
+
     public void locations(){
         Locations.click();
     }
@@ -44,11 +51,38 @@ public class HomeHelper  extends CommonAPI {
     }
     public void forgotPassword(){
         ForgotPassword.click();
+        String Expected = "Forgot Your Password? - Reset Your Regions Online Banking Password - Regions Online Banking";
+        String Actual = webDriver.getTitle();
+        Assert.assertEquals(Actual, Expected);
     }
     public void clickOnSignIn(){
         LogIn.click();
     }
     public void openAnAccount(){
         OpenAnAccount.click();
+    }
+    public void careers(){
+        Careers.click();
+        String Expected = "Careers | Regions";
+        String Actual = webDriver.getTitle();
+        Assert.assertEquals(Actual, Expected);
+
+    }
+    public void contactUs(){
+        ContactUs.click();
+        String Expected = "Contact Us | Ask Us a Question | Regions";
+        String Actual = webDriver.getTitle();
+        Assert.assertEquals(Actual,Expected);
+    }
+    public void changeToSpanish(){
+       ChangeLanguageToSpanish.click();
+    }
+    public void recoverPassword(){
+        ForgotPassword.click();
+       WebDriverWait wait = new WebDriverWait(webDriver,10);
+       wait.until(ExpectedConditions.elementToBeClickable(OnlineIdInputBox));
+        OnlineIdInputBox.sendKeys("123123123");
+        CardNumberInputBox.sendKeys("1232232375849765");
+        PinInputbox.sendKeys("5555555",Keys.ENTER);
     }
 }

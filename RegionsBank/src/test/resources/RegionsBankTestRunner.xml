@@ -14,6 +14,7 @@
 <classes>
     <class name="HomePageTest.HomeTest"></class>
     <class name="HomePageTest.FeaturesTests"></class>
+    <class name="HomePageTest.InterfacesTest"></class>
 </classes>
     </test>
 

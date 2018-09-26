@@ -29,10 +29,10 @@ public class BottomOptionsTest extends BottomOptionsHelper {
         privacyButton();
     }
     @Test
-    public void reportFraudB(){
+    public void reportFraud(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        generateReport();
+        reportFraudB();
     }
     @Test
     public void siteMap(){

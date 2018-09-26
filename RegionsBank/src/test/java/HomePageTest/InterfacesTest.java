@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
-public class HomeTest extends HomeHelper {
+public class InterfacesTest extends HomeHelper {
 
     HomeHelper ObjOfHomeHelper;
     @BeforeMethod
@@ -15,44 +15,27 @@ public class HomeTest extends HomeHelper {
         ObjOfHomeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
     }
     @Test
-    public void locationsF(){
-        locations();
-    }
-    @Test
-    public void smallBussinessBankingF(){
+    public void careersT(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        smallBussinessBanking();
+        careers();
     }
     @Test
-    public void commercialFunctions(){
+    public void contactUsB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        commercial();
+        contactUs();
     }
     @Test
-    public void seachBoxF(){
+    public void changeToSpanishTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        searchBox();
-
+        ObjOfHomeHelper.changeToSpanish();
     }
     @Test
-    public void signInF(){
+    public void recoverPasswordTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        signIn();
-    }
-    @Test
-    public void forgotPasswordF(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        forgotPassword();
-    }
-    @Test
-    public void openAccountF(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        openAnAccount();
+        recoverPassword();
     }
 }
