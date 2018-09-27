@@ -22,7 +22,7 @@ public class HomeHelper extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"taskbar\"]/div/ul/li[3]/div/div/a/div") public static WebElement studentLoans;
     @FindBy(xpath = "//*[@id=\"taskbar\"]/div/ul/li[1]/div/div/a") public static WebElement earnKBonus;
     @FindBy(xpath = "//*[@id=\"taskbar\"]/div/ul/li[4]/div/div[1]") public static WebElement MakeAnAppointment;
-    @FindBy(xpath = "//*[@id=\\\"mainContent\\\"]/div[4]/div/div/div[2]/a\"") public static WebElement MissplacedDebitCard;
+    @FindBy(xpath = "//*[@id=\"mainContent\"]/div[4]/div/div/div[2]/a") public static WebElement MissplacedDebitCard;
     @FindBy(xpath = "//*[@id=\"mainContent\"]/div[1]/p/a") public static WebElement HurricaneAlertLearnMore;
     public void setSearchBoxFunction(){
         searchBox.sendKeys("Atm near Me");
@@ -58,13 +58,13 @@ public class HomeHelper extends CommonAPI {
          WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"taskbar\"]/div/ul/li[1]/div/div/a")));
          earnKBonus.click();
      }
-     public void makeAnAppointment(){
+  /*   public void makeAnAppointment(){
          WebDriverWait wait = new WebDriverWait(webDriver, 10);
          WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"taskbar\"]/div/ul/li[4]/div/div[1]")));
          MakeAnAppointment.click();
          webDriver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-         webDriver.findElement(By.xpath("//*[@id=\"location\"]")).sendKeys("33027", Keys.ENTER);
-     }
+         webDriver.findElement(By.xpath("//*[@id=\"location\"]")).sendKeys("33027", Keys.ENTER);*/
+     //}
     public void missPlacedDebitCard(){
         MissplacedDebitCard.click();
         String Expected = "Pause Your Debit Card if Misplaced - Wells Fargo" ;

@@ -13,15 +13,12 @@ public class TestGoogleSheetsPage extends GoogleSheetsPage {
     HomeHelper objOfHomeHelper;
     SignInHelper objOfSignInHelper;
     GoogleSheetsPage objGoogleSheetsPage;
-
-
     @BeforeMethod
     public void initialization(){
         objOfHomeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
         objOfSignInHelper = PageFactory.initElements(webDriver, SignInHelper.class);
        objGoogleSheetsPage = PageFactory.initElements(webDriver, GoogleSheetsPage.class);
     }
-
     @Test
     public void testLogInByInvalidIdPassUsingGoogleSheet() throws IOException, InterruptedException {
         sleepFor(3);

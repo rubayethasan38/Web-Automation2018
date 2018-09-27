@@ -15,9 +15,9 @@ public class CommercialHelper  extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"btnSignon\"]") public static WebElement CommercialSignOnButton;
     @FindBy(xpath = "//*[@id=\"NID1_8_3_1_2_1_1_1_3_1\"]") public static WebElement WatchVideo;
     @FindBy(xpath = "/html/body") public static WebElement PlayVideo;
-    @FindBy(xpath = "//*[@id=\"NID1_8_3_1_1_1_3_7_1\"]") public static WebElement ProductsAndServices;
-    @FindBy(xpath = "//*[@id=\\\"NID1_8_3_1_1_1_4_7_1\\\"]\"") public static WebElement MoreIndustries;
-    @FindBy(xpath = "//*[@id=\"NID1_8_3_1_1_1_1_8_1\"]") public static WebElement MoreInsights;
+    @FindBy(xpath = "//*[@id=\"productsTab\"]/a") public static WebElement ProductsAndServices;
+    @FindBy(xpath = "//*[@id=\"NID1_8_3_1_1_1_4_7_1\"]") public static WebElement MoreIndustries;
+    @FindBy(xpath = "//*[@id=\"insightsTab\"]/a") public static WebElement MoreInsights;
 
     public void SignOn(){
         CommercialInterface.click();
