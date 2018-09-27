@@ -12,7 +12,9 @@
     <parameter name="url" value="https://www.bankofamerica.com/"/>
     <test name = "Test">
         <classes>
-        <class name="HomePageTest.HomePageFunctions"></class>
+          <!--  <class name="HomePageTest.HomePageFunctions"></class> !-->
+            <class name="HomePageTest.AccountsTest"></class>
+
         </classes>
     </test>
 </suite>
