@@ -13,6 +13,7 @@
         <module>KhanAcademy</module>
         <module>RegionsBank</module>
         <module>WellsFargo</module>
+        <module>BankOfAmerica</module>
     </modules>
     <dependencyManagement>
         <dependencies>
