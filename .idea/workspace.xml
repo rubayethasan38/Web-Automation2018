@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0b27728c-a8c4-4787-9627-779c06ea66a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/BankOfAmerica/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/src/main/java/HomePage/HomePageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/src/main/java/HomePage/HomePageHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegionsBank/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegionsBank/src/main/java/Home/HomeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/src/main/java/Home/HomeHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,9 +74,9 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="html" value="4" />
-          <entry key="java" value="372" />
+          <entry key="java" value="373" />
           <entry key="png" value="3" />
-          <entry key="xml" value="63" />
+          <entry key="xml" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -81,8 +84,8 @@
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="4" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="372" />
-          <entry key="XML" value="63" />
+          <entry key="JAVA" value="373" />
+          <entry key="XML" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -94,16 +97,16 @@
         <counts>
           <entry key="dummy" value="69" />
           <entry key="html" value="28" />
-          <entry key="java" value="20816" />
-          <entry key="xml" value="664" />
+          <entry key="java" value="20965" />
+          <entry key="xml" value="712" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="28" />
-          <entry key="JAVA" value="20816" />
+          <entry key="JAVA" value="20965" />
           <entry key="PLAIN_TEXT" value="69" />
-          <entry key="XML" value="664" />
+          <entry key="XML" value="712" />
         </counts>
       </usages-collector>
     </session>
@@ -114,10 +117,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="423" column="16" selection-start-line="423" selection-start-column="16" selection-end-line="423" selection-end-column="16" />
+            <state relative-caret-position="167">
+              <caret line="106" column="98" selection-start-line="106" selection-start-column="98" selection-end-line="106" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,10 +138,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/resources/RegionsBankTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegionsBank/src/main/java/Home/HomeHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="63" column="131" selection-start-line="63" selection-start-column="131" selection-end-line="63" selection-end-column="131" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+            <state relative-caret-position="225">
+              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -137,8 +170,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/AccountsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+            <state relative-caret-position="327">
+              <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#228#229#0" expanded="true" />
@@ -148,11 +181,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/HomePage/HomePageHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+            <state relative-caret-position="282">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1303#1304#0" expanded="true" />
@@ -236,7 +269,6 @@
         <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java" />
         <option value="$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/InterfacesTest.java" />
         <option value="$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/ServicesTest.java" />
-        <option value="$PROJECT_DIR$/RegionsBank/src/main/java/Home/HomeHelper.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/java/SignInPageObjects/SignInUsingUsingDataProvider.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" />
         <option value="$PROJECT_DIR$/RegionsBank/src/main/java/Home/BottonMenuHelper.java" />
@@ -245,17 +277,18 @@
         <option value="$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/MenuHelper.java" />
         <option value="$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/MenuTest.java" />
         <option value="$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/HomeTest.java" />
-        <option value="$PROJECT_DIR$/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" />
         <option value="$PROJECT_DIR$/TDBank/pom.xml" />
         <option value="$PROJECT_DIR$/WellsFargo/pom.xml" />
         <option value="$PROJECT_DIR$/BankOfAmerica/pom.xml" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/test/resources/WellsFargoTestRunner.xml" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/HomePageFunctions.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/MainMenuFeatures.java" />
-        <option value="$PROJECT_DIR$/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/HomePage/HomePageHelper.java" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/AccountsTest.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/RegionsBank/src/main/java/Home/HomeHelper.java" />
+        <option value="$PROJECT_DIR$/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" />
+        <option value="$PROJECT_DIR$/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" />
       </list>
     </option>
   </component>
@@ -299,9 +332,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="25" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="353" />
+    <option name="y" value="46" />
     <option name="width" value="1280" />
     <option name="height" value="711" />
   </component>
@@ -323,25 +356,51 @@
             <path>
               <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
+              <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
+              <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
+              <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -349,44 +408,37 @@
             <path>
               <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SignInPageObjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SmallBusinessHome" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -396,7 +448,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538016092104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538066207170" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -437,7 +489,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml">
+  <component name="RunManager" selected="TestNG./Users/luiscabrera/Documents/Web-Automation2018/RegionsBank/src/test/resources/RegionsBankTestRunner.xml">
     <configuration name="InterfacesTest.contactUsB" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RegionsBank" />
       <extension name="coverage">
@@ -513,9 +565,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/luiscabrera/Documents/Web-Automation2018/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" />
         <item itemvalue="TestNG./Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" />
         <item itemvalue="TestNG./Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" />
-        <item itemvalue="TestNG./Users/luiscabrera/Documents/Web-Automation2018/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" />
         <item itemvalue="TestNG.SignInUsingUsingDataProvider.signIn" />
         <item itemvalue="TestNG.InterfacesTest.contactUsB" />
       </list>
@@ -535,39 +587,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.26 at 21h 30m 11s.xml">
-      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.26 at 21h 33m 54s.xml">
-      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.26 at 21h 36m 36s.xml">
-      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.26 at 21h 51m 03s.xml">
-      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.26 at 21h 53m 01s.xml">
-      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.26 at 22h 01m 47s.xml">
-      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.26 at 22h 02m 27s.xml">
-      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.26 at 22h 12m 10s.xml">
-      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.26 at 22h 12m 50s.xml">
       <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.26 at 22h 20m 32s.xml">
       <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.26 at 22h 47m 06s.xml">
+      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.27 at 12h 13m 18s.xml">
+      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.27 at 12h 14m 33s.xml">
+      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.27 at 12h 16m 05s.xml">
+      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.27 at 12h 18m 00s.xml">
+      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_BankOfAmerica_src_test_resources_BankOfAmericaTestRunner_xml - 2018.09.27 at 12h 25m 45s.xml">
+      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_RegionsBank_src_test_resources_RegionsBankTestRunner_xml - 2018.09.27 at 12h 30m 44s.xml">
+      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_RegionsBank_src_test_resources_RegionsBankTestRunner_xml - 2018.09.27 at 12h 38m 56s.xml">
+      <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="23" width="1280" height="711" extended-state="0" />
+    <frame x="353" y="46" width="1280" height="711" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24151857" />
@@ -870,16 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RegionsBank/src/main/java/Home/HomeHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="118" column="5" lean-forward="true" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/InterfacesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
@@ -894,13 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -976,13 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/resources/RegionsBankTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0-sources.jar!/org/openqa/selenium/support/ui/Select.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -1042,13 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/HomePageFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-142">
@@ -1059,20 +1080,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/HomePage/HomePageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="423" column="16" selection-start-line="423" selection-start-column="16" selection-end-line="423" selection-end-column="16" />
+        <state relative-caret-position="282">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/AccountsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        <state relative-caret-position="327">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#228#229#0" expanded="true" />
@@ -1081,17 +1106,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/HomePage/HomePageHelper.java">
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        <state relative-caret-position="300">
+          <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="106" column="98" selection-start-line="106" selection-start-column="98" selection-end-line="106" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionsBank/src/main/java/Home/HomeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="63" column="131" selection-start-line="63" selection-start-column="131" selection-end-line="63" selection-end-column="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/resources/RegionsBankTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
         </state>
       </provider>
     </entry>

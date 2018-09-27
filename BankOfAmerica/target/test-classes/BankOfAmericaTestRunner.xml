@@ -3,7 +3,7 @@
 
 <suite name="WellsFargo API Automation Script " parallel="tests">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="macOS"/>
     <parameter name="os_version" value="Sierra"/>
@@ -12,8 +12,8 @@
     <parameter name="url" value="https://www.bankofamerica.com/"/>
     <test name = "Test">
         <classes>
-          <!--  <class name="HomePageTest.HomePageFunctions"></class> !-->
-            <class name="HomePageTest.AccountsTest"></class>
+            <class name="HomePageTest.HomePageFunctions"></class>
+           <!-- <class name="HomePageTest.AccountsTest"></class> !-->
 
         </classes>
     </test>

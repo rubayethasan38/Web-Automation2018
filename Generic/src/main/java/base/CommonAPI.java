@@ -91,8 +91,8 @@ public class CommonAPI {
     }
 
     public WebDriver webDriver = null;
-    public String browserstack_username= "your user name";
-    public String browserstack_accesskey = "your access key";
+    public String browserstack_username= "luillo1";
+    public String browserstack_accesskey = "jmicniesmM3PUKea9trv";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
