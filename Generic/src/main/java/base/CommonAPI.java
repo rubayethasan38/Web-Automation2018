@@ -426,7 +426,14 @@ public class CommonAPI {
         element.sendKeys(keys);
         TestLogger.log("Keys Sent Successfully to "+ elementName);
     }
-
-
-
+    public void inputValueInTextBoxByWebElement(WebElement webElement, String value) {
+        webElement.sendKeys(value + Keys.ENTER);
+    }
+    public void clearInputBox(WebElement webElement){
+        webElement.clear();
+    }
+    public String getTextByWebElement(WebElement webElement) {
+        String text = webElement.getText();
+        return text;
+    }
 }
