@@ -17,11 +17,11 @@ import static org.openqa.selenium.support.How.ID;
 import static org.openqa.selenium.support.How.XPATH;
 
 public class GoogleSheetsPage extends CommonAPI {
-    @FindBy(how = CSS, using = "#userid")
+    @FindBy(css = "#userid")
     public static WebElement account;
-    @FindBy(how = CSS, using = "#password")
+    @FindBy(css = "#password")
     public static WebElement password;
-    @FindBy(how = XPATH, using = "//*[@id=\"pageerrors\"]/div")
+    @FindBy(xpath = "//*[@id=\"pageerrors\"]/div")
     public static WebElement signInErrorMesage;
     //ALI_GS_TC1
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
