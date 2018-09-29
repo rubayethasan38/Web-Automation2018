@@ -3,6 +3,7 @@ package KeyWordDriven;
 import Home.HomeHelper;
 import base.CommonAPI;
 import org.openqa.selenium.InvalidArgumentException;
+import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
 
@@ -27,8 +28,6 @@ public class Features extends CommonAPI {
                 default:
                     throw new InvalidArgumentException("Invalid Choice");
         }
-        }
-    public void selectFeature() throws IOException, InterruptedException{
-
     }
+
 }
