@@ -26,12 +26,6 @@ public class HomePageFunctions extends HomeHelper {
         }.getClass().getEnclosingMethod().getName()));
         earnKBonus();
     }
-   /* @Test
-    public void makeAnAppointmentF(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        makeAnAppointment();
-    }*/
     @Test
     public void missPlacedDebitCardB() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {

@@ -40,19 +40,15 @@ public class SignInHelper extends CommonAPI {
         PasswordInputField.sendKeys("luilloluilllo");
         SignInButton.click();
     }
-
     public void signInButton() {
         SignInButton.click();
     }
-
     public void forgotPasswordButton() {
         ForgotPassword.click();
     }
-
     public void saveUserName() {
         SaveUsernameBox.click();
     }
-
     public void signInUsingDataProvider(String email, String passCode, String message) throws InterruptedException {
         SendKeys(AccountUserInput, email, "account");
         AccountPasswordInput.sendKeys(passCode);

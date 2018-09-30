@@ -158,7 +158,6 @@ public class ConnectToSqlDB {
         }
     }
 
-
     public void insertProfileToSqlTable(String tableName, String columnName1, String columnName2)
     {
         try {

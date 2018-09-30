@@ -2,103 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b27728c-a8c4-4787-9627-779c06ea66a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/DBsearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/HomePageFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/HomePageFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/BankOfAmerica-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/BankOfAmerica-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/BankOfAmericaTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/BankOfAmericaTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/BankOfAmerica/target/test-classes/HomePageTest/HomePageFunctions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/client_secret_132819987060-rgm0q46eikvvru39uoj3tlcbl6nmgk42.apps.googleusercontent.com.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegionsBank/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegionsBank/src/main/java/Home/HomeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/src/main/java/Home/HomeHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegionsBank/src/main/java/KeyWordDriven/Features.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/src/main/java/KeyWordDriven/Features.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/FeaturesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/FeaturesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/ServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/ServicesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegionsBank/target/RegionsBank-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/target/RegionsBank-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegionsBank/target/classes/Home/HomeHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/target/classes/Home/HomeHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RegionsBank/target/classes/KeyWordDriven/Features.class" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/target/classes/KeyWordDriven/Features.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegionsBank/target/test-classes/HomePageTest/FeaturesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/target/test-classes/HomePageTest/FeaturesTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RegionsBank/target/test-classes/RegionsBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RegionsBank/target/test-classes/RegionsBankTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/Data/DataFile.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/Data/HomePageLinkData.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/Data/Key.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/Data/SignInKeyword.xls" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WellsFargo/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/src/main/java/Home/GoogleSheetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/main/java/Home/GoogleSheetsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellsFargo/src/main/java/Home/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/main/java/Home/DataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WellsFargo/src/main/java/Home/SignInHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/main/java/Home/SignInHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/src/test/java/SignInPageObjects/SignInUsingUsingDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/test/java/SignInPageObjects/SignInUsingUsingDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/src/test/java/SignInPageObjects/TestGoogleSheetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/test/java/SignInPageObjects/TestGoogleSheetsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/WellsFargo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/WellsFargo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/classes/Home/BottomOptionsHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/classes/Home/BottomOptionsHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/classes/Home/CommercialHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/classes/Home/CommercialHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/classes/Home/GoogleSheetsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/classes/Home/GoogleSheetsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/classes/Home/HomeHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/classes/Home/HomeHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/DBsearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/DBsearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellsFargo/target/classes/Home/DataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/classes/Home/DataBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WellsFargo/target/classes/Home/SignInHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/classes/Home/SignInHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/classes/Home/SlideMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/classes/Home/SlideMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/classes/Home/SmallBussiness.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/classes/Home/SmallBussiness.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/BottomOptions/BottomOptionsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/CommercialInterface/CommercialHome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFeatures.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFunctions$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFunctions$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFunctions$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFunctions$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/DBsearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/DBsearchTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFunctions$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFunctions$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFunctions$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFunctions$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/HomePageFunctions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/SlideMenuTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/SlideMenuTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/SlideMenuTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/SlideMenuTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/SlideMenuTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/SlideMenuTest$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/SlideMenuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/HomePageTest/SlideMenuTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/SignInPageObjects/SignInUsingUsingDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/SignInPageObjects/SignInUsingUsingDataProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/SignInPageObjects/TestGoogleSheetsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/SignInPageObjects/TestGoogleSheetsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/SmallBusinessHome/SmallBusineshome$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/SmallBusinessHome/SmallBusineshome$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/SmallBusinessHome/SmallBusineshome$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/SmallBusinessHome/SmallBusineshome$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/SmallBusinessHome/SmallBusineshome$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/SmallBusinessHome/SmallBusineshome$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/SmallBusinessHome/SmallBusineshome$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/SmallBusinessHome/SmallBusineshome$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/SmallBusinessHome/SmallBusineshome.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/SmallBusinessHome/SmallBusineshome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/WellsFargoTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/WellsFargoTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/signIn/singIn$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/signIn/singIn$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/signIn/singIn$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/signIn/singIn$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/signIn/singIn$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/signIn/singIn$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/signIn/singIn$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/signIn/singIn$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellsFargo/target/test-classes/signIn/singIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/WellsFargo/target/test-classes/signIn/singIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -167,11 +96,11 @@
         <counts>
           <entry key="class" value="13" />
           <entry key="html" value="4" />
-          <entry key="java" value="502" />
+          <entry key="java" value="566" />
           <entry key="json" value="14" />
           <entry key="png" value="3" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="99" />
+          <entry key="xml" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -179,10 +108,10 @@
           <entry key="CLASS" value="13" />
           <entry key="HTML" value="4" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="502" />
+          <entry key="JAVA" value="566" />
           <entry key="JSON" value="14" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="99" />
+          <entry key="XML" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -194,18 +123,18 @@
         <counts>
           <entry key="dummy" value="69" />
           <entry key="html" value="28" />
-          <entry key="java" value="21670" />
+          <entry key="java" value="21923" />
           <entry key="properties" value="41" />
-          <entry key="xml" value="816" />
+          <entry key="xml" value="819" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="28" />
-          <entry key="JAVA" value="21670" />
+          <entry key="JAVA" value="21923" />
           <entry key="PLAIN_TEXT" value="69" />
           <entry key="Properties" value="41" />
-          <entry key="XML" value="816" />
+          <entry key="XML" value="819" />
         </counts>
       </usages-collector>
     </session>
@@ -216,55 +145,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoTestRunner.xml">
+        <entry file="file://$PROJECT_DIR$/RegionsBank/src/main/java/KeyWordDriven/ByInputFromExls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+            <state relative-caret-position="233">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/SignInPageObjects/TestGoogleSheetsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="23" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WellsFargo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+            <state relative-caret-position="-107">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+        <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/DataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="148" column="27" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
+            <state relative-caret-position="19">
+              <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/DataBase.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="82">
+              <caret line="105" column="46" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -275,25 +195,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/DBsearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="195">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+        <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2262">
-              <caret line="441" column="64" selection-start-line="441" selection-start-column="64" selection-end-line="441" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#17695#17696#0" expanded="true" />
-                <element signature="e#17760#17761#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="267">
+              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -313,10 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/FeaturesTests.java" />
-        <option value="$PROJECT_DIR$/RegionsBank/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/SmallBussiness.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/SlideMenuTest.java" />
@@ -340,30 +253,34 @@
         <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/MainMenuFeatures.java" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/main/java/HomePage/HomePageHelper.java" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/AccountsTest.java" />
-        <option value="$PROJECT_DIR$/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" />
         <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/CommercialHelper.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/HomeHelper.java" />
-        <option value="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java" />
-        <option value="$PROJECT_DIR$/RegionsBank/src/main/java/Home/HomeHelper.java" />
-        <option value="$PROJECT_DIR$/RegionsBank/src/main/java/KeyWordDriven/Features.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" />
-        <option value="$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/ServicesTest.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/GoogleSheetsPage.java" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" />
         <option value="$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/HomePageFunctions.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/java/SignInPageObjects/TestGoogleSheetsPage.java" />
-        <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/SignInHelper.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/java/SignInPageObjects/SignInUsingUsingDataProvider.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/secret.properties" />
-        <option value="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/DBsearchTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/WellsFargo/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/secret.properties" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
+        <option value="$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/ServicesTest.java" />
+        <option value="$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/FeaturesTests.java" />
+        <option value="$PROJECT_DIR$/RegionsBank/src/main/java/Home/HomeHelper.java" />
+        <option value="$PROJECT_DIR$/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" />
+        <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/SignInHelper.java" />
+        <option value="$PROJECT_DIR$/RegionsBank/src/main/java/KeyWordDriven/Features.java" />
+        <option value="$PROJECT_DIR$/RegionsBank/src/test/java/DataDrivenTest/DataDriven.java" />
+        <option value="$PROJECT_DIR$/RegionsBank/src/main/java/KeyWordDriven/ByInputFromExls.java" />
+        <option value="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java" />
         <option value="$PROJECT_DIR$/WellsFargo/src/main/java/Home/DataBase.java" />
+        <option value="$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/DBsearchTest.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
       </list>
     </option>
   </component>
@@ -412,8 +329,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-46" />
+    <option name="y" value="325" />
     <option name="width" value="1280" />
     <option name="height" value="711" />
   </component>
@@ -431,47 +349,6 @@
             <path>
               <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
-              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="BankOfAmerica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
@@ -507,6 +384,79 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="databases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="KeyWordDriven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HomePageTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
+              <item name="RegionsBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
@@ -564,42 +514,6 @@
               <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePageTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="signIn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SignInPageObjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SmallBusinessHome" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="WellsFargo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -610,7 +524,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538275611215" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538335404552" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -619,27 +533,28 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/RegionsBank/data" />
       <recent name="$PROJECT_DIR$/Generic/src/main/java/resources" />
       <recent name="$PROJECT_DIR$/BankOfAmerica/src/test" />
       <recent name="$PROJECT_DIR$/Generic/driver" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/RegionsBank/src/test/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="KeyWordDriven" />
       <recent name="Home" />
       <recent name="SignInPageObjects" />
       <recent name="googleAPIs" />
       <recent name="utility" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/RegionsBank/data" />
       <recent name="$PROJECT_DIR$/Generic/src" />
       <recent name="$PROJECT_DIR$/Generic/src/main/java/databases" />
       <recent name="$PROJECT_DIR$/Generic/src/main/java/resources" />
       <recent name="$PROJECT_DIR$/BankOfAmerica/src/test/resources" />
-      <recent name="$PROJECT_DIR$/WellsFargo/Data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -668,20 +583,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInUsingUsingDataProvider.signIn" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Home.DataBase" />
       <module name="WellsFargo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SignInPageObjects.*" />
+          <option name="PATTERN" value="Home.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SignInPageObjects" />
-      <option name="MAIN_CLASS_NAME" value="SignInPageObjects.SignInUsingUsingDataProvider" />
-      <option name="METHOD_NAME" value="signIn" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -719,17 +629,17 @@
     <list>
       <item itemvalue="TestNG./Users/luiscabrera/Documents/Web-Automation2018/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" />
       <item itemvalue="TestNG./Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" />
-      <item itemvalue="TestNG.SignInUsingUsingDataProvider.signIn" />
       <item itemvalue="TestNG./Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" />
       <item itemvalue="Application.ConnectToMongoDB" />
+      <item itemvalue="Application.DataBase" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" />
+        <item itemvalue="TestNG./Users/luiscabrera/Documents/Web-Automation2018/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" />
+        <item itemvalue="Application.DataBase" />
         <item itemvalue="TestNG./Users/luiscabrera/Documents/Web-Automation2018/BankOfAmerica/src/test/resources/BankOfAmericaTestRunner.xml" />
         <item itemvalue="Application.ConnectToMongoDB" />
-        <item itemvalue="TestNG./Users/luiscabrera/Documents/Web-Automation2018/RegionsBank/src/test/resources/RegionsBankTestRunner.xml" />
-        <item itemvalue="TestNG.SignInUsingUsingDataProvider.signIn" />
       </list>
     </recent_temporary>
   </component>
@@ -747,42 +657,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.29 at 21h 38m 59s.xml">
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.30 at 14h 33m 57s.xml">
       <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.29 at 21h 40m 19s.xml">
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.30 at 14h 44m 12s.xml">
       <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.29 at 21h 44m 14s.xml">
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.30 at 14h 46m 55s.xml">
       <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.29 at 22h 17m 38s.xml">
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.30 at 14h 48m 00s.xml">
       <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.29 at 22h 20m 14s.xml">
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.30 at 14h 50m 04s.xml">
       <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.29 at 22h 22m 00s.xml">
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.30 at 14h 52m 34s.xml">
       <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.29 at 22h 27m 55s.xml">
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.30 at 15h 01m 01s.xml">
       <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.29 at 22h 30m 08s.xml">
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.30 at 15h 04m 34s.xml">
       <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.29 at 22h 36m 56s.xml">
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.30 at 15h 06m 12s.xml">
       <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.29 at 22h 42m 48s.xml">
+    <history-entry file="_Users_luiscabrera_Documents_Web-Automation2018_WellsFargo_src_test_resources_WellsFargoTestRunner_xml - 2018.09.30 at 15h 16m 36s.xml">
       <configuration name="/Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/resources/WellsFargoTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1280" height="711" extended-state="6" />
+    <frame x="0" y="33" width="1280" height="703" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24151857" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.273021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -791,12 +701,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5017361" side_tool="true" weight="0.21574706" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.30533117" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39579967" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.30932897" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39443535" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" weight="0.15347335" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" weight="0.21767594" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50080776" side_tool="true" weight="0.12116317" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32956383" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.31340873" />
@@ -808,7 +718,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Mongo Explorer" order="6" weight="0.22778675" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.15993538" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.10662359" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24151857" />
@@ -844,22 +754,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/resources/client_secret_132819987060-7aft0g4qeaf6eltg4oout44sihim48eq.apps.googleusercontent.com.json" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/api-client/google-api-client/1.23.0/google-api-client-1.23.0.jar!/com/google/api/client/googleapis/services/AbstractGoogleClientRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="220" column="13" selection-start-line="220" selection-start-column="13" selection-end-line="220" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/oauth-client/google-oauth-client/1.23.0/google-oauth-client-1.23.0.jar!/com/google/api/client/auth/oauth2/TokenResponseException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/resources/client_secret_1.json" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/resources/client_secret_132819987060-5068t0k2o3rl9jen5oac8o03ne9ebpp0.apps.googleusercontent.com.json" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/resources/client_secret_132819987060-rgm0q46eikvvru39uoj3tlcbl6nmgk42.apps.googleusercontent.com.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -871,23 +765,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RegionsBank/src/main/java/KeyWordDriven/Features.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/FeaturesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -947,59 +824,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFeatures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/signIn/singIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/SlideMenuTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/CommercialInterface/CommercialHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/EnterPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RegionsBank/src/main/java/Home/HomeHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1010,102 +838,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/HomePageFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/main/java/HomePage/HomePageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-692">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/AccountsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/HomeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/InterfacesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/ServicesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/SignInPageObjects/TestGoogleSheetsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/SlideMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/SmallBussiness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/SmallBusinessHome/SmallBusineshome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/SignInHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="e#1561#1562#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
-            <element signature="e#1677#1678#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/SignInPageObjects/SignInUsingUsingDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1133,50 +869,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2262">
-          <caret line="441" column="64" selection-start-line="441" selection-start-column="64" selection-end-line="441" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#17695#17696#0" expanded="true" />
-            <element signature="e#17760#17761#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,10 +883,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/DataBase.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="480">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/AccountsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/CommercialInterface/CommercialHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankOfAmerica/src/test/java/HomePageTest/HomePageFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#17695#17696#0" expanded="true" />
+            <element signature="e#17760#17761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionsBank/src/main/java/Home/HomeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="75" column="46" lean-forward="true" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/resources/RegionsBankTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/HomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/java/DataDrivenTest/DataDriven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/SignInHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/ServicesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/SlideMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionsBank/src/main/java/KeyWordDriven/Features.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/InterfacesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/SmallBussiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionsBank/src/test/java/HomePageTest/FeaturesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/SmallBusinessHome/SmallBusineshome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegionsBank/src/main/java/KeyWordDriven/ByInputFromExls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/resources/WellsFargoTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/SlideMenuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/signIn/singIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/SignInPageObjects/SignInUsingUsingDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/HomePageFeatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/SignInPageObjects/TestGoogleSheetsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1199,18 +1106,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WellsFargo/src/test/java/HomePageTest/DBsearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="148" column="27" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
+        <state relative-caret-position="82">
+          <caret line="105" column="46" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WellsFargo/src/main/java/Home/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

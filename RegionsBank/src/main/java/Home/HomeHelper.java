@@ -61,7 +61,7 @@ public class HomeHelper  extends CommonAPI {
     }
     public void forgotPassword(){
         ForgotPassword.click();
-        String Expected = "Forgot Your Password or Online ID? - Reset Your Regions Online Banking Password - Regions Online Banking";
+        String Expected = "Forgot Your Password? - Reset Your Regions Online Banking Password - Regions Online Banking";
         String Actual = webDriver.getTitle();
         Assert.assertEquals(Actual, Expected);
     }

@@ -52,7 +52,7 @@ public class DataBase extends CommonAPI {
     //bring data from db and input them
     public void searchByDBmultiple() throws Exception {
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
-        List<String> items = connectToSqlDB.readDataBase("PNT", "search");
+        List<String> items = connectToSqlDB.readDataBase("WellsFargo", "search");
         for (int i = 0; i < items.size(); i++) {
             typeByXpath("//*[@id=\"userid\"]", items.get(i));
             Thread.sleep(2000);
