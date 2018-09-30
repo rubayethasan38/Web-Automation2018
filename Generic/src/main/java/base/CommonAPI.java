@@ -436,4 +436,10 @@ public class CommonAPI {
         String text = webElement.getText();
         return text;
     }
+    public void clearInputByXpath(String locator){
+         webDriver.findElement(By.xpath(locator)).clear();
+    }
+    public void typeByXpathNEnter(String locator, String value){
+        webDriver.findElement(By.cssSelector(locator)).sendKeys(value);
+    }
 }

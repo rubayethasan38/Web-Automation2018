@@ -1,3 +1,4 @@
+/Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/java/HomePageTest/DBsearchTest.java
 /Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/java/HomePageTest/HomePageFeatures.java
 /Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/java/HomePageTest/HomePageFunctions.java
 /Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/java/HomePageTest/SlideMenuTest.java
@@ -5,4 +6,5 @@
 /Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/java/SmallBusinessHome/SmallBusineshome.java
 /Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/java/BottomOptions/BottomOptionsTest.java
 /Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/java/CommercialInterface/CommercialHome.java
+/Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/java/SignInPageObjects/TestGoogleSheetsPage.java
 /Users/luiscabrera/Documents/Web-Automation2018/WellsFargo/src/test/java/signIn/singIn.java

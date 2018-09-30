@@ -32,7 +32,6 @@ public class SignInUsingUsingDataProvider extends SignInHelper {
         TestLogger.log("email: " + email);
         TestLogger.log("password: " + passCode);
         TestLogger.log("message: " + message);
-
         objOfSignInPage.signInButton();
         TestLogger.log("In Sign In Page");
         objOfSignInPage.signInUsingDataProvider(email, passCode, message);

@@ -12,8 +12,6 @@ public class HomePageFunctions extends HomePageHelper {
     HomePageHelper ObjOfHomePageHelper;
     @BeforeMethod
     public void init(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
         ObjOfHomePageHelper = PageFactory.initElements(webDriver, HomePageHelper.class);
     }
     @Test

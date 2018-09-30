@@ -37,7 +37,6 @@ public class GoogleSheetsPage extends CommonAPI {
             return values;
         }
     }
-
     //LogIn by using Google Sheet sheet data
     public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
 

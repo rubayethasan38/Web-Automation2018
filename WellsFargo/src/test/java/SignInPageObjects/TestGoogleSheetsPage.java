@@ -22,16 +22,12 @@ public class TestGoogleSheetsPage extends GoogleSheetsPage {
     @Test
     public void testLogInByInvalidIdPassUsingGoogleSheet() throws IOException, InterruptedException {
         sleepFor(3);
-        //objOfSignInHelper.signIn();
-        sleepFor(3);
         int i = 0;
         String spreadsheetId = "1KvQ26NFyOcV6RWStK3TkrSXx7bwtGg_AlWO69TANRE4";
         String range = "Sheet1!A2:D";
         List<String> actualErrorMessage = objGoogleSheetsPage.signInByInvalidIdPass(spreadsheetId, range);
         List<List<Object>> expectedErrorMessage = objGoogleSheetsPage.getSpreadSheetRecords(spreadsheetId, range);
         for (List row : expectedErrorMessage) {
-           // Assert.assertTrue(actualErrorMessage.get(i).contains(row.get(3).toString()));
-            //System.out.println("expected"+row.get(3).toString());
             System.out.println(expectedErrorMessage.get(i) + ": Search - Passed");
             i++;
         }
