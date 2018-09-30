@@ -58,13 +58,6 @@ public class HomeHelper extends CommonAPI {
          WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"taskbar\"]/div/ul/li[1]/div/div/a")));
          earnKBonus.click();
      }
-  /*   public void makeAnAppointment(){
-         WebDriverWait wait = new WebDriverWait(webDriver, 10);
-         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"taskbar\"]/div/ul/li[4]/div/div[1]")));
-         MakeAnAppointment.click();
-         webDriver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-         webDriver.findElement(By.xpath("//*[@id=\"location\"]")).sendKeys("33027", Keys.ENTER);*/
-     //}
     public void missPlacedDebitCard(){
         MissplacedDebitCard.click();
         String Expected = "Pause Your Debit Card if Misplaced - Wells Fargo" ;
