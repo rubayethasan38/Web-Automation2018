@@ -39,9 +39,9 @@
             <groupId>com.relevantcodes</groupId>
             <artifactId>extentreports</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.poi</groupId>-->
+            <!--<artifactId>poi</artifactId>-->
+        <!--</dependency>-->
     </dependencies>
 </project>

@@ -34,12 +34,12 @@
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-java</artifactId>
-                <version>3.7.1</version>
+                <version>3.14.0</version>
             </dependency>
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-server</artifactId>
-                <version>3.7.1</version>
+                <version>3.14.0</version>
             </dependency>
             <dependency>
                 <groupId>com.aventstack</groupId>
@@ -75,11 +75,6 @@
                 <groupId>com.google.apis</groupId>
                 <artifactId>google-api-services-sheets</artifactId>
                 <version>v4-rev498-1.23.0</version>
-            </dependency>
-            <dependency>
-                <groupId>org.seleniumhq.selenium</groupId>
-                <artifactId>selenium-server</artifactId>
-                <version>3.14.0</version>
             </dependency>
             <dependency>
                 <groupId>org.hamcrest</groupId>

@@ -75,7 +75,7 @@ public class Browse extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"lower-content\"]/div[2]/section/div/div/div/div/div[2]/ul/li[1]/a/div/img")
     public static WebElement nextBag;
     @FindBy(xpath = "//*[@id=\"lower-content\"]/div[2]/section/div/div/div/div/div[2]/ul/li[1]/a/div/img")
-    public static WebElement nnextProduct;
+    public static WebElement nextProduct0;
     @FindBy(xpath = "//*[@id=\"lower-content\"]/div[2]/section/div/div/div/div/div[2]/ul/li[1]/a/div/img")
     public static WebElement nextProduct1;
     @FindBy(xpath = "//*[@id=\"lower-content\"]/div[2]/section/div/div/div/div/div[2]/ul/li[2]/a/div/img")
@@ -87,9 +87,119 @@ public class Browse extends CommonAPI {
     @FindBy(tagName = "a")
     public List<WebElement> anchorTag = new ArrayList<>();
 
-    public void clickWomenTest(){
+    public void clickWomenTest() {
         clickWomen.click();
     }
-
+    public void clickMenTest() {
+        clickMen.click();
+    }
+    public void expandActivewear() {
+        expandActivewear.click();
+    }
+    public void clickSalesbanner() {
+        clickSalesbanner.click();
+    }
+    public void gotoJacket() {
+        gotoJacket.click();
+    }
+    public void clickJacket() {
+        clickJacket.click();
+    }
+    public void moreDetails() {
+        moreDetails.click();
+    }
+    public void nextImage() {
+        nextImage.click();
+    }
+    public void nextImage1() {
+        nextImage1.click();
+    }
+    public void nextImage2() {
+        nextImage2.click();
+    }
+    public void addCart() {
+        addCart.click();
+    }
+    public void gotoCart() {
+        gotoCart.click();
+    }
+    public void goHome() {
+        goHome.click();
+    }
+    public void shopFall() {
+        shopFall.click();
+    }
+    public void shopShoe() {
+        shopShoe.click();
+    }
+    public void gotoImage() {
+        gotoImage.click();
+    }
+    public void gotoImage1() {
+        gotoImage1.click();
+    }
+    public void gotoImage2() {
+        gotoImage2.click();
+    }
+    public void goback() {
+        goback.click();
+    }
+    public void gotoShoes() {
+        gotoShoes.click();
+    }
+    public void gotoproduct() {
+        gotoproduct.click();
+    }
+    public void viewImage() {
+        viewImage.click();
+    }
+    public void viewImage1() {
+        viewImage1.click();
+    }
+    public void viewImage2() {
+        viewImage2.click();
+    }
+    public void nextPanel() {
+        nextPanel.click();
+    }
+    public void nextPanel1() {
+        nextPanel1.click();
+    }
+    public void nextPanel2() {
+        nextPanel2.click();
+    }
+    public void nextProduct() {
+        nextProduct.click();
+    }
+    public void viewnextImage() {
+        viewnextImage.click();
+    }
+    public void viewnextImage1() {
+        viewnextImage1.click();
+    }
+    public void viewnextImage2() {
+        viewnextImage2.click();
+    }
+    public void gotoBag() {
+        gotoBag.click();
+    }
+    public void nextBag() {
+        nextBag.click();
+    }
+    public void nextProduct0() {
+        nextProduct0.click();
+    }
+    public void nextProduct1() {
+        nextProduct1.click();
+    }
+    public void nextProduct2() {
+        nextProduct2.click();
+    }
+    public void nextProduct3() {
+        nextProduct3.click();
+    }
+    public void customerService() {
+        customerService.click();
+    }
 }
 
