@@ -6,14 +6,14 @@ import org.openqa.selenium.InvalidArgumentException;
 import java.io.IOException;
 
 public class Features extends CommonAPI {
-    HomeHelper ObjOfHomeHelper;
-    ByInputFromExls objOfByInputFromExls;
+    HomeHelper homeHelper;
+    ByInputFromExls byInputFromExls;
 
-    public void signInTest() throws InterruptedException {
-       ObjOfHomeHelper.signIn();
+    public void signInTest(){
+       homeHelper.signIn();
     }
     public void clickSignIn() {
-        ObjOfHomeHelper.clickOnSignIn();
+        homeHelper.clickOnSignIn();
     }
     public void selectAction(String featureName) throws InterruptedException {
         switch (featureName) {
@@ -28,7 +28,7 @@ public class Features extends CommonAPI {
         }
     }
     public void selectFeature() throws IOException, InterruptedException {
-        String[] keyword = objOfByInputFromExls.getDataFromSignInKeyword("DataFile2.xls");
+        String[] keyword = byInputFromExls.getDataFromSignInKeyword("DataFile2.xls");
         for (int i = 0; i < keyword.length; i++) {
             selectAction(keyword[i]);
         }

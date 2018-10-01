@@ -9,10 +9,10 @@ import reporting.TestLogger;
 
 public class InterfacesTest extends HomeHelper {
 
-    HomeHelper ObjOfHomeHelper;
+    HomeHelper homeHelper;
     @BeforeMethod
     public void init(){
-        ObjOfHomeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
+        homeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
     }
     @Test
     public void careersT(){
@@ -30,7 +30,7 @@ public class InterfacesTest extends HomeHelper {
     public void changeToSpanishTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomeHelper.changeToSpanish();
+        homeHelper.changeToSpanish();
     }
     @Test
     public void recoverPasswordTest(){

@@ -10,15 +10,15 @@ import reporting.TestLogger;
 import java.io.IOException;
 
 public class FeaturesTests extends Features {
-    Features ObjOfFeatures;
+    Features features;
     @BeforeMethod
     public void init(){
-        ObjOfFeatures = PageFactory.initElements(webDriver, Features.class);
+        features = PageFactory.initElements(webDriver, Features.class);
     }
     @Test
     public void testSignInWithInvalidIdAndPassword() throws IOException, InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfFeatures.selectFeature();
+        features.selectFeature();
     }
 }

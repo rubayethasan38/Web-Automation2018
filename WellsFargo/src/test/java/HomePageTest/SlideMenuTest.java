@@ -8,10 +8,10 @@ import reporting.TestLogger;
 
 public class SlideMenuTest extends SlideMenu {
 
-    SlideMenu ObjOfSlideMenu;
+    SlideMenu slideMenu;
 
     public void init(){
-        ObjOfSlideMenu = PageFactory.initElements(webDriver, SlideMenu.class);
+        slideMenu = PageFactory.initElements(webDriver, SlideMenu.class);
     }
     @Test
     public void hoverOverBankingCardsT(){

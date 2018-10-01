@@ -9,11 +9,11 @@ import reporting.TestLogger;
 
 public class singIn  extends SignInHelper {
 
-    SignInHelper ObjOfSignInHelper;
+    SignInHelper signInHelper;
 
     @BeforeMethod
     public void init (){
-        ObjOfSignInHelper = PageFactory.initElements(webDriver, SignInHelper.class);
+        signInHelper = PageFactory.initElements(webDriver, SignInHelper.class);
     }
     @Test
     public void signInT(){

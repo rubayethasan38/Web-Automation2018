@@ -9,63 +9,63 @@ import reporting.TestLogger;
 
 public class HomePageFunctions extends HomePageHelper {
 
-    HomePageHelper ObjOfHomePageHelper;
+    HomePageHelper homePageHelper;
     @BeforeMethod
     public void init(){
-        ObjOfHomePageHelper = PageFactory.initElements(webDriver, HomePageHelper.class);
+        homePageHelper = PageFactory.initElements(webDriver, HomePageHelper.class);
     }
     @Test
     public void searchBoxTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.searchBox();
+        homePageHelper.searchBox();
     }
     @Test
     public void spanishSiteTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.changeLenguage();
+        homePageHelper.changeLenguage();
     }
     @Test
     public void contactUsTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.contactUs();
+        homePageHelper.contactUs();
     }
     @Test
     public void helpTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.help();
+        homePageHelper.help();
     }
     @Test
     public void smallBussinessTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.smallBussiness();
+        homePageHelper.smallBussiness();
     }
     @Test
     public void wealthManagementTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.wealthManagement();
+        homePageHelper.wealthManagement();
     }
     @Test
     public void bussinessTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.bussinessAI();
+        homePageHelper.bussinessAI();
     }
     @Test
     public void aboutUsTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.aboutUs();
+        homePageHelper.aboutUs();
     }
     @Test
     public void signInTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.signIn();
+        homePageHelper.signIn();
     }
 }

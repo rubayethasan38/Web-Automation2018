@@ -9,10 +9,10 @@ import reporting.TestLogger;
 
 public class DBsearchTest extends DataBase {
 
-   DataBase objOfDataBase;
+   DataBase dataBase;
     @BeforeMethod
    public void init(){
-        objOfDataBase = PageFactory.initElements(webDriver, DataBase.class);
+        dataBase = PageFactory.initElements(webDriver, DataBase.class);
     }
     @Test
     public void searchByDBTest() throws Exception {

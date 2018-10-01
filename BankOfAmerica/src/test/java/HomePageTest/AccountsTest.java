@@ -9,51 +9,51 @@ import reporting.TestLogger;
 
 public class AccountsTest extends HomePageHelper {
 
-    HomePageHelper ObjOfHomePageHelper;
+    HomePageHelper homePageHelper;
     @BeforeMethod
     public void init (){
-        ObjOfHomePageHelper = PageFactory.initElements(webDriver,HomePageHelper.class);
+        homePageHelper = PageFactory.initElements(webDriver,HomePageHelper.class);
     }
     @Test
     public void recoverPasswordTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.forgotPassword();
+        homePageHelper.forgotPassword();
     }
     @Test
     public void enrollBankOfAmericaTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.enroll();
+        homePageHelper.enroll();
     }
     @Test
     public void openAnAccount(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.openAccount();
+        homePageHelper.openAccount();
     }
     @Test
     public void openCreditCard(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.openCreditCard();
+        homePageHelper.openCreditCard();
     }
     @Test
     public void applyHomeLoan(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.homeLoan();
+        homePageHelper.homeLoan();
     }
     @Test
     public void applyForCarLoan(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.carLoan();
+        homePageHelper.carLoan();
     }
     @Test
     public void smallBussinessTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomePageHelper.startSmallBussiness();
+        homePageHelper.startSmallBussiness();
     }
 }

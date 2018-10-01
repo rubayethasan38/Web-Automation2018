@@ -9,10 +9,10 @@ import reporting.TestLogger;
 
 public class HomeTest extends HomeHelper {
 
-    HomeHelper ObjOfHomeHelper;
+    HomeHelper homeHelper;
     @BeforeMethod
     public void init(){
-        ObjOfHomeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
+        homeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
     }
     @Test
     public void locationsF(){

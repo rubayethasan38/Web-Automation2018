@@ -39,7 +39,6 @@ public class GoogleSheetsPage extends CommonAPI {
     }
     //LogIn by using Google Sheet sheet data
     public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
-
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList();
         for (List row : col2Value) {
@@ -47,7 +46,6 @@ public class GoogleSheetsPage extends CommonAPI {
             inputValueInTextBoxByWebElement(account, row.get(1).toString());
             inputValueInTextBoxByWebElement(password, row.get(2).toString());
             sleepFor(1);
-            //actual.add(getCurrentPageTitle());
             actual.add(getTextByWebElement(signInErrorMesage));
             System.out.println(getTextByWebElement(signInErrorMesage));
             clearInputBox(account);
@@ -55,5 +53,18 @@ public class GoogleSheetsPage extends CommonAPI {
             sleepFor(1);
         }
         return actual;
+    }
+    public void testLogInByInvalidIdPassUsingGoogleSheet() throws IOException, InterruptedException {
+        sleepFor(3);
+        int i = 0;
+        String spreadsheetId = "1KvQ26NFyOcV6RWStK3TkrSXx7bwtGg_AlWO69TANRE4";
+        String range = "Sheet1!A2:D";
+        List<String> actualErrorMessage = signInByInvalidIdPass(spreadsheetId, range);
+        List<List<Object>> expectedErrorMessage = getSpreadSheetRecords(spreadsheetId, range);
+        for (List row : expectedErrorMessage) {
+            System.out.println(expectedErrorMessage.get(i) + ": Search - Passed");
+            i++;
+        }
+        System.out.println("testLogInByInvalidIdPassUsingGoogleSheet Passed");
     }
 }

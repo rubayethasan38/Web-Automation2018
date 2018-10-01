@@ -15,16 +15,16 @@ import java.util.concurrent.TimeUnit;
 
 public class SmallBusineshome extends SmallBussiness {
 
-    SmallBussiness ObjOfSmallBussiness;
+    SmallBussiness smallBussiness;
     @BeforeMethod
     public void init(){
-        ObjOfSmallBussiness = PageFactory.initElements(webDriver, SmallBussiness.class);
+        smallBussiness = PageFactory.initElements(webDriver, SmallBussiness.class);
     }
     @Test
     public void signOnT(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfSmallBussiness.smallBussinessInterface();
+        smallBussiness.smallBussinessInterface();
         signOn();
     }
     @Test

@@ -11,10 +11,10 @@ import reporting.TestLogger;
 
 public class BottomOptionsTest extends BottomOptionsHelper {
 
-    BottomOptionsHelper ObjOfBottomOptionsHelper;
+    BottomOptionsHelper bottomOptionsHelper;
     @BeforeMethod
     public void init (){
-        ObjOfBottomOptionsHelper = PageFactory.initElements(webDriver, BottomOptionsHelper.class);
+        bottomOptionsHelper = PageFactory.initElements(webDriver, BottomOptionsHelper.class);
     }
     @Test
     public void aboutWellsFargoFunction(){

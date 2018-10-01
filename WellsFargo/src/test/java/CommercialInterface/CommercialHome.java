@@ -13,11 +13,11 @@ import java.util.concurrent.TimeUnit;
 
 public class CommercialHome extends CommercialHelper {
 
-    CommercialHelper ObjOfCommercialHelper;
+    CommercialHelper commercialHelper;
 
     @BeforeMethod
     public void init (){
-      ObjOfCommercialHelper=  PageFactory.initElements(webDriver, CommercialHelper.class);
+      commercialHelper=  PageFactory.initElements(webDriver, CommercialHelper.class);
     }
     @Test
     public void signOnCommercial(){

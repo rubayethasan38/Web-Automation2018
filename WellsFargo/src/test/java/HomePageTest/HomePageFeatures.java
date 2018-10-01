@@ -10,10 +10,10 @@ import reporting.TestLogger;
 
 public class HomePageFeatures extends HomeHelper {
 
-    HomeHelper objOfHomeHelper;
+    HomeHelper homeHelper;
     @BeforeMethod
     public void init(){
-        objOfHomeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
+        homeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
     }
     @Test
     public void searchBox(){
@@ -37,7 +37,7 @@ public class HomePageFeatures extends HomeHelper {
     public void careersB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        objOfHomeHelper.careersButtonF();
+        homeHelper.careersButtonF();
     }
     @Test
     public void userPasswordF(){
@@ -55,12 +55,12 @@ public class HomePageFeatures extends HomeHelper {
     public void moveSlideToRightB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        objOfHomeHelper.moveSlidesToRight();
+        homeHelper.moveSlidesToRight();
     }
     @Test
     public void moveSlideToLeftB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        objOfHomeHelper.moveSlideToLeft();
+        homeHelper.moveSlideToLeft();
     }
 }

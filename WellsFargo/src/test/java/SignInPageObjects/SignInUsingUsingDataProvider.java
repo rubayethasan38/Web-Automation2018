@@ -13,13 +13,13 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class SignInUsingUsingDataProvider extends SignInHelper {
-    HomeHelper objOfHomePage;
-    SignInHelper objOfSignInPage;
+    HomeHelper homePage;
+    SignInHelper signInPage;
 
     @BeforeMethod
     public void init() {
-        objOfHomePage = PageFactory.initElements(webDriver, HomeHelper.class);
-        objOfSignInPage = PageFactory.initElements(webDriver, SignInHelper.class);
+        homePage = PageFactory.initElements(webDriver, HomeHelper.class);
+        signInPage = PageFactory.initElements(webDriver, SignInHelper.class);
     }
     @DataProvider
     public Iterator<Object[]> supplyData() {
@@ -32,9 +32,9 @@ public class SignInUsingUsingDataProvider extends SignInHelper {
         TestLogger.log("email: " + email);
         TestLogger.log("password: " + passCode);
         TestLogger.log("message: " + message);
-        objOfSignInPage.signInButton();
+        signInPage.signInButton();
         TestLogger.log("In Sign In Page");
-        objOfSignInPage.signInUsingDataProvider(email, passCode, message);
+        signInPage.signInUsingDataProvider(email, passCode, message);
         TestLogger.log("Test Passed");
     }
 }

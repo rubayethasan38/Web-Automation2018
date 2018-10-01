@@ -9,27 +9,27 @@ import reporting.TestLogger;
 
 public class ServicesTest extends HomeHelper {
 
-    HomeHelper ObjOfHomeHelper;
+    HomeHelper homeHelper;
     @BeforeMethod
     public void init (){
-        ObjOfHomeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
+        homeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
     }
     @Test
     public void applyForStudentLoanTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomeHelper.applyForStudentLoan();
+        homeHelper.applyForStudentLoan();
     }
     @Test
     public void collectionsTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomeHelper.collections();
+        homeHelper.collections();
     }
     @Test
     public void makeQuickDepositTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        ObjOfHomeHelper.quickDeposit();
+        homeHelper.quickDeposit();
     }
 }
