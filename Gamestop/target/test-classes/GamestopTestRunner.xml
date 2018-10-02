@@ -10,9 +10,11 @@
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.gamestop.com/"/>
+    <parameter name="url" value="https://www.gamestop.com/Ps4"/>
     <test name = "Test">
         <classes>
             <class name="FrontPageTest.HomePageTest"></class>
+            <class name="FrontPageTest.PS4PageTest"></class>
         </classes>
 
 

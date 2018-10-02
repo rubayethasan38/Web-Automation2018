@@ -74,127 +74,96 @@ public class HomePage extends CommonAPI {
     public void isSearchBox() {
         searchBox.sendKeys("Fortnite", Keys.ENTER);
     }
-
     public void searchButton() {
         SearchButton.click();
     }
-
     public void Xboxone() {
         Xboxone.click();
     }
-
     public void PS4() {
         PS4.click();
     }
-
     public void SwitchTab() {
         SwitchTab.click();
     }
-
     public void Xbox360() {
         Xbox360.click();
     }
-
     public void PS3() {
         PS3.click();
     }
-
     public void PC() {
         PC.click();
     }
-
     public void WiiU() {
         WiiU.click();
     }
-
     public void sds() {
         sds.click();
     }
-
     public void VR() {
         VR.click();
     }
-
     public void CoolStuff() {
         CoolStuff.click();
     }
-
     public void Digital() {
         Digital.click();
     }
-
     public void PowerUprewards() {
         PowerUpRewards.click();
     }
-
     public void LoginIn() {
         LoginIn.click();
     }
-
     public void WeeklyAd() {
         WeeklyAd.click();
     }
-
     public void NeedHelp() {
         NeedHelp.click();
     }
-
     public void FindAstore() {
         FindAStore.click();
     }
-
     public void Giftcard() {
         GiftCard.click();
     }
-
     public void Deals() {
         Deals.click();
     }
-
     public void Yourcart() {
         YourCart.click();
     }
-
     public void PreOwned() {
         PreOwned.click();
     }
-
     public void Trade() {
         Trade.click();
     }
-
     public void Events() {
         Events.click();
     }
-
     public void RssFeed() {
         RssFeed.click();
     }
-
     public void StoreFeedBack() {
         StoreFeedBack.click();
     }
-
     public void ContactUs() {
         ContactUs.click();
     }
-
     public void OrderHistory() {
         OrderHistory.click();
     }
-
     public void GameStopInternational() {
         GameStopInternational.click();
     }
-
     public void SweepStakes() {
         SweepStakes.click();
     }
-
     public void GameInformer() {
         GameInformer.click();
     }
-
     public void HelpCenter() {
         HelpCenter.click();
     }
