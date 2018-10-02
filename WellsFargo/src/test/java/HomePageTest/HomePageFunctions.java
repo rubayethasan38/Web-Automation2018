@@ -14,25 +14,25 @@ public class HomePageFunctions extends HomeHelper {
     public void init(){
         homeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
     }
-    @Test
+    @Test(priority = 1, enabled = true)
     public void studentLoadsB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         studentLoans();
     }
-    @Test
+    @Test(priority = 2, enabled = true)
     public void earnKBonusB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         earnKBonus();
     }
-    @Test
+    @Test(priority = 3, enabled = true)
     public void missPlacedDebitCardB() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         missPlacedDebitCard();
     }
-    @Test
+    @Test(priority = 4, enabled = true)
     public void HurrricaneAlertFunction(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

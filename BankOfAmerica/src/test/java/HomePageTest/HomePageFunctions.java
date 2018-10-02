@@ -20,49 +20,49 @@ public class HomePageFunctions extends HomePageHelper {
         }.getClass().getEnclosingMethod().getName()));
         homePageHelper.searchBox();
     }
-    @Test
+    @Test(priority = 1, enabled = true)
     public void spanishSiteTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         homePageHelper.changeLenguage();
     }
-    @Test
+    @Test(priority = 2, enabled = true)
     public void contactUsTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         homePageHelper.contactUs();
     }
-    @Test
+    @Test(priority = 3, enabled = true)
     public void helpTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         homePageHelper.help();
     }
-    @Test
+    @Test(priority = 4, enabled = true)
     public void smallBussinessTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         homePageHelper.smallBussiness();
     }
-    @Test
+    @Test(priority = 5, enabled = true)
     public void wealthManagementTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         homePageHelper.wealthManagement();
     }
-    @Test
+    @Test(priority = 6, enabled = true)
     public void bussinessTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         homePageHelper.bussinessAI();
     }
-    @Test
+    @Test(priority = 7, enabled = true)
     public void aboutUsTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         homePageHelper.aboutUs();
     }
-    @Test
+    @Test(priority = 2, enabled = true)
     public void signInTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

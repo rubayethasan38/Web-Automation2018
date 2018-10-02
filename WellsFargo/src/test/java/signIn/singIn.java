@@ -15,25 +15,25 @@ public class singIn  extends SignInHelper {
     public void init (){
         signInHelper = PageFactory.initElements(webDriver, SignInHelper.class);
     }
-    @Test
+    @Test(priority = 2, enabled = true)
     public void signInT(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         signIn();
     }
-    @Test
+    @Test(priority = 1, enabled = true)
     public void signInB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         signInButton();
     }
-    @Test
+    @Test(priority = 4, enabled = true)
     public void forgotPasswordB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         forgotPasswordButton();
     }
-    @Test
+    @Test(priority = 3, enabled = true)
     public void saveUsernameCheckBox(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

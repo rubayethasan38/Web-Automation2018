@@ -14,19 +14,19 @@ public class ServicesTest extends HomeHelper {
     public void init (){
         homeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
     }
-    @Test
+    @Test(priority = 1, enabled = true)
     public void applyForStudentLoanTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         homeHelper.applyForStudentLoan();
     }
-    @Test
+    @Test(priority = 2, enabled = true)
     public void collectionsTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         homeHelper.collections();
     }
-    @Test
+    @Test(priority = 3, enabled = true)
     public void makeQuickDepositTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

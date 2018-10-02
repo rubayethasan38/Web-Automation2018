@@ -19,37 +19,37 @@ public class CommercialHome extends CommercialHelper {
     public void init (){
       commercialHelper=  PageFactory.initElements(webDriver, CommercialHelper.class);
     }
-    @Test
+    @Test(priority = 2, enabled = true)
     public void signOnCommercial(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         SignOn();
     }
-    @Test
+    @Test(priority = 3, enabled = true)
     public void watchSuccessVideo(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         succesStoriesVideo();
     }
-    @Test
+    @Test(priority = 1, enabled = true)
     public void productsAndServicesB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         productsAndServices();
     }
-    @Test
+    @Test(priority = 4, enabled = true)
     public void commercialSignOnB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         commercialSignOnButton();
     }
-    @Test
+    @Test(priority = 5, enabled = true)
     public void moreIndustriesB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         moreIndustrices();
     }
-    @Test
+    @Test(priority = 6, enabled = true)
     public void moreInsightsB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

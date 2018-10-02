@@ -21,7 +21,7 @@ public class TestGoogleSheetsPage extends GoogleSheetsPage {
         signInHelper = PageFactory.initElements(webDriver, SignInHelper.class);
        googleSheetsPage = PageFactory.initElements(webDriver, GoogleSheetsPage.class);
     }
-    @Test
+    @Test(priority = 1, enabled = true)
     public void testLogInByGoogleSheet()throws IOException, InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

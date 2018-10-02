@@ -16,43 +16,43 @@ public class BottomOptionsTest extends BottomOptionsHelper {
     public void init (){
         bottomOptionsHelper = PageFactory.initElements(webDriver, BottomOptionsHelper.class);
     }
-    @Test
+    @Test(priority = 2, enabled = true)
     public void aboutWellsFargoFunction(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         AboutWellsFargoB();
     }
-    @Test
+    @Test(priority = 1, enabled = true)
     public void privacyB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         privacyButton();
     }
-    @Test
+    @Test(priority = 3, enabled = true)
     public void reportFraud(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         reportFraudB();
     }
-    @Test
+    @Test(priority = 4, enabled = true)
     public void siteMap(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         siteMapB();
     }
-    @Test
+    @Test(priority = 5, enabled = true)
     public void accesability(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         accesabilityB();
     }
-    @Test
+    @Test(priority = 6, enabled = true)
     public void onlineAccesmentB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         onlineAccesment();
     }
-    @Test
+    @Test(priority = 7, enabled = true)
     public void addChoicesB(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

@@ -20,28 +20,28 @@ public class SmallBusineshome extends SmallBussiness {
     public void init(){
         smallBussiness = PageFactory.initElements(webDriver, SmallBussiness.class);
     }
-    @Test
+    @Test(priority = 1, enabled = true)
     public void signOnT(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         smallBussiness.smallBussinessInterface();
         signOn();
     }
-    @Test
+    @Test(priority = 2, enabled = true)
     public void menuRightArrowClick(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
       smallBussinessInterface();
         menuLeftArrow();
     }
-    @Test
+    @Test(priority = 3, enabled = true)
     public void menuLeftArrowClick(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         smallBussinessInterface();
         menuLeftArrow();
     }
-    @Test
+    @Test(priority = 4, enabled = true)
     public void ZipCodeLocator(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

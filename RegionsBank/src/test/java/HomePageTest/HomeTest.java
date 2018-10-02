@@ -14,41 +14,43 @@ public class HomeTest extends HomeHelper {
     public void init(){
         homeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
     }
-    @Test
+    @Test(priority = 2, enabled = true)
     public void locationsF(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         locations();
     }
-    @Test
+    @Test(priority = 3, enabled = true)
     public void smallBussinessBankingF(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         smallBussinessBanking();
     }
-    @Test
+    @Test(priority = 1, enabled = true)
     public void commercialFunctions(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         commercial();
     }
-    @Test
+    @Test(priority = 4, enabled = true)
     public void seachBoxF(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         searchBox();
     }
-    @Test
+    @Test(priority = 6, enabled = true)
     public void signInF(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         signIn();
     }
-    @Test
+    @Test(priority = 5, enabled = true)
     public void forgotPasswordF(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         forgotPassword();
     }
-    @Test
+    @Test(priority = 7, enabled = true)
     public void openAccountF(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

@@ -14,13 +14,13 @@ public class DBsearchTest extends DataBase {
    public void init(){
         dataBase = PageFactory.initElements(webDriver, DataBase.class);
     }
-    @Test
+    @Test(priority = 2, enabled = true)
     public void searchByDBTest() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         searchByDB();
     }
-    @Test
+    @Test(priority = 1, enabled = true)
     public void multipleByDBTest() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
