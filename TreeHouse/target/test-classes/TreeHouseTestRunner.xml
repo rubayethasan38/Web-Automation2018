@@ -9,15 +9,13 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
-    <parameter name="url" value="https://www.khanacademy.org/"/>
+    <parameter name="url" value="https://teamtreehouse.com/"/>
 
     <test name = "Search Test">
         <classes>
-            <class name="TestPages.MathEnterPageTest"/>
-            <class name="TestPages.SearchPageTest"/>
+            <class name="TestPages.LoginPageTest"/>
+            <class name="TestPages.TeamPageTest"/>
             <!--<class name="menu.MenuPage"/>-->
-            <class name="TestPages.ArtPageTest"/>
-            <class name="TestPages.DonationPageTest"/>
             <class name="TestPages.LoginPageTest"/>
         </classes>
     </test>

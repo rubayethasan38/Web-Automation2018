@@ -2,54 +2,105 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b27728c-a8c4-4787-9627-779c06ea66a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SelectPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/Xls_Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/ArtPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/DonationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/MathEnterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/ArtPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/DonationPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/LoginPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/MathEnterPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SearchPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreeHouse/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreeHouse/src/main/java/HomePackage/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreeHouse/src/main/java/HomePackage/TeamPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreeHouse/src/main/java/HomePackage/TrialPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreeHouse/src/test/java/TestPages/LoginPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreeHouse/src/test/java/TestPages/TeamPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreeHouse/src/test/java/TestPages/TrialPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TreeHouse/src/test/resources/TreeHouseTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/EnterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/EnterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/EnterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SelectPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/test/resources/KhanAcademyTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/test/resources/KhanAcademyTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/KhanAcademyTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/KhanAcademyTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/EnterPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/SelectPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/Khan Academy/target/" />
     <ignored path="$PROJECT_DIR$/KhanAcademy/target/" />
+    <ignored path="$PROJECT_DIR$/TreeHouse/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="75069078">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
-          <entry key="xml" value="4" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="89" />
+          <entry key="xml" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
-          <entry key="XML" value="4" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="89" />
+          <entry key="XML" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="675" />
-          <entry key="xml" value="237" />
+          <entry key="dummy" value="39" />
+          <entry key="java" value="5546" />
+          <entry key="xml" value="297" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="675" />
-          <entry key="XML" value="237" />
+          <entry key="JAVA" value="5546" />
+          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="XML" value="297" />
         </counts>
       </usages-collector>
     </session>
@@ -59,55 +110,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="225">
+              <caret line="424" column="12" selection-start-line="424" selection-start-column="12" selection-end-line="424" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SelectPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="13" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/resources/KhanAcademyTestRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/EnterPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#9258#9270#0" expanded="true" />
+                <element signature="e#9468#9480#0" expanded="true" />
+                <element signature="e#9861#9873#0" expanded="true" />
+                <element signature="e#10087#10099#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,17 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KhanAcademy/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="272">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -147,14 +151,43 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/test/java/TestPages/LoginPage.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/test/resources/KhanAcademy.xml" />
-        <option value="$PROJECT_DIR$/KhanAcademy/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/test/resources/KhanAcademyTestRunner.xml" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/Mathmatics.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/Donation.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/DonationPage.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/EnterPage.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/SelectPage.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/MathmaticsPage.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SelectPage.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/DonationHome.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/EnterPage.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/EnterPageTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/resources/KhanAcademyTestRunner.xml" />
+        <option value="$PROJECT_DIR$/TreeHouse/pom.xml" />
+        <option value="$PROJECT_DIR$/KhanAcademy/pom.xml" />
+        <option value="$PROJECT_DIR$/TreeHouse/src/test/resources/TreeHouseTestRunner.xml" />
+        <option value="$PROJECT_DIR$/TreeHouse/src/main/java/HomePackage/TrialPage.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/ArtPageTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/MathEnterPageTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/DonationPageTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/DonationPage.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/SearchPage.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/ArtPage.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SearchPageTest.java" />
+        <option value="$PROJECT_DIR$/TreeHouse/src/test/java/TestPages/TeamPageTest.java" />
+        <option value="$PROJECT_DIR$/TreeHouse/src/test/java/TestPages/TrialPageTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/MathEnterPage.java" />
+        <option value="$PROJECT_DIR$/TreeHouse/src/main/java/HomePackage/LoginPage.java" />
+        <option value="$PROJECT_DIR$/TreeHouse/src/main/java/HomePackage/TeamPage.java" />
+        <option value="$PROJECT_DIR$/TreeHouse/src/test/java/TestPages/LoginPageTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/LoginPageTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/LoginPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" />
       </list>
     </option>
   </component>
@@ -170,11 +203,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="KhanAcademy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="TreeHouse" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="KhanAcademy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="TreeHouse" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -185,9 +218,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="874" />
-    <option name="width" value="1655" />
-    <option name="height" value="963" />
+    <option name="x" value="418" />
+    <option name="y" value="405" />
+    <option name="width" value="1680" />
+    <option name="height" value="975" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -195,6 +229,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,69 +245,69 @@
             <path>
               <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestPages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537485059148" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538440185276" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TreeHouse/src/test" />
       <recent name="$PROJECT_DIR$/KhanAcademy/src/test" />
       <recent name="$PROJECT_DIR$/Generic/src/test" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="HomePackage" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Generic/src/main/java" />
       <recent name="$PROJECT_DIR$/Generic/driver" />
     </key>
   </component>
@@ -288,8 +323,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SelectPage.loginPage">
-    <configuration name="EnterPage.loginAccount" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginPageTest.selectAmount">
+    <configuration name="DonationPageTest.clickDonate" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="KhanAcademy" />
       <extension name="coverage">
         <pattern>
@@ -298,8 +333,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestPages" />
-      <option name="MAIN_CLASS_NAME" value="TestPages.EnterPage" />
-      <option name="METHOD_NAME" value="loginAccount" />
+      <option name="MAIN_CLASS_NAME" value="TestPages.DonationPageTest" />
+      <option name="METHOD_NAME" value="clickDonate" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -307,7 +342,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnterPage.singup" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DonationPageTest.giveUserName" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="KhanAcademy" />
       <extension name="coverage">
         <pattern>
@@ -316,8 +351,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestPages" />
-      <option name="MAIN_CLASS_NAME" value="TestPages.EnterPage" />
-      <option name="METHOD_NAME" value="singup" />
+      <option name="MAIN_CLASS_NAME" value="TestPages.DonationPageTest" />
+      <option name="METHOD_NAME" value="giveUserName" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -325,7 +360,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.selectAmount" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="KhanAcademy" />
       <extension name="coverage">
         <pattern>
@@ -334,24 +369,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestPages" />
-      <option name="MAIN_CLASS_NAME" value="TestPages.SelectPage" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectPage.backHomePage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="KhanAcademy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestPages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestPages" />
-      <option name="MAIN_CLASS_NAME" value="TestPages.SelectPage" />
-      <option name="METHOD_NAME" value="backHomePage" />
+      <option name="MAIN_CLASS_NAME" value="TestPages.LoginPageTest" />
+      <option name="METHOD_NAME" value="selectAmount" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -359,7 +378,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectPage.loginPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchPageTest.clickSearch" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="KhanAcademy" />
       <extension name="coverage">
         <pattern>
@@ -368,8 +387,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestPages" />
-      <option name="MAIN_CLASS_NAME" value="TestPages.SelectPage" />
-      <option name="METHOD_NAME" value="loginPage" />
+      <option name="MAIN_CLASS_NAME" value="TestPages.SearchPageTest" />
+      <option name="METHOD_NAME" value="clickSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchPageTest.typeInSearchBox" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="KhanAcademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestPages" />
+      <option name="MAIN_CLASS_NAME" value="TestPages.SearchPageTest" />
+      <option name="METHOD_NAME" value="typeInSearchBox" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -378,19 +415,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.EnterPage.loginAccount" />
-      <item itemvalue="TestNG.EnterPage.singup" />
-      <item itemvalue="TestNG.SelectPage.backHomePage" />
-      <item itemvalue="TestNG.SelectPage" />
-      <item itemvalue="TestNG.SelectPage.loginPage" />
+      <item itemvalue="TestNG.DonationPageTest.clickDonate" />
+      <item itemvalue="TestNG.DonationPageTest.giveUserName" />
+      <item itemvalue="TestNG.SearchPageTest.clickSearch" />
+      <item itemvalue="TestNG.SearchPageTest.typeInSearchBox" />
+      <item itemvalue="TestNG.LoginPageTest.selectAmount" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SelectPage.loginPage" />
-        <item itemvalue="TestNG.EnterPage.singup" />
-        <item itemvalue="TestNG.EnterPage.loginAccount" />
-        <item itemvalue="TestNG.SelectPage.backHomePage" />
-        <item itemvalue="TestNG.SelectPage" />
+        <item itemvalue="TestNG.LoginPageTest.selectAmount" />
+        <item itemvalue="TestNG.SearchPageTest.clickSearch" />
+        <item itemvalue="TestNG.SearchPageTest.typeInSearchBox" />
+        <item itemvalue="TestNG.DonationPageTest.giveUserName" />
+        <item itemvalue="TestNG.DonationPageTest.clickDonate" />
       </list>
     </recent_temporary>
   </component>
@@ -408,42 +445,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnterPage_loginAccount - 2018.09.20 at 18h 52m 20s.xml">
-      <configuration name="EnterPage.loginAccount" configurationId="TestNG" />
+    <history-entry file="DonationPageTest_giveUserName - 2018.09.27 at 18h 10m 36s.xml">
+      <configuration name="DonationPageTest.giveUserName" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SelectPage_loginPage - 2018.09.20 at 18h 54m 32s.xml">
-      <configuration name="SelectPage.loginPage" configurationId="TestNG" />
+    <history-entry file="DonationPageTest_giveUserName - 2018.09.27 at 18h 11m 36s.xml">
+      <configuration name="DonationPageTest.giveUserName" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SelectPage_loginPage - 2018.09.20 at 18h 56m 13s.xml">
-      <configuration name="SelectPage.loginPage" configurationId="TestNG" />
+    <history-entry file="DonationPageTest_giveUserName - 2018.09.27 at 18h 12m 38s.xml">
+      <configuration name="DonationPageTest.giveUserName" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SelectPage_loginPage - 2018.09.20 at 18h 58m 25s.xml">
-      <configuration name="SelectPage.loginPage" configurationId="TestNG" />
+    <history-entry file="SearchPageTest_clickSearch - 2018.09.27 at 18h 14m 05s.xml">
+      <configuration name="SearchPageTest.clickSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SelectPage_loginPage - 2018.09.20 at 19h 00m 16s.xml">
-      <configuration name="SelectPage.loginPage" configurationId="TestNG" />
+    <history-entry file="SearchPageTest_typeInSearchBox - 2018.09.27 at 18h 20m 21s.xml">
+      <configuration name="SearchPageTest.typeInSearchBox" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SelectPage_loginPage - 2018.09.20 at 19h 02m 09s.xml">
-      <configuration name="SelectPage.loginPage" configurationId="TestNG" />
+    <history-entry file="SearchPageTest_typeInSearchBox - 2018.09.27 at 18h 21m 44s.xml">
+      <configuration name="SearchPageTest.typeInSearchBox" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SelectPage_loginPage - 2018.09.20 at 19h 04m 35s.xml">
-      <configuration name="SelectPage.loginPage" configurationId="TestNG" />
+    <history-entry file="SearchPageTest_clickSearch - 2018.09.27 at 18h 21m 53s.xml">
+      <configuration name="SearchPageTest.clickSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SelectPage_loginPage - 2018.09.20 at 19h 05m 36s.xml">
-      <configuration name="SelectPage.loginPage" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_selectAmount - 2018.09.27 at 18h 23m 02s.xml">
+      <configuration name="LoginPageTest.selectAmount" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EnterPage_singup - 2018.09.20 at 19h 07m 06s.xml">
-      <configuration name="EnterPage.singup" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_selectAmount - 2018.09.29 at 12h 56m 56s.xml">
+      <configuration name="LoginPageTest.selectAmount" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SelectPage_loginPage - 2018.09.20 at 19h 07m 41s.xml">
-      <configuration name="SelectPage.loginPage" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_selectAmount - 2018.09.29 at 16h 33m 50s.xml">
+      <configuration name="LoginPageTest.selectAmount" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="443" width="1655" height="963" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982639" visible="true" weight="0.21574706" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982639" visible="true" weight="0.34798536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -452,8 +488,37 @@
       <window_info id="Favorites" order="6" sideWeight="0.5017361" side_tool="true" weight="0.21574706" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33869115" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2112245" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989796" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37040818" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295063" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3283582" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" weight="0.32967034" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.18498169" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982639" visible="true" weight="0.21574706" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5017361" side_tool="true" weight="0.21574706" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3444317" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954075" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -470,61 +535,294 @@
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.18536888" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Khan Academy/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/LoginPage.java" />
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/CommonAPI.java" />
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SelectPageTest.java" />
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/MathmaticsPageTest.java" />
     <entry file="file://$PROJECT_DIR$/KhanAcademy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
+        <state relative-caret-position="-2452" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/resources/KhanAcademyTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="360">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+    <entry file="file://$PROJECT_DIR$/TreeHouse/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeHouse/src/test/resources/TreeHouseTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/DonationPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/MathEnterPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/EnterPage.java">
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SearchPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="195">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/DonationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="13" column="122" selection-start-line="13" selection-start-column="122" selection-end-line="13" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/MathEnterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeHouse/src/main/java/HomePackage/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeHouse/src/main/java/HomePackage/TeamPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeHouse/src/main/java/HomePackage/TrialPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeHouse/src/test/java/TestPages/LoginPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeHouse/src/test/java/TestPages/TeamPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/ArtPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/ArtPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/LoginPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeHouse/src/test/java/TestPages/TrialPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/Generic.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/GoodleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/Xls_Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-655">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -532,12 +830,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SelectPage.java">
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="13" selection-end-line="14" />
+        <state relative-caret-position="272">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="424" column="12" selection-start-line="424" selection-start-column="12" selection-end-line="424" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#9258#9270#0" expanded="true" />
+            <element signature="e#9468#9480#0" expanded="true" />
+            <element signature="e#9861#9873#0" expanded="true" />
+            <element signature="e#10087#10099#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -594,7 +910,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>KhanAcademy</last-edited>
+          <last-edited>TreeHouse</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

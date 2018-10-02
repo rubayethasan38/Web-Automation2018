@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
         <module name="KhanAcademy" />
+        <module name="TreeHouse" />
       </profile>
     </annotationProcessing>
   </component>

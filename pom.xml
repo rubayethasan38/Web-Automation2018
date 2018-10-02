@@ -11,10 +11,16 @@
     <modules>
         <module>Generic</module>
         <module>KhanAcademy</module>
+        <module>TreeHouse</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>6.0.6</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.testng</groupId>
