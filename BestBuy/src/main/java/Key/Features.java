@@ -41,7 +41,7 @@ public class Features extends CommonAPI {
         switch(featureName){
             case "applianceItems":
                 applianceItems();
-                break;
+                break;zzzzz
             case "bathroomItems":
                 bathroomItems();
                 break;

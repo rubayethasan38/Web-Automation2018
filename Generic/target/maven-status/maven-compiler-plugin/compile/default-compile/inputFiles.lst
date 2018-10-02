@@ -6,5 +6,6 @@
 /Users/RSH/Selenium2018/WebAutomation/Generic/src/main/java/databases/ConnectToMongoDB.java
 /Users/RSH/Selenium2018/WebAutomation/Generic/src/main/java/reporting/TestLogger.java
 /Users/RSH/Selenium2018/WebAutomation/Generic/src/main/java/databases/Student.java
+/Users/RSH/Selenium2018/WebAutomation/Generic/src/main/java/googleAPIs/GoogleSheetReader.java
 /Users/RSH/Selenium2018/WebAutomation/Generic/src/main/java/databases/ConnectToSqlDB.java
 /Users/RSH/Selenium2018/WebAutomation/Generic/src/main/java/reporting/ApplicationLog.java

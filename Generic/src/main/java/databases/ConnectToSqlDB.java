@@ -159,7 +159,7 @@ public class ConnectToSqlDB {
         try {
             connectToSqlDatabase();
             ps = connect.prepareStatement("INSERT INTO "+tableName+" ( " + columnName1 + "," + columnName2 + " ) VALUES(?,?)");
-            ps.setString(1,"Ankita Sing");
+            ps.setString(1,"Rubayet Hasan");
             ps.setInt(2,3590);
             ps.executeUpdate();
 

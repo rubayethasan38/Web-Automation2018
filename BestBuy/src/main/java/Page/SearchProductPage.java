@@ -5,54 +5,36 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class SearchProductPage extends CommonAPI {
-    @FindBy(xpath = "//div[@class='col__3-12']/nav[1]/span")
-    public static WebElement sortByButton;
-    @FindBy(xpath = "//*[@id=\'products\']/div/div[1]/div/div[10]/div/a/span")
-    public static WebElement addToCart;
-    @FindBy(xpath="//*[@id='products']/div/div[1]/div/div[3]/a")
-    public static WebElement product;
-    @FindBy(xpath = "//div[@id='layout']/div[3]//li[1]/span/label")
-    public static WebElement bestMatchLink;
-    @FindBy(xpath="//div[@id='layout']/div[3]//li[2]/span/label")
-    public static WebElement topSellerLink;
-    @FindBy (xpath="//div[@id='layout']/div[3]//li[3]/span/label")
-    public static WebElement lowToHighLink;
-    @FindBy (xpath="//div[@id='layout']/div[3]//li[4]/span/label")
-    public static WebElement highToLowLink;
-    @FindBy (xpath="//div[@id='layout']/div[3]//li[5]/span/label")
-    public static WebElement topRatedLink;
-    @FindBy (xpath="//*[@id='compare205216805']")
-    public static WebElement compareButton1;
-    @FindBy (xpath="//*[@id='compare204834499']")
-    public static WebElement compareButton2;
-    @FindBy (xpath="//a[@id='comp']")
-    public static WebElement compareNow;
-    @FindBy (xpath="//*[@id='products']/div/div[1]//div[5]/a")
-    public static WebElement searchItem1;
-    @FindBy (xpath="//*[@id='products']/div/div[2]//div[3]/a")
-    public static WebElement searchItem2;
-    @FindBy (xpath="//div[@id='PCPProductsContainer']/div[1]/div[2]//div[2]/a")
-    public static WebElement compareItem1;
-    @FindBy (xpath="//div[@id='PCPProductsContainer']/div[1]/div[3]//div[2]/a")
-    public static  WebElement compareItem2;
-    @FindBy (xpath="//*[@id='buybox__quantity']/div/div/div[2]")
-    public static WebElement incrementButton;
-    @FindBy (xpath="//div[@id='calculator-container']//div[2]/div/div[1]/div[1]")
-    public static WebElement quantityDisplayed;
-    @FindBy (xpath="//*[@id='buybox__quantity']/div/div/div[1]")
-    public static WebElement decrementButton;
-    @FindBy (xpath="//*[@id='text_$0 - $10']")
-    public static WebElement priceFilterUnder10;
-    @FindBy (xpath="//*[@id='products']//div[24]//div[6]/span)")
-    public static WebElement pageLastItemPrice;
-    @FindBy (xpath="//div[@id='appliedFilters']/div/span[2]/a/span")
-    public static WebElement priceSelectionCheck;
-    @FindBy (id="toTopBtn")
-    public static WebElement toTopButton;
-    @FindBy (xpath="//footer/div[3]//li[7]/a")
-    public static WebElement bottomLink;
-    @FindBy (xpath="//div[text()='My Account']")
-    public static WebElement myAccountLink;
+    @FindBy(xpath = "//*[@id=\"level2Menu0\"]/a")
+    public static WebElement Appliances;
+    @FindBy(xpath = "//*[@id=\"level2Menu1\"]/a")
+    public static WebElement TVHomeTheater;
+    @FindBy(xpath="//*[@id=\"level2Menu2\"]/a")
+    public static WebElement ComputersTablets;
+    @FindBy(xpath = "//*[@id=\"level2Menu3\"]/a")
+    public static WebElement CamerasCamcorders;
+    @FindBy(xpath="//*[@id=\"level2Menu4\"]/a")
+    public static WebElement CellPhones;
+    @FindBy (xpath="//*[@id=\"level2Menu5\"]/a")
+    public static WebElement Audio;
+    @FindBy (xpath="//*[@id=\"level2Menu6\"]/a")
+    public static WebElement VideoGames;
+    @FindBy (xpath="//*[@id=\"level2Menu7\"]/a")
+    public static WebElement MoviesMusic;
+    @FindBy (xpath="//*[@id=\"level2Menu8\"]/a")
+    public static WebElement CarElectronicsGPS;
+    @FindBy (xpath="//*[@id=\"level2Menu9\"]/a")
+    public static WebElement WearableTechnology;
+    @FindBy (xpath="//*[@id=\"level2Menu10\"]/a")
+    public static WebElement HealthFitnessBeauty;
+    @FindBy (xpath="//*[@id=\"level2Menu11\"]/a")
+    public static WebElement HomeGarageOffice;
+    @FindBy (xpath="//*[@id=\"level2Menu11\"]/a")
+    public static WebElement SmartHomeSecurityWiFiMenu;
+    @FindBy (xpath="//*[@id=\"level2Menu13\"]/a")
+    public static WebElement DronesToysCollectiblesMenu;
+    @FindBy (xpath="//*[@id=\"level2Menu14\"]/a")
+    public static  WebElement bbyoutletlink;
 
     //T3HOM_SR_TC01 verify Best Match link in Sort by dropbox
     public static boolean checkBestMatchSortBy() {

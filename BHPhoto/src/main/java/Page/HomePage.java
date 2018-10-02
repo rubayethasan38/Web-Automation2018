@@ -7,10 +7,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.concurrent.TimeUnit;
+
 public class HomePage extends CommonAPI {
-    @FindBy(id = "headerSearchButton")
+    @FindBy(id = "top-search-input")
     public static WebElement searchBoxButton;
-    @FindBy(id = "headerSearch")
+    @FindBy(id = "submit")
     public static WebElement searchBox;
     @FindBy(xpath = "//*[@id=\"cat989\"]/a")
     public static WebElement Photography;
@@ -24,16 +26,6 @@ public class HomePage extends CommonAPI {
     public static WebElement specialOfferTab;
     @FindBy(xpath = "//*[@id='container']/div[1]//div[4]//li[6]/a")
     public static WebElement localAdTab;
-    @FindBy(xpath = "//div[@id='allDepartmentsFlyout']/section[1]//li[1]/a")
-    public static WebElement appliancesLink;
-    @FindBy(xpath = "//a[text()='Christmas Decorations']")
-    public static WebElement christDecTab;
-    @FindBy(xpath = "//*[@id=\"roomFlyout\"]/section/div[1]/div/div[1]/div/div/a/img")
-    public static WebElement bathroomImgLink;
-    @FindBy(xpath = "//span[text()='Bathroom']")
-    public static WebElement bathroomTextLink;
-    @FindBy(xpath = "//*[@id='container']/div[2]/div[3]/div[1]/div//a/img")
-    public static WebElement heroImage;
     @FindBy(xpath = "//div[text()='My Account']")
     public static WebElement myAcctButton;
     @FindBy(xpath = "//*[@id=\'authSignIn\']/a/span")
@@ -61,10 +53,10 @@ public class HomePage extends CommonAPI {
         allDepartmentTab.click();
         WebDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         appliancesLink.click();
-        System.out.println("Title of the page: " + driver.getTitle());
-        driver.navigate().back();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        String title = driver.getTitle();
+        System.out.println("Title of the page: " + WebDriver.getTitle());
+        WebDriver.navigate().back();
+        WebDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        String title = WebDriver.getTitle();
         System.out.println("Title of the page: " + title);
         return title;
     }
@@ -82,10 +74,10 @@ public class HomePage extends CommonAPI {
     //T3HOM_HP_TC05, T3HOM_HP_TC06 Go to Bathroom text link under Shop Room tab and get title of the page
     public static String goToBathroomUsingTxt() {
         shopRoomTab.click();
-        implicitWait(driver, 35);
+        implicitWait(WebDriver, 35);
         bathroomTextLink.click();
-        implicitWait(driver, 30);
-        String textLinkTitle = driver.getTitle();
+        implicitWait(WebDriver, 30);
+        String textLinkTitle = WebDriver.getTitle();
         return textLinkTitle;
     }
 
@@ -105,10 +97,10 @@ public class HomePage extends CommonAPI {
     //Go to Login Page
     public static void goToLoginPage() {
         myAcctButton.click();
-        for (String handle : driver.getWindowHandles()) {
-            driver.switchTo().window(handle);
+        for (String handle : WebDriver.getWindowHandles()) {
+            WebDriver.switchTo().window(handle);
         }
-        new WebDriverWait(driver, 50).until(ExpectedConditions.elementToBeClickable(signinLink));
+        new WebDriverWait(WebDriver, 50).until(ExpectedConditions.elementToBeClickable(signinLink));
         signinLink.click();
     }
 }

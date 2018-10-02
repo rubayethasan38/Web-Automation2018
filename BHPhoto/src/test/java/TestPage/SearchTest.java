@@ -5,10 +5,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class SearchTest extends LogInTest{
+public class SearchTest extends LogIn {
     @BeforeMethod
     public void setLogIn() {
-         Search search = PageFactory.initElements(webDriver, Search.class);
+         Search search = PageFactory.initElements(WebDriver, Search.class);
     }
     @Test
     public void search1() {
