@@ -42,8 +42,9 @@ public class DataBase extends CommonAPI {
     //bring data from db and search using them
     public void searchByDB() throws Exception {
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
-        connectToSqlDB.insertDataFromArrayListToSqlTable(getItemValue(),"WellsFargo","ID");
-        List<String> items = connectToSqlDB.readDataBase("WellsFargo", "ID");
+        //connectToSqlDB.insertDataFromArrayListToSqlTable(getItemValue(),"WellsFargo","ID");
+        connectToSqlDB.insertDataFromArrayListToSqlTable(getItemValue(),"WellsFargo1","ID");
+        List<String> items = connectToSqlDB.readDataBase("WellsFargo1", "ID");
         for (int i = 0; i < items.size(); i++) {
             typeByXpathNEnter("//*[@id=\"inputTopSearchField\"]", items.get(i));
             clearInputByXpath("//*[@id=\"inputTopSearchField\"]");

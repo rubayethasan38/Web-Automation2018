@@ -10,6 +10,7 @@
         <module name="Generic" />
         <module name="KhanAcademy" />
         <module name="RegionsBank" />
+        <module name="RestApi" />
         <module name="WellsFargo" />
       </profile>
     </annotationProcessing>

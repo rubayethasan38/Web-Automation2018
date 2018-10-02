@@ -19,7 +19,8 @@ public class SlideMenu extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"primaryRegion\"]/div/div/div/div[3]/div[2]/span/a") public static WebElement OpenAccountNow;
     @FindBy(xpath = "//*[@id=\"lb\"]") public static WebElement ChangeLocations;
     public void chekingAccountsFunctions(){
-        ((JavascriptExecutor)webDriver).executeScript("arguments[0].click()", webDriver.findElement(By.xpath("//*[@id=\"banking\"]/div[1]/div[1]/ul/li[1]/a")));
+        ((JavascriptExecutor)webDriver).executeScript("arguments[0].click()");
+        clickByXpath("//*[@id=\"banking\"]/div[1]/div[1]/ul/li[1]/a");
     }
     public void checkingAccountPopup(){
         ((JavascriptExecutor)webDriver).executeScript("arguments[0].click()", webDriver.findElement(By.xpath("//*[@id=\"banking\"]/div[1]/div[1]/ul/li[1]/a")));
