@@ -10,7 +10,12 @@ import org.bson.Document;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by mrahman on 09/09/18.
+ */
+
 public class ConnectToMongoDB {
+
     public static MongoDatabase mongoDatabase = null;
 
     public static MongoDatabase connectToMongoDB() {
@@ -91,11 +96,10 @@ public class ConnectToMongoDB {
     }
 
     public static void main(String[] args){
-        insertIntoToMongoDB(new User("Rubayet Hasan", "3727","02-1987"));
+        insertIntoToMongoDB(new User("Naomi Chan", "4493","07-1996"));
         List<User> user = readUserProfileFromMongoDB();
         for(User person:user){
             System.out.println(person.getStName()+ " "+ person.getStID());
         }
     }
 }
-

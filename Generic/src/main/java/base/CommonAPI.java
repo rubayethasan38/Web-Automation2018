@@ -20,6 +20,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
+import reporting.TestLogger;
 
 import java.io.File;
 import java.io.IOException;
@@ -75,9 +76,9 @@ public class CommonAPI {
         ExtentTestManager.endTest();
         extent.flush();
         if (result.getStatus() == ITestResult.FAILURE) {
-            captureScreenshot(WebDriver, result.getName());
+            captureScreenshot(webDriver, result.getName());
         }
-        WebDriver.quit();
+        webDriver.quit();
     }
     @AfterSuite
     public void generateReport() {
@@ -89,9 +90,9 @@ public class CommonAPI {
         return calendar.getTime();
     }
 
-    public WebDriver WebDriver = null;
-    public String browserstack_username= "";
-    public String browserstack_accesskey = "";
+    public WebDriver webDriver = null;
+    public String browserstack_username= "luillo1";
+    public String browserstack_accesskey = "jmicniesmM3PUKea9trv";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
@@ -99,8 +100,8 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os,@Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("http://www.bestbuy.com") String url)throws IOException {
-        System.setProperty("webdriver.chrome.driver", "/Users/RSH/Selenium2018/WebAutomation/Generic/driver/chromedriver");
+                              String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
+        System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -110,10 +111,10 @@ public class CommonAPI {
         }else{
             getLocalDriver(os, browserName);
         }
-        WebDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        WebDriver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
-        WebDriver.get(url);
-        WebDriver.manage().window().maximize();
+        webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        webDriver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+        webDriver.get(url);
+        webDriver.manage().window().maximize();
     }
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
@@ -122,16 +123,16 @@ public class CommonAPI {
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
             }
-            WebDriver = new ChromeDriver();
+            webDriver = new ChromeDriver();
         } else if(browserName.equalsIgnoreCase("chrome-options")){
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver.exe");
             }
-            WebDriver = new ChromeDriver(options);
+            webDriver = new ChromeDriver(options);
         }
 
         else if(browserName.equalsIgnoreCase("firefox")){
@@ -140,13 +141,13 @@ public class CommonAPI {
             }else if(OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver.exe");
             }
-            WebDriver = new FirefoxDriver();
+            webDriver = new FirefoxDriver();
 
         } else if(browserName.equalsIgnoreCase("ie")) {
             System.setProperty("webdriver.ie.driver", "../Generic/browser-driver/IEDriverServer.exe");
-            WebDriver = new InternetExplorerDriver();
+            webDriver = new InternetExplorerDriver();
         }
-        return WebDriver;
+        return webDriver;
 
     }
 
@@ -160,77 +161,77 @@ public class CommonAPI {
         cap.setCapability("os_version", os_version);
         if(envName.equalsIgnoreCase("Saucelabs")){
             //resolution for Saucelabs
-            WebDriver = new RemoteWebDriver(new URL("http://"+envUsername+":"+envAccessKey+
+            webDriver = new RemoteWebDriver(new URL("http://"+envUsername+":"+envAccessKey+
                     "@ondemand.saucelabs.com:80/wd/hub"), cap);
         }else if(envName.equalsIgnoreCase("Browserstack")) {
             cap.setCapability("resolution", "1024x768");
-            WebDriver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey +
+            webDriver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey +
                     "@hub-cloud.browserstack.com/wd/hub"), cap);
         }
-        return WebDriver;
+        return webDriver;
     }
 
     @AfterMethod
     public void cleanUp(){
-        // driver.close();
+        webDriver.quit();
     }
 
     public void clickOnCss(String locator){
-        WebDriver.findElement(By.cssSelector(locator)).click();
+        webDriver.findElement(By.cssSelector(locator)).click();
     }
     public void clickOnElement(String locator){
         try {
-            WebDriver.findElement(By.cssSelector(locator)).click();
+            webDriver.findElement(By.cssSelector(locator)).click();
         }catch(Exception ex1){
             try {
-                WebDriver.findElement(By.xpath(locator)).click();
+                webDriver.findElement(By.xpath(locator)).click();
             }catch(Exception ex2){
-                WebDriver.findElement(By.id(locator)).click();
+                webDriver.findElement(By.id(locator)).click();
             }
         }
     }
     public void typeOnCss(String locator, String value){
-        WebDriver.findElement(By.cssSelector(locator)).sendKeys(value);
+        webDriver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
     public void typeOnInputField(String locator, String value){
         try {
-            WebDriver.findElement(By.cssSelector(locator)).sendKeys(value);
+            webDriver.findElement(By.cssSelector(locator)).sendKeys(value);
         }catch (Exception ex){
-            WebDriver.findElement(By.id(locator)).sendKeys(value);
+            webDriver.findElement(By.id(locator)).sendKeys(value);
         }
 
     }
     public void clickByXpath(String locator) {
-        WebDriver.findElement(By.xpath(locator)).click();
+        webDriver.findElement(By.xpath(locator)).click();
     }
 
     public void typeByCss(String locator, String value) {
-        WebDriver.findElement(By.cssSelector(locator)).sendKeys(value);
+        webDriver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
     public void typeByCssNEnter(String locator, String value) {
-        WebDriver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
+        webDriver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
     }
 
     public void typeByXpath(String locator, String value) {
-        WebDriver.findElement(By.xpath(locator)).sendKeys(value);
+        webDriver.findElement(By.xpath(locator)).sendKeys(value);
     }
 
     public void takeEnterKeys(String locator) {
-        WebDriver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
+        webDriver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
     }
 
     public void clearInputField(String locator){
-        WebDriver.findElement(By.cssSelector(locator)).clear();
+        webDriver.findElement(By.cssSelector(locator)).clear();
     }
     public List<WebElement> getListOfWebElementsById(String locator) {
         List<WebElement> list = new ArrayList<WebElement>();
-        list = WebDriver.findElements(By.id(locator));
+        list = webDriver.findElements(By.id(locator));
         return list;
     }
     public List<String> getTextFromWebElements(String locator){
         List<WebElement> element = new ArrayList<WebElement>();
         List<String> text = new ArrayList<String>();
-        element = WebDriver.findElements(By.cssSelector(locator));
+        element = webDriver.findElements(By.cssSelector(locator));
         for(WebElement web:element){
             String st = web.getText();
             text.add(st);
@@ -240,37 +241,37 @@ public class CommonAPI {
     }
     public List<WebElement> getListOfWebElementsByCss(String locator) {
         List<WebElement> list = new ArrayList<WebElement>();
-        list = WebDriver.findElements(By.cssSelector(locator));
+        list = webDriver.findElements(By.cssSelector(locator));
         return list;
     }
     public List<WebElement> getListOfWebElementsByXpath(String locator) {
         List<WebElement> list = new ArrayList<WebElement>();
-        list = WebDriver.findElements(By.xpath(locator));
+        list = webDriver.findElements(By.xpath(locator));
         return list;
     }
     public String  getCurrentPageUrl(){
-        String url = WebDriver.getCurrentUrl();
+        String url = webDriver.getCurrentUrl();
         return url;
     }
     public void navigateBack(){
-        WebDriver.navigate().back();
+        webDriver.navigate().back();
     }
     public void navigateForward(){
-        WebDriver.navigate().forward();
+        webDriver.navigate().forward();
     }
     public String getTextByCss(String locator){
-        String st = WebDriver.findElement(By.cssSelector(locator)).getText();
+        String st = webDriver.findElement(By.cssSelector(locator)).getText();
         return st;
     }
     public String getTextByXpath(String locator){
-        String st = WebDriver.findElement(By.xpath(locator)).getText();
+        String st = webDriver.findElement(By.xpath(locator)).getText();
         return st;
     }
     public String getTextById(String locator){
-        return WebDriver.findElement(By.id(locator)).getText();
+        return webDriver.findElement(By.id(locator)).getText();
     }
     public String getTextByName(String locator){
-        String st = WebDriver.findElement(By.name(locator)).getText();
+        String st = webDriver.findElement(By.name(locator)).getText();
         return st;
     }
 
@@ -291,13 +292,13 @@ public class CommonAPI {
     }
     public void mouseHoverByCSS(String locator){
         try {
-            WebElement element = WebDriver.findElement(By.cssSelector(locator));
-            Actions action = new Actions(WebDriver);
+            WebElement element = webDriver.findElement(By.cssSelector(locator));
+            Actions action = new Actions(webDriver);
             Actions hover = action.moveToElement(element);
         }catch(Exception ex){
             System.out.println("First attempt has been done, This is second try");
-            WebElement element = WebDriver.findElement(By.cssSelector(locator));
-            Actions action = new Actions(WebDriver);
+            WebElement element = webDriver.findElement(By.cssSelector(locator));
+            Actions action = new Actions(webDriver);
             action.moveToElement(element).perform();
 
         }
@@ -305,13 +306,13 @@ public class CommonAPI {
     }
     public void mouseHoverByXpath(String locator){
         try {
-            WebElement element = WebDriver.findElement(By.xpath(locator));
-            Actions action = new Actions(WebDriver);
+            WebElement element = webDriver.findElement(By.xpath(locator));
+            Actions action = new Actions(webDriver);
             Actions hover = action.moveToElement(element);
         }catch(Exception ex){
             System.out.println("First attempt has been done, This is second try");
-            WebElement element = WebDriver.findElement(By.cssSelector(locator));
-            Actions action = new Actions(WebDriver);
+            WebElement element = webDriver.findElement(By.cssSelector(locator));
+            Actions action = new Actions(webDriver);
             action.moveToElement(element).perform();
 
         }
@@ -319,26 +320,26 @@ public class CommonAPI {
     }
     //handling Alert
     public void okAlert(){
-        Alert alert = WebDriver.switchTo().alert();
+        Alert alert = webDriver.switchTo().alert();
         alert.accept();
     }
     public void cancelAlert(){
-        Alert alert = WebDriver.switchTo().alert();
+        Alert alert = webDriver.switchTo().alert();
         alert.dismiss();
     }
 
     //iFrame Handle
     public void iframeHandle(WebElement element){
-        WebDriver.switchTo().frame(element);
+        webDriver.switchTo().frame(element);
     }
 
     public void goBackToHomeWindow(){
-        WebDriver.switchTo().defaultContent();
+        webDriver.switchTo().defaultContent();
     }
 
     //get Links
     public void getLinks(String locator){
-        WebDriver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();
+        webDriver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();
     }
 
     public static void captureScreenshot(WebDriver driver, String screenshotName){
@@ -357,33 +358,33 @@ public class CommonAPI {
     }
     //Taking Screen shots
     public void takeScreenShot()throws IOException {
-        File file = ((TakesScreenshot)WebDriver).getScreenshotAs(OutputType.FILE);
+        File file = ((TakesScreenshot)webDriver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(file,new File("screenShots.png"));
     }
     //Synchronization
     public void waitUntilClickAble(By locator){
-        WebDriverWait wait = new WebDriverWait(WebDriver, 10);
+        WebDriverWait wait = new WebDriverWait(webDriver, 10);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
     public void waitUntilVisible(By locator){
-        WebDriverWait wait = new WebDriverWait(WebDriver, 10);
+        WebDriverWait wait = new WebDriverWait(webDriver, 10);
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
     public void waitUntilSelectable(By locator){
-        WebDriverWait wait = new WebDriverWait(WebDriver, 10);
+        WebDriverWait wait = new WebDriverWait(webDriver, 10);
         boolean element = wait.until(ExpectedConditions.elementToBeSelected(locator));
     }
     public void upLoadFile(String locator,String path){
-        WebDriver.findElement(By.cssSelector(locator)).sendKeys(path);
+        webDriver.findElement(By.cssSelector(locator)).sendKeys(path);
         /* path example to upload a file/image
            path= "C:\\Users\\rrt\\Pictures\\ds1.png";
          */
     }
     public void clearInput(String locator){
-        WebDriver.findElement(By.cssSelector(locator)).clear();
+        webDriver.findElement(By.cssSelector(locator)).clear();
     }
     public void keysInput(String locator){
-        WebDriver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
+        webDriver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
     }
     public static String convertToString(String st){
         String splitString ;
@@ -405,20 +406,40 @@ public class CommonAPI {
 
     public void typeOnInputBox(String locator, String value) {
         try{
-            WebDriver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
+            webDriver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
         }catch (Exception ex1) {
             System.out.println("ID locator didn't work");
         }
         try{
-            WebDriver.findElement(By.name(locator)).sendKeys(value, Keys.ENTER);
+            webDriver.findElement(By.name(locator)).sendKeys(value, Keys.ENTER);
         }catch (Exception ex2){
             System.out.println("Name locator didn't work");
         }
         try{
-            WebDriver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
+            webDriver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
         }catch (Exception ex3){
             System.out.println("CSS locator didn't work");
         }
     }
-
+    public void SendKeys(WebElement element, String keys, String elementName){
+        TestLogger.log("Sending Keys to " + elementName);
+        element.sendKeys(keys);
+        TestLogger.log("Keys Sent Successfully to "+ elementName);
+    }
+    public void inputValueInTextBoxByWebElement(WebElement webElement, String value) {
+        webElement.sendKeys(value + Keys.ENTER);
+    }
+    public void clearInputBox(WebElement webElement){
+        webElement.clear();
+    }
+    public String getTextByWebElement(WebElement webElement) {
+        String text = webElement.getText();
+        return text;
+    }
+    public void clearInputByXpath(String locator){
+         webDriver.findElement(By.xpath(locator)).clear();
+    }
+    public void typeByXpathNEnter(String locator, String value){
+        webDriver.findElement(By.cssSelector(locator)).sendKeys(value);
+    }
 }
