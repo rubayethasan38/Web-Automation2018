@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>KhanAcademy</module>
         <module>TreeHouse</module>
+        <module>RESTapi</module>
     </modules>
 
     <dependencyManagement>

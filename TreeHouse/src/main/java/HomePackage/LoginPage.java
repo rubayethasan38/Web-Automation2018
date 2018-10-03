@@ -1,11 +1,8 @@
 package HomePackage;
 
 import base.CommonAPI;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage extends CommonAPI {
 
@@ -22,8 +19,8 @@ public class LoginPage extends CommonAPI {
     }
     public void usernameInput() {
       login.click();
-       typeLogin.sendKeys("asdasd");
+       typeLogin.sendKeys("saleem689@yahoo.com");
+       typePassword.sendKeys("saleem");
         }
 
     }
-

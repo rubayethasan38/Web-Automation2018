@@ -1,9 +1,11 @@
 package TestPages;
 
 import HomePackage.ArtPage;
+import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class ArtPageTest extends ArtPage {
     @BeforeMethod
@@ -13,27 +15,45 @@ public class ArtPageTest extends ArtPage {
 
     //ArtAndHumanities
     @Test
-    public void artHumanities() {clickArt();
+    public void artHumanities() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    clickArt();
     }
-    @Test void chooseHistory () {clickHistory();
+    @Test void chooseHistory () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    clickHistory();
     }
-    @Test void studyUsHistory () {clickUsHistory();
+    @Test void studyUsHistory () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    clickUsHistory();
     }
-    @Test void setWorldHistory () {clickWorldHistory();
+    @Test void setWorldHistory () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    clickWorldHistory();
     }
-    @Test void pickArtHistory() {clickArtHistory();}
+    @Test void pickArtHistory() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    clickArtHistory();}
     //Science and engineering section
 
     @Test
-    public void setPhysics () {clickPhysics();
+    public void setPhysics () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    clickPhysics();
     }
     @Test
-    public void pickChemistry () {clickChemistry();
+    public void pickChemistry () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    clickChemistry();
     }
     @Test
-    public void chooseBiology () {clickBiology();
+    public void chooseBiology () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    clickBiology();
     }
-    @Test void setHealthAndMedicine () {clickHealthAndMedicine();}
+    @Test void setHealthAndMedicine () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    clickHealthAndMedicine();}
 
 
 }

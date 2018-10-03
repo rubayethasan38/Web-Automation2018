@@ -97,5 +97,6 @@
     <orderEntry type="library" name="Maven: io.rest-assured:xml-path:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.2.12" level="project" />
     <orderEntry type="module" module-name="Generic" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.seleniumhq.selenium:selenium-support:3.11.0" level="project" />
   </component>
 </module>

@@ -13,8 +13,8 @@
 
     <test name = "Search Test">
         <classes>
-            <class name="TestPages.LoginPageTest"/>
-            <class name="TestPages.TeamPageTest"/>
+            <!--<class name="TestPages.LoginPageTest"/>-->
+            <!--<class name="TestPages.TeamPageTest"/>-->
             <!--<class name="menu.MenuPage"/>-->
             <class name="TestPages.LoginPageTest"/>
         </classes>
