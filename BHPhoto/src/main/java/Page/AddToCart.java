@@ -9,7 +9,7 @@ public class AddToCart extends CommonAPI {
     @FindBy(xpath="//*[text()='Checkout Now']")
     public static WebElement checkoutButton;
 
-    //T3HOM_AP_TC01 verify CheckOut Now
+    /*//T3HOM_AP_TC01 verify CheckOut Now
     public static String clickCheckOutButton(){
         for (String handle : WebDriver.getWindowHandles()) {
             WebDriver.switchTo().window(handle);
@@ -17,6 +17,6 @@ public class AddToCart extends CommonAPI {
         //checkoutButton.click();
         String str = WebDriver.getCurrentUrl();
         return str;
-    }
+    }*/
 }
 

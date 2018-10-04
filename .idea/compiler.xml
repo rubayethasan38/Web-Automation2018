@@ -9,6 +9,7 @@
         <module name="BestBuy" />
         <module name="BHPhoto" />
         <module name="Generic" />
+        <module name="RestApi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

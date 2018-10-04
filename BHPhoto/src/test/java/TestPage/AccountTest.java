@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class AccountTest extends Account {
-    HomePage homePag;
+   /* HomePage homePag;
     Account homePage;
 
     @BeforeMethod
@@ -61,5 +61,5 @@ public class AccountTest extends Account {
         System.out.println(actual);
         //  Assert.assertTrue(actual.contains(expected));
         //  System.out.println("testMyAccount test passed");
-    }
+    }*/
 }

@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>BHPhoto</module>
         <module>BestBuy</module>
+        <module>RESTApi</module>
     </modules>
 
     <dependencyManagement>
@@ -41,7 +42,7 @@
             <artifactId>google-oauth-client-jetty</artifactId>
             <version>1.23.0</version>
         </dependency>
-        <dependency>
+        <dependency>w
             <groupId>com.google.apis</groupId>
             <artifactId>google-api-services-sheets</artifactId>
             <version>v4-rev498-1.23.0</version>

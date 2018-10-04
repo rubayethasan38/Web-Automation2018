@@ -27,78 +27,55 @@ public class HomePage extends CommonAPI {
     public static WebElement WeeklyAdTab;
     @FindBy(xpath = "//*[@id=\"header\"]/div[1]/div[1]/nav/ul/li[2]/a")
     public static WebElement DealOfTheDayTab;
-    @FindBy(xpath="//*[@id=\"header\"]/div[1]/div[1]/nav/ul/li[3]/a")
+    @FindBy(xpath = "//*[@id=\"header\"]/div[1]/div[1]/nav/ul/li[3]/a")
     public static WebElement CreditCardsTab;
     @FindBy(xpath = "//*[@id=\"header\"]/div[1]/div[1]/nav/ul/li[4]/a")
     public static WebElement GiftCardsTab;
     @FindBy(xpath = "//*[@id=\"header\"]/div[1]/div[1]/nav/ul/li[5]/a")
     public static WebElement GiftIdeasRegistryTab;
-    @FindBy(xpath = "//*[@id=\"hf_listsMenuLink\"]")
-    public static WebElement SavedItemsTab;
-    @FindBy(xpath = "//*[@id='container']/div[2]/div[3]/div[1]/div//a/img")
-    public static WebElement heroImage;
-    @FindBy(xpath = "//*[@id=\"hf_accountMenuLink\"]")
-    public static WebElement AccountButton;
-    @FindBy(xpath = "//*[@id=\'authSignIn\']/a/span")
-    public static WebElement signinLink;
-    @FindBy(id = "email_id")
-    public static WebElement emailBox;
 
-    public static boolean isSearchButtonDisplay() {
-        boolean disp = searchBoxButton.isDisplayed();
-        return disp;
-    }
-    public static String goToAppliances(){
-        allDepartmentTab.click();
-        implicitWait(WebDriver, 30);
-        appliancesLink.click();
-        String str = WebDriver.getTitle();
-        return str;
-    }
-    public static String returnBackAllDept() {
-        allDepartmentTab.click();
-        WebDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        appliancesLink.click();
-        System.out.println("Title of the page: " + WebDriver.getTitle());
-        WebDriver.navigate().back();
-        WebDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        String title = WebDriver.getTitle();
-        System.out.println("Title of the page: " + title);
-        return title;
-    }
-    public static String goToBathroomUsingImg() {
-        shopRoomTab.click();
-        implicitWait(WebDriver, 35);
-        implicitWait(WebDriver, 35);
-        bathroomImgLink.click();
-        String imgLinkTitle = WebDriver.getTitle();
-        return imgLinkTitle;
-    }
-    public static String goToBathroomUsingTxt() {
-        shopRoomTab.click();
-        implicitWait(WebDriver, 35);
-        bathroomTextLink.click();
-        implicitWait(WebDriver, 30);
-        String textLinkTitle = WebDriver.getTitle();
-        return textLinkTitle;
-    }
-    public static String captureTextHeroImage() {
-        String text = heroImage.getAttribute("title");
-        return text;
+    //methods
+    public void setSearchBoxButton() {
+        searchBoxButton.click();
     }
 
-    public static void goToSearchProductPage() {
+    public void setSearchBox() {
+        searchBox.click();
+    }
 
-        searchBox.sendKeys("floor tiles", Keys.ENTER);
+    public void setProductsTab() {
+        ProductsTab.click();
     }
-    //Go to Login Page
-    public static void goToLoginPage() {
-        myAcctButton.click();
-        for (String handle : WebDriver.getWindowHandles()) {
-            WebDriver.switchTo().window(handle);
-        }
-        new WebDriverWait(WebDriver, 50).until(ExpectedConditions.elementToBeClickable(signinLink));
-        signinLink.click();
+
+    public void setBrandsTab() {
+        BrandsTab.click();
     }
-}
+
+    public void setDealsTab() {
+        DealsTab.click();
+    }
+
+    public void setServicesTab() {
+        ServicesTab.click();
+    }
+
+    public void setWeeklyAdTab() {
+        WeeklyAdTab.click();
+    }
+
+    public void setDealOfTheDayTab() {
+        DealOfTheDayTab.click();
+    }
+
+    public void setCreditCardsTab() {
+        CreditCardsTab.click();
+    }
+
+    public void setGiftCardsTab() {
+        GiftCardsTab.click();
+    }
+
+    public void setGiftIdeasRegistryTab() {
+        GiftIdeasRegistryTab.click();
+    }
 }

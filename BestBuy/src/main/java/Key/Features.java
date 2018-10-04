@@ -1,7 +1,7 @@
 package Key;
 
 import Page.ExcelFileReader;
-import Page.HomePage;
+import Page.AllCategories;
 import base.CommonAPI;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.support.PageFactory;
@@ -10,24 +10,24 @@ import java.io.IOException;
 
 public class Features extends CommonAPI {
     ExcelFileReader objExcelFileReader;
-    HomePage objHomePage;
+    AllCategories objAllCategories;
     LoginPage objLoginPage;
 
 
     public void applianceItems(){
-        objHomePage = PageFactory.initElements(driver, HomePage.class);
-        objHomePage.goToAppliances();
+        objAllCategories = PageFactory.initElements(driver, AllCategories.class);
+        objAllCategories.goToAppliances();
         System.out.println("Appliance test pass");
     }
     public void bathroomItems(){
-        objHomePage = PageFactory.initElements(driver, HomePage.class);
-        objHomePage.goToBathroomUsingImg();
+        objAllCategories = PageFactory.initElements(driver, AllCategories.class);
+        objAllCategories.goToBathroomUsingImg();
         System.out.println("Bathroom test pass");
     }
     public void invalidEmail(){
         objLoginPage = PageFactory.initElements(driver, LoginPage.class);
-        objHomePage = PageFactory.initElements(driver, HomePage.class);
-        objHomePage.goToLoginPage();
+        objAllCategories = PageFactory.initElements(driver, AllCategories.class);
+        objAllCategories.goToLoginPage();
         objLoginPage.enterInvalidEmail();
         System.out.println("InvalidEmail test pass");
     }
