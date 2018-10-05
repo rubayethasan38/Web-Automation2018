@@ -26,9 +26,6 @@ public class SmallBussiness extends CommonAPI {
         String Actual = webDriver.getTitle();
         Assert.assertEquals(Actual,Expected);
     }
-    public void menuRightArrow(){
-        MenuArrowRight.click();
-    }
     public void menuLeftArrow(){
         MenuArrowLeft.click();
     }

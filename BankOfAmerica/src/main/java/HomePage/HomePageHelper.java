@@ -1,11 +1,13 @@
 package HomePage;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
@@ -36,8 +38,9 @@ public class HomePageHelper extends CommonAPI {
     @FindBy(id = "HomeLoans_GetStarted_2017mOAA2RS") public static WebElement ApplyForHomeLoan;
     @FindBy(id = "AutoLoans_GetStarted_2017mOAA2RS")public static WebElement ApplyForCarLoan;
     @FindBy(id = "SB_GetStarted_2017mOAA2RS")public static WebElement OpenSmallBussiness;
-    public void searchBox(){
+    public void searchBox() throws InterruptedException {
         SearhBox.sendKeys("ATM near me ", Keys.ENTER);
+
     }
     public void changeLenguage(){
         SpanishSite.click();
