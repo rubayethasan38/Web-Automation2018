@@ -13,9 +13,9 @@
 
     <test name = "Search Test">
         <classes>
-            <class name="TestPage.EnterPageTest"/>
-            <class name="TestPage.LogInTest"/>
-            <!--<class name="menu.MenuPage"/>-->
+            <class name="TestPage.AccountTest"/>
+            <class name="TestPage.FooterTest"/>
+            <class name="TestPage.HomePageTest"/>
         </classes>
     </test>
 

@@ -10,7 +10,7 @@ import reporting.TestLogger;
 
 public class AccountTest extends Account {
     @BeforeMethod
-    public void LogInTo () {
+    public void LogInTo() {
         Account account = PageFactory.initElements(webDriver, Account.class);
     }
     @Test
@@ -23,8 +23,8 @@ public class AccountTest extends Account {
     public void loginTest() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        setLogin();}
-
+        setLogin();
+    }
     @Test
     public void firstTest(){ TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));

@@ -43,11 +43,11 @@ public class SearchProductPage extends CommonAPI {
     public void Computers () { ComputersTablets.click();}
     public void Cameras() {CamerasCamcorders.click();}
     public void setCellPhones () {CellPhones.click();}
-    public void Audio () {Audio.click();}
-    public void VideoGames () {VideoGames.click();}
-    public void MoviesMusic () {MoviesMusic.click();}
-    public void CarElectronics () {CarElectronicsGPS.click();}
-    public void WearableTechnology () {WearableTechnology.click();}
+    public void setAudioAudio() {Audio.click();}
+    public void setVideoGamesVideoGames() {VideoGames.click();}
+    public void setMoviesMusicMoviesMusic() {MoviesMusic.click();}
+    public void setCarElectronicsGPSCarElectronics() {CarElectronicsGPS.click();}
+    public void setWearableTechnology() {WearableTechnology.click();}
     public void HealthFitness () {HealthFitnessBeauty.click();}
     public void Homegarage () {HomeGarageOffice.click();}
     public void Smarthome () {SmartHomeSecurityWiFiMenu.click();}

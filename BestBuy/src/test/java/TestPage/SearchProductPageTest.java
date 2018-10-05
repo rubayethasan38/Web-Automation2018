@@ -39,61 +39,54 @@ public class SearchProductPageTest extends SearchProductPage {
         CellPhones();
     }
     @Test
-    public void Audio () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void setAudio () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
         Audio();
     }
     @Test
-    public void VideoGames () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void setVideoGames () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
         VideoGames();
     }
     @Test
-    public void MoviesMusic () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void setMoviesMusic () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
         MoviesMusic();
     }
     @Test
-    public void HealthFitness () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void setCarElectronicsGPSCarElectronics () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        CarElectronics();
-
+        CarElectronicsGPS();
     }
     @Test
-    public void WearableTechnology () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void setWearableTechnology () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
         WearableTechnology();
-
     }
     @Test
     public void HealthFitness () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
         HealthFitnessBeauty();
-
     }
     @Test
     public void Homegarage () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
         HomeGarageOffice();
-
     }
     @Test
     public void Smarthome () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
         SmartHomeSecurityWiFiMenu();
-
     }
     @Test
     public void Drones () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
         DronesToysCollectiblesMenu();
-
     }
     @Test
     public void setBbyoutletlink () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
         bbyoutletlink();
-
     }
 }
 

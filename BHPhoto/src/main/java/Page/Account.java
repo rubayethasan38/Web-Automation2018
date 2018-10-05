@@ -20,16 +20,14 @@ public class Account extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"onePopupLayer\"]/div[2]/div/div/div/div[1]/form/input[1]")
     public static WebElement submitlogin;
 
-
     // methods
-    public void clickOnMyAccount(); {
+    public void clickOnMyAccount() {
         mouseHoverByCSS("#cat989 > a:nth-child(1) > span");
         clickOnCss("#my-account-guest-notification > div.login-buttons > a:nth-child(2) > button");
         String expected = "Log in to Your Account";
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
         Assert.assertEquals(actual, expected);
     }
-
     //
     public void loginpage() {
         LogIn.click();
