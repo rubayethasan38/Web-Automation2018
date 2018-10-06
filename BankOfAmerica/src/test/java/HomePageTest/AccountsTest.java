@@ -21,11 +21,12 @@ public class AccountsTest extends HomePageHelper {
         homePageHelper.forgotPassword();
     }
     @Test(priority = 2, enabled = true)
-    public void enrollBankOfAmericaTest(){
+    public void enrollBankOfAmericaTest() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         homePageHelper.enroll();
     }
+
     @Test(priority = 3, enabled = true)
     public void openAnAccount(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {

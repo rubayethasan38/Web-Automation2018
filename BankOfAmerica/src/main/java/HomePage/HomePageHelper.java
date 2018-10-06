@@ -38,9 +38,8 @@ public class HomePageHelper extends CommonAPI {
     @FindBy(id = "HomeLoans_GetStarted_2017mOAA2RS") public static WebElement ApplyForHomeLoan;
     @FindBy(id = "AutoLoans_GetStarted_2017mOAA2RS")public static WebElement ApplyForCarLoan;
     @FindBy(id = "SB_GetStarted_2017mOAA2RS")public static WebElement OpenSmallBussiness;
-    public void searchBox() throws InterruptedException {
+    public void searchBox() {
         SearhBox.sendKeys("ATM near me ", Keys.ENTER);
-
     }
     public void changeLenguage(){
         SpanishSite.click();
@@ -98,6 +97,4 @@ public class HomePageHelper extends CommonAPI {
         OpenAnAccount.click();
         OpenSmallBussiness.click();
     }
-
-
 }

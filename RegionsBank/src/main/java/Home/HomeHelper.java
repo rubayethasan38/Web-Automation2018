@@ -110,8 +110,8 @@ public class HomeHelper  extends CommonAPI {
         Assert.assertEquals(Actual,Expected);
     }
     public void applyForStudentLoan(){
-    ServicesInterface.click();
-    MyStudentLoan.click();
+        ServicesInterface.click();
+        MyStudentLoan.click();
     }
     public void collections(){
     ServicesInterface.click();

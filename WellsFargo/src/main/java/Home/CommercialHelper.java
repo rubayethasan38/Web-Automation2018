@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 public class CommercialHelper  extends CommonAPI {
 
@@ -31,15 +32,19 @@ public class CommercialHelper  extends CommonAPI {
         PlayVideo.click();
     }
     public void productsAndServices(){
+        CommercialInterface.click();
         ProductsAndServices.click();
     }
     public void commercialSignOnButton(){
         CommercialSignOnButton.click();
     }
     public void moreIndustrices(){
+        CommercialInterface.click();
         MoreIndustries.click();
     }
     public void moreInsights(){
+        CommercialInterface.click();
         MoreInsights.click();
+
     }
 }
