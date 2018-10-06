@@ -8,144 +8,49 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 public class FooterTest extends Footer {
-Footer footer = PageFactory.initElements(CommonAPI.webDriver,Footer,getClass();
-
 @BeforeMethod
     public void search() {
         Footer footer = PageFactory.initElements(webDriver, Footer.class);
     }
     @Test
-    public void sets () {
+    public void Shipping () {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        Shipping();
+        setShippingShipping();
     }
     @Test
     public void setSearchBox () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        Returns();
+        setReturns();
     }
     @Test
     public void setProductsTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        GiftCards();
+        setGiftCards();
     }
     @Test
     public void setBrandsTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        EventSpace();
+        setEventSpace();
     }
     @Test
     public void setDealsTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        ContactUs();
+        setContactUs();
     }
     @Test
     public void setServicesTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        LiveChat();
+        setLiveChat();
     }
     @Test
     public void setWeeklyAdTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        HoursOfService();
+        setHoursOfService();
     }
     @Test
     public void setDealOfTheDayTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        AddressDirections();
+        setAddressDirections();
     }
-    @Test
-    public void setCreditCardsTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-    }.getClass().getEnclosingMethod().getName()));
-        TrackRequestReturn();
-    }
-    @Test
-    public void setGiftCardsTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-    }.getClass().getEnclosingMethod().getName()));
-        UnsubscribeCatalog();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-    }.getClass().getEnclosingMethod().getName()));
-        UnsubscribeEmail();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-    }.getClass().getEnclosingMethod().getName()));
-        Payments();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-    }.getClass().getEnclosingMethod().getName()));
-        AllHelpTopics();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-    }.getClass().getEnclosingMethod().getName()));
-        WorldwideShipping();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-    }.getClass().getEnclosingMethod().getName()));
-        PaymentOptions();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-    }.getClass().getEnclosingMethod().getName()));
-        CustomsVAT();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-    }.getClass().getEnclosingMethod().getName()));
-        AboutUs();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-    }.getClass().getEnclosingMethod().getName()));
-        NationalWorkshops();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        ReviewsAwards();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        AffiliateProgram();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        SupplierDiversityProgram();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        CareerOpportunities();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        ShopByBrand();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        ManufacturesDirectory();
-    }
-    @Test
-    public void setGiftIdeasRegistryTab () {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        SourcebooksCatalogs();
-    }
-
 }

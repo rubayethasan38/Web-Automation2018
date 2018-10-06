@@ -16,56 +16,56 @@ public class HomePageTest extends HomePage {
     public void setSearchBoxButton () {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        searchBoxButton();
+        setSearchBoxButton();
     }
     @Test
     public void setSearchBox () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        searchBox();
+        setSearchBox();
     }
     @Test
     public void setProductsTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        ProductsTab();
+        setProductsTab();
     }
     @Test
     public void setBrandsTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        BrandsTab();
+        setBrandsTab();
     }
     @Test
     public void setDealsTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        DealsTab();
+        setDealsTab();
     }
     @Test
     public void setServicesTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        ServicesTab();
+        setServicesTab();
     }
     @Test
     public void setWeeklyAdTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        WeeklyAdTab();
+        setWeeklyAdTab();
     }
     @Test
     public void setDealOfTheDayTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        DealOfTheDayTab();
+        setDealOfTheDayTab();
     }
     @Test
     public void setCreditCardsTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        CreditCardsTab();
+        setCreditCardsTab();
     }
     @Test
     public void setGiftCardsTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        GiftCardsTab();
+        setGiftCardsTab();
     }
     @Test
     public void setGiftIdeasRegistryTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        GiftIdeasRegistryTab();
+       setGiftIdeasRegistryTab();
     }
 }

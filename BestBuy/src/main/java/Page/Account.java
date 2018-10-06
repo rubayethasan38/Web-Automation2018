@@ -3,7 +3,6 @@ package Page;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import sun.security.util.Password;
 
 public class Account extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"header\"]/div[2]/div/nav[2]/ul/li[1]")
@@ -16,10 +15,21 @@ public class Account extends CommonAPI {
     public static WebElement Password;
 
     //methods
-    public void setAccount(){Account.click();}
-    public void setSignInignIn() {SignIn.click();}
-        EmailAddress.sendKeys("");}
-        Password.sendKeys("");
+    public void setAccount() {
+        Account.click();
+    }
+    public void setSignIn() {
+        SignIn.click();
+    }
+    public void enterUserName(){
+        EmailAddress.sendKeys("sameer1187@gmail.com");
+    }
+    public void enterPassword(){
+        Password.sendKeys("RmhssdakH21187$");
+    }
+}
+
+
 
 
 

@@ -20,37 +20,13 @@ public class SearchProductPage extends CommonAPI {
     public static WebElement Audio;
     @FindBy (xpath="//*[@id=\"level2Menu6\"]/a")
     public static WebElement VideoGames;
-    @FindBy (xpath="//*[@id=\"level2Menu7\"]/a")
-    public static WebElement MoviesMusic;
-    @FindBy (xpath="//*[@id=\"level2Menu8\"]/a")
-    public static WebElement CarElectronicsGPS;
-    @FindBy (xpath="//*[@id=\"level2Menu9\"]/a")
-    public static WebElement WearableTechnology;
-    @FindBy (xpath="//*[@id=\"level2Menu10\"]/a")
-    public static WebElement HealthFitnessBeauty;
-    @FindBy (xpath="//*[@id=\"level2Menu11\"]/a")
-    public static WebElement HomeGarageOffice;
-    @FindBy (xpath="//*[@id=\"level2Menu11\"]/a")
-    public static WebElement SmartHomeSecurityWiFiMenu;
-    @FindBy (xpath="//*[@id=\"level2Menu13\"]/a")
-    public static WebElement DronesToysCollectiblesMenu;
-    @FindBy (xpath="//*[@id=\"level2Menu14\"]/a")
-    public static  WebElement bbyoutletlink;
 
     //methods
-    public void HomeAppliance () { Appliances.click();}
-    public void HomeEntertainment () {TVHomeTheater.click();}
-    public void Computers () { ComputersTablets.click();}
-    public void Cameras() {CamerasCamcorders.click();}
+    public void setAppliances () { Appliances.click();}
+    public void setHomeEntertainment () {TVHomeTheater.click();}
+    public void setComputers () { ComputersTablets.click();}
+    public void setCameras() {CamerasCamcorders.click();}
     public void setCellPhones () {CellPhones.click();}
     public void setAudioAudio() {Audio.click();}
     public void setVideoGamesVideoGames() {VideoGames.click();}
-    public void setMoviesMusicMoviesMusic() {MoviesMusic.click();}
-    public void setCarElectronicsGPSCarElectronics() {CarElectronicsGPS.click();}
-    public void setWearableTechnology() {WearableTechnology.click();}
-    public void HealthFitness () {HealthFitnessBeauty.click();}
-    public void Homegarage () {HomeGarageOffice.click();}
-    public void Smarthome () {SmartHomeSecurityWiFiMenu.click();}
-    public void Drones () {DronesToysCollectiblesMenu.click();}
-    public void setBbyoutletlink () {bbyoutletlink.click();}
 }

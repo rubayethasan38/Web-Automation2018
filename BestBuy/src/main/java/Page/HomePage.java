@@ -32,43 +32,31 @@ public class HomePage extends CommonAPI {
     public void setSearchBoxButton() {
         searchBoxButton.click();
     }
-
     public void setSearchBox() {
         searchBox.click();
     }
-
     public void setProductsTab() {
         ProductsTab.click();
     }
-
     public void setBrandsTab() {
         BrandsTab.click();
     }
-
     public void setDealsTab() {
         DealsTab.click();
     }
-
     public void setServicesTab() {
         ServicesTab.click();
     }
-
     public void setWeeklyAdTab() {
         WeeklyAdTab.click();
     }
-
-    public void setDealOfTheDayTab() {
-        DealOfTheDayTab.click();
-    }
-
+    public void setDealOfTheDayTab() { DealOfTheDayTab.click(); }
     public void setCreditCardsTab() {
         CreditCardsTab.click();
     }
-
     public void setGiftCardsTab() {
         GiftCardsTab.click();
     }
-
     public void setGiftIdeasRegistryTab() {
         GiftIdeasRegistryTab.click();
     }

@@ -7,7 +7,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
-
 public class AccountTest extends Account {
     @BeforeMethod
     public void LogInTo() {
