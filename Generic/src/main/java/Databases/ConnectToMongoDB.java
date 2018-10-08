@@ -6,7 +6,9 @@
 //import com.mongodb.client.MongoCollection;
 //import com.mongodb.client.MongoDatabase;
 //
-//import javax.swing.text.Document;
+//import javax.swing.event.DocumentListener;
+//import javax.swing.event.UndoableEditListener;
+//import javax.swing.text.*;
 //import java.util.ArrayList;
 //import java.util.List;
 //
@@ -25,7 +27,92 @@
 //        String profile = user.getStName();
 //        MongoDatabase mongoDatabase = connectToMongoDB();
 //        MongoCollection<Document> collection = mongoDatabase.getCollection("profile");
-//        Document document = new Document().append("stName",user.getStName()).append("stID", user.getStID()).
+//        Document document = new Document() {
+//            @Override
+//            public int getLength() {
+//                return 0;
+//            }
+//
+//            @Override
+//            public void addDocumentListener(DocumentListener listener) {
+//
+//            }
+//
+//            @Override
+//            public void removeDocumentListener(DocumentListener listener) {
+//
+//            }
+//
+//            @Override
+//            public void addUndoableEditListener(UndoableEditListener listener) {
+//
+//            }
+//
+//            @Override
+//            public void removeUndoableEditListener(UndoableEditListener listener) {
+//
+//            }
+//
+//            @Override
+//            public Object getProperty(Object key) {
+//                return null;
+//            }
+//
+//            @Override
+//            public void putProperty(Object key, Object value) {
+//
+//            }
+//
+//            @Override
+//            public void remove(int offs, int len) throws BadLocationException {
+//
+//            }
+//
+//            @Override
+//            public void insertString(int offset, String str, AttributeSet a) throws BadLocationException {
+//
+//            }
+//
+//            @Override
+//            public String getText(int offset, int length) throws BadLocationException {
+//                return null;
+//            }
+//
+//            @Override
+//            public void getText(int offset, int length, Segment txt) throws BadLocationException {
+//
+//            }
+//
+//            @Override
+//            public Position getStartPosition() {
+//                return null;
+//            }
+//
+//            @Override
+//            public Position getEndPosition() {
+//                return null;
+//            }
+//
+//            @Override
+//            public Position createPosition(int offs) throws BadLocationException {
+//                return null;
+//            }
+//
+//            @Override
+//            public Element[] getRootElements() {
+//                return new Element[0];
+//            }
+//
+//            @Override
+//            public Element getDefaultRootElement() {
+//                return null;
+//            }
+//
+//            @Override
+//            public void render(Runnable r) {
+//
+//            }
+//        }.append("stName",user.getStName()).append("stID", user.getStID()).
 //                append("stDOB",user.getStDOB());
 //        collection.insertOne(document);
 //        return profile + " has been registered";

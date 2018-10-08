@@ -9,6 +9,7 @@
         <module name="ASOS" />
         <module name="Generic" />
         <module name="KhanAcademy" />
+        <module name="RESTapi" />
       </profile>
     </annotationProcessing>
   </component>
