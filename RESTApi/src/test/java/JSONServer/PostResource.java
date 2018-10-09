@@ -8,11 +8,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class PostResource {
-    /*
-    note: in order to have a api that excepts put/post/delete operations a local JSON server
-    has to be installed and running in order for these tests to work. please refer to the following
-    site for installation instructions.
- */
     @Test
     public void postTest() {
 
@@ -25,36 +20,30 @@ public class PostResource {
         jsonObject.put("author", "Mark Twain");
 
         request.body(jsonObject.toJSONString());
-        Response response = request.post("http://localhost:3000/posts");
+        Response response = request.post("http://info.venturepulse.org:8080/service-webapp/api/AllEmployeeResources");
         int statusCode = response.getStatusCode();
-        Assert.assertEquals(statusCode, 201);
+        Assert.assertEquals(statusCode, 200);
     }
-
     @Test
     public void deletePost() {
         RequestSpecification request = RestAssured.given();
 
-        Response response = request.delete("http://localhost:3000/posts/82");
+        Response response = request.delete("http://info.venturepulse.org:8080/service-webapp/api/AllEmployeeResources");
         int statusCode = response.getStatusCode();
-        Assert.assertEquals(statusCode, 200);
-
+        Assert.assertEquals(statusCode, 405);
     }
-
     @Test
     public void putPost() {
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json");
         JSONObject jsonObject = new JSONObject();
-
-
         jsonObject.put("id", 75);
         jsonObject.put("title", "Huckleberry Fin");
         jsonObject.put("author", "Homer Simpson");
-
         request.body(jsonObject.toJSONString());
-        Response response = request.put("http://localhost:3000/posts/75");
+        Response response = request.put("http://info.venturepulse.org:8080/service-webapp/api/AllEmployeeResources");
         int statusCode = response.getStatusCode();
-        Assert.assertEquals(statusCode, 200);
+        Assert.assertEquals(statusCode, 405);
     }
     @Test
     public void putNullPost() {
@@ -62,15 +51,14 @@ public class PostResource {
         request.header("Content-Type", "application/json");
         JSONObject jsonObject = new JSONObject();
 
-
         jsonObject.put("id", 999);
         jsonObject.put("title", "Huckleberry Fin");
         jsonObject.put("author", "Homer Simpson");
 
         request.body(jsonObject.toJSONString());
-        Response response = request.put("http://localhost:3000/posts/999");
+        Response response = request.put("http://info.venturepulse.org:8080/service-webapp/api/AllEmployeeResources");
         int statusCode = response.getStatusCode();
-        Assert.assertEquals(statusCode, 404);
+        Assert.assertEquals(statusCode, 405);
     }
 }
 

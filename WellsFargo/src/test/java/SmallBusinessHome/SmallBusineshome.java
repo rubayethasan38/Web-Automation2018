@@ -31,7 +31,7 @@ public class SmallBusineshome extends SmallBussiness {
     public void menuRightArrowClick(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-      smallBussinessInterface();
+        smallBussinessInterface();
         menuLeftArrow();
     }
     @Test(priority = 3, enabled = true)

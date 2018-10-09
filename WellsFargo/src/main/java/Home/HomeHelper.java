@@ -24,13 +24,13 @@ public class HomeHelper extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"taskbar\"]/div/ul/li[4]/div/div[1]") public static WebElement MakeAnAppointment;
     @FindBy(xpath = "//*[@id=\"mainContent\"]/div[4]/div/div/div[2]/a") public static WebElement MissplacedDebitCard;
     @FindBy(xpath = "//*[@id=\"mainContent\"]/div[1]/p/a") public static WebElement HurricaneAlertLearnMore;
-    public void setSearchBoxFunction(){
+     public void setSearchBoxFunction(){
         searchBox.sendKeys("Atm near Me");
     }
-    public void usernameInput(){
+     public void usernameInput(){
         userName.sendKeys("luillo123");
     }
-    public void enrollButtonF(){
+     public void enrollButtonF(){
         enrollButton.click();
     }
      public void careersButtonF(){

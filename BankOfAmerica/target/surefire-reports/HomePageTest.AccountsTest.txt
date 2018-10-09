@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: HomePageTest.AccountsTest
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 2, Errors: 0, Skipped: 38, Time elapsed: 21.666 s <<< FAILURE! - in HomePageTest.AccountsTest
+recoverPasswordTest(HomePageTest.AccountsTest)  Time elapsed: 3.673 s  <<< FAILURE!
+java.lang.NullPointerException
+	at HomePageTest.AccountsTest.recoverPasswordTest(AccountsTest.java:21)
+
+afterEachTestMethod(HomePageTest.AccountsTest)  Time elapsed: 4.267 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Users-Mac-2.local', ip: '10.11.11.182', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/9q/yygwrmbn613...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50383}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 4b3e56730c71b4ec17ce2e1d1c235a18
+

@@ -19,7 +19,7 @@ public class TestGoogleSheetsPage extends GoogleSheetsPage {
     public void initialization(){
         homeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
         signInHelper = PageFactory.initElements(webDriver, SignInHelper.class);
-       googleSheetsPage = PageFactory.initElements(webDriver, GoogleSheetsPage.class);
+        googleSheetsPage = PageFactory.initElements(webDriver, GoogleSheetsPage.class);
     }
     @Test(priority = 1, enabled = true)
     public void testLogInByGoogleSheet()throws IOException, InterruptedException{
