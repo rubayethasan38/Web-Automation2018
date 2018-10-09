@@ -1,11 +1,9 @@
 package Page;
-
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
 public class Camera extends CommonAPI {
     @FindBy(css = "#cat989 > a > span")
     public static WebElement Photography;
@@ -13,7 +11,6 @@ public class Camera extends CommonAPI {
     public static WebElement Camcorders;
     @FindBy(css = "#cat3496 > a > span")
     public static WebElement Surveillance;
-
     //methods
     public void clickOnPhotographyDigitalCameraTypes() {
         mouseHoverByCSS("#cat989 > a:nth-child(1) > span");

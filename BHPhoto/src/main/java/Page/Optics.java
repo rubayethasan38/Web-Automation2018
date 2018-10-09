@@ -1,11 +1,9 @@
 package Page;
-
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
 public class Optics extends CommonAPI {
     @FindBy(css = "#cat978 > a > span")
     public static WebElement Optics;

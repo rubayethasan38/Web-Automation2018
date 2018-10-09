@@ -1,11 +1,9 @@
 package Page;
-
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
 public class Account extends CommonAPI {
     @FindBy(css = "#js-login > span.twelve.login-msg")
     public static WebElement MyAccount;
@@ -19,7 +17,6 @@ public class Account extends CommonAPI {
     public static WebElement enterpassword;
     @FindBy(xpath = "//*[@id=\"onePopupLayer\"]/div[2]/div/div/div/div[1]/form/input[1]")
     public static WebElement submitlogin;
-
     // methods
     public void clickOnMyAccount() {
         mouseHoverByCSS("#cat989 > a:nth-child(1) > span");

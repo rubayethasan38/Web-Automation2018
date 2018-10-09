@@ -1,14 +1,11 @@
 package TestPage;
-
 import Page.SearchProduct;
 import base.CommonAPI;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-
 public class SearchProductTest extends SearchProduct {
     @Test
-    public void setMoviesMusic () {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void setMoviesMusic () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         setMoviesMusicMoviesMusic();
     }

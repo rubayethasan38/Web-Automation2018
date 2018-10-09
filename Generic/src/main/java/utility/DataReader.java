@@ -76,9 +76,7 @@ public class DataReader {
                 break;
         }
         return value.toString();
-
     }
-
     public void writeBack(String value) throws IOException {
         wb = new HSSFWorkbook();
         sheet = wb.createSheet();

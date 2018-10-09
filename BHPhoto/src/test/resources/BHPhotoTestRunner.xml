@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-
 <suite name="BH Photo Automation Script" parallel="tests">
-
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value=" https://www.bhphotovideo.com/"/>
-
     <test name = "Search Test">
         <classes>
             <class name="TestPage.AccountTest"/>
             <class name="TestPage.FooterTest"/>
-            <class name="TestPage.HomePageTest"/>
+            <class name="TestPage.AudioVisualTest"/>
+            <class name="TestPage.CameraTest"/>
+            <class name="TestPage.ComputerTest"/>
+            <class name="TestPage.FooterCTest"/>
+            <class name="TestPage.FooterBTest"/>
+            <class name="TestPage.LightingTest"/>
+            <class name="TestPage.MobileTest"/>
+            <class name="TestPage.OpticsTest"/>
+            <class name="TestPage.ProAudioTest"/>
+            <class name="TestPage.TVEntertainmentTest"/>
+            <class name="TestPage.ExcelFileReaderTest"/>
+            <class name="TestPage.GoogleSheetReaderTest"/>
         </classes>
     </test>
-
 </suite>

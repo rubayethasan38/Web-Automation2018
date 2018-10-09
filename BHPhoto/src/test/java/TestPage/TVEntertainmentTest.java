@@ -6,11 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-
 public class TVEntertainmentTest extends TVEntertainment {
     @FindBy(css = "#cat4600 > a > span")
     public static WebElement TVEntertainment;
-
     //method
     @Test
     public void FirstTest(){

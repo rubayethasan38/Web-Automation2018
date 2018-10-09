@@ -1,13 +1,10 @@
 package TestPage;
-
-
-
 import Page.AudioVisual;
 import base.CommonAPI;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
-public class AudioVisualTest extends Page.AudioVisual {
+public class AudioVisualTest extends AudioVisual {
     @Test
     public void fiftyTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {

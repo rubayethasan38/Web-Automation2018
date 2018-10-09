@@ -9,7 +9,6 @@ import org.testng.Assert;
 public class Mobile extends CommonAPI {
     @FindBy(css = "#cat8565 > a > span")
     public static WebElement Mobile;
-
     //methods
     public void clickOnMobileUnlockedCellPhones() {
         mouseHoverByCSS("##cat8565 > a > span");

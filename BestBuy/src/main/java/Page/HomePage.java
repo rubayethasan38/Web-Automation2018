@@ -1,9 +1,7 @@
 package Page;
-
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 public class HomePage extends CommonAPI {
     @FindBy(id = "headerSearchButton")
     public static WebElement searchBoxButton;
@@ -27,7 +25,6 @@ public class HomePage extends CommonAPI {
     public static WebElement GiftCardsTab;
     @FindBy(xpath = "//*[@id=\"header\"]/div[1]/div[1]/nav/ul/li[5]/a")
     public static WebElement GiftIdeasRegistryTab;
-
     //methods
     public void setSearchBoxButton() {
         searchBoxButton.click();

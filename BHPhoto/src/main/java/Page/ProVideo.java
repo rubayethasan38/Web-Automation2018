@@ -1,15 +1,12 @@
 package Page;
-
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
 public class ProVideo extends CommonAPI {
     @FindBy(css = "#cat3755 > a > span")
     public static WebElement ProVideo;
-
     //methods
     public void clickOnProVideoCamcorders() {
         mouseHoverByCSS("#cat3755 > a");

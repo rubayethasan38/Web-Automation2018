@@ -5,9 +5,7 @@ import java.util.ArrayList;
 public class XlsDataReaderUtil {
 
     static Xls_Reader reader;
-
     public static ArrayList<Object[]> getDataFromExcel(){
-
     ArrayList<Object[]> myData = new ArrayList<Object[]>();
     try {
         reader = new Xls_Reader("../WellsFargo/Data/DataFile2.xls");
@@ -23,7 +21,6 @@ public class XlsDataReaderUtil {
         Object obj[] = {email,passCode, message};
         myData.add(obj);
        }
-
     return  myData;
    }
 }

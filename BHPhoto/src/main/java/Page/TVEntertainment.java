@@ -1,15 +1,12 @@
 package Page;
-
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
 public class TVEntertainment extends CommonAPI {
     @FindBy(css = "#cat4600 > a > span")
     public static WebElement TVEntertainment;
-
     //methods
     public void clickOnTVEntertainmentTelevisions() {
         mouseHoverByCSS("#cat4600 > a > span");

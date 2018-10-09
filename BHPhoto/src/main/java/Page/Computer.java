@@ -1,15 +1,12 @@
 package Page;
-
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
 public class Computer extends CommonAPI {
     @FindBy(css = "#cat9581 > a > span")
     public static WebElement Computers;
-
     public void clickOnComputersLaptops() {
         mouseHoverByCSS("##menu-9581 > a:nth-child(2) > span");
         clickOnCss("#menu-9581 > div > div > div > ul > li:nth-child(1) > a > div.category-image");

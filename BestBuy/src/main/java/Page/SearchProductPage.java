@@ -1,11 +1,8 @@
 package Page;
-
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 public class SearchProductPage extends CommonAPI {
-
     @FindBy(xpath = "//*[@id=\"level2Menu0\"]/a")
     public static WebElement Appliances;
     @FindBy(xpath = "//*[@id=\"level2Menu1\"]/a")
@@ -20,7 +17,6 @@ public class SearchProductPage extends CommonAPI {
     public static WebElement Audio;
     @FindBy (xpath="//*[@id=\"level2Menu6\"]/a")
     public static WebElement VideoGames;
-
     //methods
     public void setAppliances () { Appliances.click();}
     public void setHomeEntertainment () {TVHomeTheater.click();}

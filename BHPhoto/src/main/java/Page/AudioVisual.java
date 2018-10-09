@@ -1,15 +1,12 @@
 package Page;
-
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
 public class AudioVisual extends CommonAPI {
     @FindBy(css = "#cat3644 > a > span")
     public static WebElement AudioVisual;
-
     public void clickOnAudioVisualProjectors() {
         mouseHoverByCSS("#cat3644 > a > span");
         clickOnCss("#menu-3644 > div > div > div > ul > li:nth-child(1) > a > div.category-image");

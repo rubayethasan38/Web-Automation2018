@@ -118,7 +118,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
     public List<String> directDatabaseQueryExecute(String passQuery,String dataColumn)throws Exception{
         List<String> data = new ArrayList<String>();
 
@@ -134,7 +133,6 @@ public class ConnectToSqlDB {
         }
         return data;
     }
-
     public void insertDataFromArrayListToSqlTable(List<String> list, String tableName, String columnName)
     {
         try {
@@ -148,7 +146,6 @@ public class ConnectToSqlDB {
                 ps.setObject(1,st);
                 ps.executeUpdate();
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -157,7 +154,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
     public void insertProfileToSqlTable(String tableName, String columnName1, String columnName2)
     {
         try {
@@ -167,7 +163,6 @@ public class ConnectToSqlDB {
                 ps.setInt(2,3590);
                 ps.executeUpdate();
 
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -176,7 +171,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
     public static List<User> readUserProfileFromSqlTable()throws IOException, SQLException, ClassNotFoundException{
         List<User> list = new ArrayList<>();
         User user = null;
@@ -196,7 +190,6 @@ public class ConnectToSqlDB {
                 //System.out.format("%s, %s\n", name, id);
                 user = new User(name,id, dob);
                 list.add(user);
-
             }
             st.close();
         }catch (Exception e){
@@ -205,7 +198,6 @@ public class ConnectToSqlDB {
         }
         return list;
     }
-
     public static void main(String[] args)throws IOException, SQLException, ClassNotFoundException {
         List<User> list = readUserProfileFromSqlTable();
         for(User user:list){

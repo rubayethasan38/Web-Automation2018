@@ -1,9 +1,7 @@
 package Page;
-
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 public class SearchProduct extends CommonAPI {
     @FindBy(xpath="//*[@id=\"level2Menu7\"]/a")
     public static WebElement MoviesMusic;
@@ -20,8 +18,7 @@ public class SearchProduct extends CommonAPI {
     @FindBy (xpath="//*[@id=\"level2Menu13\"]/a")
     public static WebElement DronesToysCollectiblesMenu;
     @FindBy (xpath="//*[@id=\"level2Menu14\"]/a")
-    public static  WebElement bbyoutletlink;
-
+    public static  WebElement BByoutletlink;
     //methods
     public void setMoviesMusicMoviesMusic() {MoviesMusic.click();}
     public void setCarElectronicsGPSCarElectronics() {CarElectronicsGPS.click();}
@@ -30,5 +27,5 @@ public class SearchProduct extends CommonAPI {
     public void setHomegarage () {HomeGarageOffice.click();}
     public void setSmarthome () {SmartHomeSecurityWiFiMenu.click();}
     public void setDrones () {DronesToysCollectiblesMenu.click();}
-    public void setBbyoutletlink () {bbyoutletlink.click();}
+    public void setBbyoutletlink () {BByoutletlink.click();}
 }

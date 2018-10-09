@@ -1,9 +1,7 @@
 package Page;
-
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 public class Account extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"header\"]/div[2]/div/nav[2]/ul/li[1]")
     public static WebElement Account;
@@ -13,7 +11,6 @@ public class Account extends CommonAPI {
     public static WebElement EmailAddress;
     @FindBy(xpath = "//*[@id=\"fld-p1\"]")
     public static WebElement Password;
-
     //methods
     public void setAccount() {
         Account.click();

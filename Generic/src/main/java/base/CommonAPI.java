@@ -148,10 +148,7 @@ public class CommonAPI {
             webDriver = new InternetExplorerDriver();
         }
         return webDriver;
-
     }
-
-
     public WebDriver getCloudDriver(String envName,String envUsername, String envAccessKey,String os, String os_version,String browserName,
                                     String browserVersion)throws IOException {
         DesiredCapabilities cap = new DesiredCapabilities();
@@ -170,12 +167,10 @@ public class CommonAPI {
         }
         return webDriver;
     }
-
     @AfterMethod
     public void cleanUp(){
         webDriver.quit();
     }
-
     public void clickOnCss(String locator){
         webDriver.findElement(By.cssSelector(locator)).click();
     }
@@ -236,7 +231,6 @@ public class CommonAPI {
             String st = web.getText();
             text.add(st);
         }
-
         return text;
     }
     public List<WebElement> getListOfWebElementsByCss(String locator) {
@@ -282,7 +276,6 @@ public class CommonAPI {
         }
         return items;
     }
-
     public void selectOptionByVisibleText(WebElement element, String value) {
         Select select = new Select(element);
         select.selectByVisibleText(value);
@@ -300,9 +293,7 @@ public class CommonAPI {
             WebElement element = webDriver.findElement(By.cssSelector(locator));
             Actions action = new Actions(webDriver);
             action.moveToElement(element).perform();
-
         }
-
     }
     public void mouseHoverByXpath(String locator){
         try {
@@ -314,9 +305,7 @@ public class CommonAPI {
             WebElement element = webDriver.findElement(By.cssSelector(locator));
             Actions action = new Actions(webDriver);
             action.moveToElement(element).perform();
-
         }
-
     }
     //handling Alert
     public void okAlert(){
@@ -327,7 +316,6 @@ public class CommonAPI {
         Alert alert = webDriver.switchTo().alert();
         alert.dismiss();
     }
-
     //iFrame Handle
     public void iframeHandle(WebElement element){
         webDriver.switchTo().frame(element);
@@ -341,7 +329,6 @@ public class CommonAPI {
     public void getLinks(String locator){
         webDriver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();
     }
-
     public static void captureScreenshot(WebDriver driver, String screenshotName){
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
@@ -354,7 +341,6 @@ public class CommonAPI {
         } catch (Exception e) {
             System.out.println("Exception while taking screenshot "+e.getMessage());;
         }
-
     }
     //Taking Screen shots
     public void takeScreenShot()throws IOException {
@@ -403,7 +389,6 @@ public class CommonAPI {
         boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
         return value;
     }
-
     public void typeOnInputBox(String locator, String value) {
         try{
             webDriver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);

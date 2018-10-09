@@ -1,8 +1,6 @@
 package Page;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 public class FooterC {
     @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[3]/div/div[2]/div[3]/a[1]")
     public static WebElement AboutUs;
@@ -22,7 +20,6 @@ public class FooterC {
     public static WebElement ManufacturesDirectory;
     @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[3]/div/div[2]/div[4]/a[3]")
     public static WebElement SourcebooksCatalogs;
-
     //methods
     public void setAboutUs() {
         AboutUs.click();

@@ -1,9 +1,7 @@
 package Page;
-
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 public class FooterB extends CommonAPI {
     @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[3]/div/div[2]/div[1]/a[1]")
     public static WebElement TrackRequestReturn;
@@ -21,7 +19,6 @@ public class FooterB extends CommonAPI {
     public static WebElement PaymentOptions;
     @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[3]/div/div[2]/div[2]/a[3]")
     public static WebElement CustomsVAT;
-
     //methods
     public void setTrackRequestReturn() {
         TrackRequestReturn.click();

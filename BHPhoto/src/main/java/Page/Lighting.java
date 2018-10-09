@@ -1,15 +1,12 @@
 package Page;
-
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
 public class Lighting extends CommonAPI {
     @FindBy(css = "#cat1161 > a > span")
     public static WebElement Lighting;
-
     public void clickOnLightingContinuousLighting() {
         mouseHoverByCSS("#cat1161 > a > span");
         clickOnCss("##menu-1161 > div > div > div > ul > li:nth-child(1) > a > div.category-image");
@@ -38,5 +35,4 @@ public class Lighting extends CommonAPI {
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
         Assert.assertEquals(actual, expected);
     }
-
 }

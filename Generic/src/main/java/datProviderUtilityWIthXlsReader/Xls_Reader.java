@@ -21,7 +21,7 @@ public class Xls_Reader {
         this.path = path;
         try {
             fis = new FileInputStream(path);
-            /// workbook = new XSSFWorkbook(fis);
+//            workbook = new XSSFWorkbook(fis);
             workbook = new HSSFWorkbook(fis);
             sheet = workbook.getSheetAt(0);
             fis.close();
@@ -41,11 +41,8 @@ public class Xls_Reader {
             int number = sheet.getLastRowNum() + 1;
             return number;
         }
-
     }
     // returns the data from a cell
-
-
     public String getCellData(String sheetName, String colName, int rowNum) {
         try {
             if (rowNum <= 0)
@@ -93,10 +90,7 @@ public class Xls_Reader {
                             cellText;
 
                     //System.out.println(cellText);
-
                 }
-
-
                 return cellText;
             } else if (cell.getCellType() == Cell.CELL_TYPE_BLANK)
                 return "";
@@ -109,8 +103,6 @@ public class Xls_Reader {
             return "row " + rowNum + " or column " + colName + " does not exist in xls";
         }
     }
-
-
     // returns the data from a cell
     public String getCellData(String sheetName, int colNum, int rowNum) {
         try {
@@ -121,7 +113,6 @@ public class Xls_Reader {
 
             if (index == -1)
                 return "";
-
 
             sheet = workbook.getSheetAt(index);
             row = sheet.getRow(rowNum - 1);
@@ -149,10 +140,7 @@ public class Xls_Reader {
                             cellText;
 
                     // System.out.println(cellText);
-
                 }
-
-
                 return cellText;
             } else if (cell.getCellType() == Cell.CELL_TYPE_BLANK)
                 return "";
@@ -164,7 +152,6 @@ public class Xls_Reader {
             return "row " + rowNum + " or column " + colNum + " does not exist  in xls";
         }
     }
-
     // find whether sheets exists
     public boolean isSheetExist(String sheetName) {
         int index = workbook.getSheetIndex(sheetName);
@@ -177,22 +164,16 @@ public class Xls_Reader {
         } else
             return true;
     }
-
     // returns number of columns in a sheet
     public int getColumnCount(String sheetName) {
         // check if sheet exists
         if (!isSheetExist(sheetName))
             return -1;
-
         sheet = workbook.getSheet(sheetName);
         row = sheet.getRow(0);
-
         if (row == null)
             return -1;
-
         return row.getLastCellNum();
-
-
     }
 }
 
