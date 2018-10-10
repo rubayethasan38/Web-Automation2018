@@ -2,7 +2,6 @@ package TestPage;
 
 import Page.GoogleSheetReader;
 import base.CommonAPI;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

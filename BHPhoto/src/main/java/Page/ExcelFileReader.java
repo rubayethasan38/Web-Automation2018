@@ -1,12 +1,10 @@
 package Page;
 
 import base.CommonAPI;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import utility.DataReader;
-
 import java.io.IOException;
 
 public class ExcelFileReader extends CommonAPI {

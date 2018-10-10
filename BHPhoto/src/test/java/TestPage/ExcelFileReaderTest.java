@@ -1,22 +1,18 @@
 package TestPage;
 
 import Page.ExcelFileReader;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-
 import java.io.IOException;
 
 public class ExcelFileReaderTest extends ExcelFileReader {
-    HomePage objHomePage;
     ExcelFileReader objExcelFile;
 
     @BeforeMethod
     public void initialization(){
-            objOfHomePage = PageFactory.initElements(webDriver, HomePage.class);
         objExcelFile = PageFactory.initElements(webDriver, ExcelFileReader.class);
     }
     //T3HOM_ER _TC01 Search Product using Excel file
@@ -30,7 +26,7 @@ public class ExcelFileReaderTest extends ExcelFileReader {
             System.out.println(expectedItems[i] + ": Test - Passed"+actualItems[i]);
         }
         System.out.println("searchProductUsingExcel test pass");
-        implicitWait(WebDriver, 20);
+
     }
 
 }

@@ -9,6 +9,8 @@ import org.openqa.selenium.support.FindBy;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import static Page.HomePage.searchBox;
 import static googleAPIs.GoogleSheetReader.getSheetsService;
 
 public class GoogleSheetReader extends CommonAPI {
