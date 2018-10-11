@@ -12,7 +12,7 @@ import reporting.TestLogger;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class SignInUsingUsingDataProvider extends SignInHelper {
+public class SignInUsingDataProvider extends SignInHelper {
     HomeHelper homePage;
     SignInHelper signInPage;
 

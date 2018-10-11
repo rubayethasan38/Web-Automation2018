@@ -11,14 +11,10 @@ import reporting.TestLogger;
 import java.io.IOException;
 
 
-public class TestGoogleSheetsPage extends GoogleSheetsPage {
-    HomeHelper homeHelper;
-    SignInHelper signInHelper;
+public class SignInUsingGoogleSheet extends GoogleSheetsPage {
     GoogleSheetsPage googleSheetsPage;
     @BeforeMethod
     public void initialization(){
-        homeHelper = PageFactory.initElements(webDriver, HomeHelper.class);
-        signInHelper = PageFactory.initElements(webDriver, SignInHelper.class);
         googleSheetsPage = PageFactory.initElements(webDriver, GoogleSheetsPage.class);
     }
     @Test(priority = 1, enabled = true)

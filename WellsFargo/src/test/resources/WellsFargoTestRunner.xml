@@ -19,8 +19,8 @@
             <class name="HomePageTest.SlideMenuTest"></class>
             <class name="signIn.singIn"></class>
             <class name="SmallBusinessHome.SmallBusineshome"></class>
-            <class name="SignInPageObjects.SignInUsingUsingDataProvider"></class>
-            <class name="SignInPageObjects.TestGoogleSheetsPage"></class>
+            <class name="SignInPageObjects.SignInUsingDataProvider"></class>
+            <class name="SignInPageObjects.SignInUsingGoogleSheet"></class>
             <class name="HomePageTest.DBsearchTest"></class>
         </classes>
     </test>

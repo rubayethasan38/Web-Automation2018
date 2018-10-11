@@ -42,15 +42,14 @@ public class GoogleSheetsPage extends CommonAPI {
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList();
         for (List row : col2Value) {
-            sleepFor(1);
+            sleepFor(2);
             inputValueInTextBoxByWebElement(account, row.get(1).toString());
             inputValueInTextBoxByWebElement(password, row.get(2).toString());
-            sleepFor(1);
+            sleepFor(2);
             actual.add(getTextByWebElement(signInErrorMesage));
             System.out.println(getTextByWebElement(signInErrorMesage));
             clearInputBox(account);
             clearInputBox(password);
-            sleepFor(1);
         }
         return actual;
     }
@@ -58,7 +57,7 @@ public class GoogleSheetsPage extends CommonAPI {
         sleepFor(3);
         int i = 0;
         String spreadsheetId = "1KvQ26NFyOcV6RWStK3TkrSXx7bwtGg_AlWO69TANRE4";
-        String range = "Sheet1!A2:D";
+        String range = "Sheet1!A2:C";
         List<String> actualErrorMessage = signInByInvalidIdPass(spreadsheetId, range);
         List<List<Object>> expectedErrorMessage = getSpreadSheetRecords(spreadsheetId, range);
         for (List row : expectedErrorMessage) {

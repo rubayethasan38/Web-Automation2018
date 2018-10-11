@@ -1,6 +1,6 @@
 package HomePageTest;
 
-import KeyWordDriven.Features;
+import FeaturesTest.Features;
 import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
