@@ -53,7 +53,23 @@ public class ArtPageTest extends ArtPage {
     }
     @Test void setHealthAndMedicine () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickHealthAndMedicine();}
-
-
+    clickHealthAndMedicine();
+    }
+    @Test void getHourOfCode () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    clickHourOfCode();
+    }
+    @Test public void getComputerAnimation(){TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    clickComputerAnimation();
+    }
+    @Test
+    public void getComputerEngineering(){TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    clickElectricalEngineering();
+    }
+    @Test void getGovernmentCivics(){TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    clickGovernmentAndCivics();
+    }
 }

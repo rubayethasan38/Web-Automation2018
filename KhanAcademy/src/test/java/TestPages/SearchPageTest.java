@@ -74,5 +74,7 @@ public class SearchPageTest extends SearchPage {
     @Test
     public void androidApp() {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickAndroid();}
+    clickAndroid();
+    }
 }
+

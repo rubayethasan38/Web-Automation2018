@@ -15,11 +15,11 @@ public void initDonation(){
     @Test
     public void clickDonate() {  TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    donatetendollers();
+    donateTenDollers();
 }
     @Test
     public void giveUserName() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    typeInName();}
-
+    typeInName();
+    }
 }

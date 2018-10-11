@@ -13,7 +13,7 @@ public class LoginPageTest extends LoginPage {
     LoginPage loginPage = PageFactory.initElements(webDriver, LoginPage.class);
 }
     @Test
-    public void selectAmount() {
+    public void selectSignIn() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         loginpage();
@@ -22,5 +22,19 @@ public class LoginPageTest extends LoginPage {
     public void loginTest() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        setLogin();}
+        setLogin();
+    }
+    @Test
+    public void validLoginTest() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        validLoginpage();}
+
+
+    @Test
+    public void validLoginSign() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        validSetLogin();
+    }
 }

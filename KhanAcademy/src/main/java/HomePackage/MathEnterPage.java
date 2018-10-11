@@ -16,11 +16,11 @@ public class MathEnterPage extends CommonAPI {
     public static WebElement preCalculas;
     @FindBy(xpath = "//*[@id=\"algebra2\"]")
     public static WebElement algebra2;
-
     //methods
     public void mainPage () { homaPage.click();}
     public void math () {selectMath.click();}
     public void selectGeometry () { geometry.click();}
     public void clickPrecalculas() {preCalculas.click();}
-    public void subAlgebra2 () {algebra2.click();}
+    public void subAlgebra2 () {algebra2.click();
+    }
 }

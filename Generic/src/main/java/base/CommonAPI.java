@@ -90,7 +90,7 @@ public class CommonAPI {
         return calendar.getTime();
     }
 
-    public WebDriver webDriver = null;
+    public static WebDriver webDriver = null;
     public String browserstack_username= "luillo1";
     public String browserstack_accesskey = "jmicniesmM3PUKea9trv";
     public String saucelabs_username = "";
@@ -99,8 +99,8 @@ public class CommonAPI {
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
-                      @Optional("OS X") String os,@Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
+                      @Optional("OS X") String os,@Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("34")
+                              String browserVersion, @Optional("http://www.khanacademy.com") String url)throws IOException {
         System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {

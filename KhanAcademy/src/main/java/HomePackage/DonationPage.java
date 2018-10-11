@@ -1,6 +1,7 @@
 package HomePackage;
 
 import base.CommonAPI;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -13,9 +14,9 @@ public class DonationPage extends CommonAPI {
     public static WebElement yourName;
 
     //methods
-    public void donatetendollers (){donate.click();}
+    public void donateTenDollers (){donate.click();}
     public void typeInName () {
         donate.click();
-        yourName.sendKeys("Saleem");
+        yourName.sendKeys("Saleem", Keys.ENTER);
     }
 }
