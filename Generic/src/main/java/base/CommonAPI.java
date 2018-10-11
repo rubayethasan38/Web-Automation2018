@@ -442,4 +442,13 @@ public class CommonAPI {
     public void typeByXpathNEnter(String locator, String value){
         webDriver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
+    public String converToString(String st){
+        String splitString ;
+        splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
+        System.out.println(splitString);
+        return splitString;
+    }
+    public void inputValueInTextBox(WebElement webElement, String value){
+        webElement.sendKeys(value );
+    }
 }

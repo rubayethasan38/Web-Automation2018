@@ -3,6 +3,7 @@ package HomePackage;
 import base.CommonAPI;
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.model.ValueRange;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -35,7 +36,7 @@ public class GoogleSheetPage extends CommonAPI {
     }
     //LogIn by using Google Sheet sheet data
     public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
-       logIn.click();
+      click();
        sleepFor(2);
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList();
@@ -52,17 +53,9 @@ public class GoogleSheetPage extends CommonAPI {
         }
         return actual;
     }
-    public void testLogInByInvalidIdPassUsingGoogleSheet() throws IOException, InterruptedException {
-        sleepFor(3);
-        int i = 0;
-        String spreadsheetId = "1DorFJB1q0bRrnM9HSBsACdz3VN8GmrvkujZdCUnTX0w";
-        String range = "Sheet1!B2:C";
-        List<String> actualErrorMessage = signInByInvalidIdPass(spreadsheetId, range);
-        List<List<Object>> expectedErrorMessage = getSpreadSheetRecords(spreadsheetId, range);
-        for (List row : expectedErrorMessage) {
-            System.out.println(expectedErrorMessage.get(i) + ": Search - Passed");
-            i++;
-        }
-        System.out.println("testLogInByInvalidIdPassUsingGoogleSheet Passed");
+    public void click(){
+        webDriver.findElement(By.xpath("//*[@id=\"login-or-signup\"]")).click();
     }
+
+
 }

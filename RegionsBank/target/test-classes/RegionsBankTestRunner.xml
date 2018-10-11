@@ -12,7 +12,7 @@
     <parameter name="url" value="https://www.regions.com/"/>
     <test name = "Search Test">
 <classes>
-   <!-- <class name="HomePageTest.HomeTest"></class> !-->
+    <class name="HomePageTest.HomeTest"></class>
     <class name="HomePageTest.FeaturesTests"></class>
 </classes>
     </test>

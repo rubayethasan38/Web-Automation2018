@@ -16,6 +16,8 @@ public class LoginPage extends CommonAPI {
     public  static WebElement passwordInput;
     @FindBy(xpath = "//*[@id=\"uid-dialog-2-children\"]/div/section[2]/div/div/div[2]/button/div")
     public static WebElement loginAccount;
+    @FindBy(xpath = "//*[@id=\"uid-dialog-0-children\"]/div/section[2]/div/div/div[2]/div[3]")
+    public static WebElement errorMessage;
     //valid credentials
     @FindBy(xpath = "//*[@id=\"login-or-signup\"]")
     public static WebElement validlogin;
@@ -32,6 +34,7 @@ public class LoginPage extends CommonAPI {
         userNameInput.sendKeys("saleem689");
         passwordInput.sendKeys("saif", Keys.ENTER);
     }
+//    public void error() {errorMessage};
     //valid credential
     public void validLoginpage(){login.click();}
     public void validSetLogin() {

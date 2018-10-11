@@ -28,9 +28,8 @@ public class LoginPageTest extends LoginPage {
     public void validLoginTest() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        validLoginpage();}
-
-
+        validLoginpage();
+    }
     @Test
     public void validLoginSign() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
