@@ -8,6 +8,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import reporting.TestLogger;
+
 import java.util.concurrent.TimeUnit;
 
 public class HomeHelper extends CommonAPI {
@@ -25,40 +27,61 @@ public class HomeHelper extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"mainContent\"]/div[4]/div/div/div[2]/a") public static WebElement MissplacedDebitCard;
     @FindBy(xpath = "//*[@id=\"mainContent\"]/div[1]/p/a") public static WebElement HurricaneAlertLearnMore;
      public void setSearchBoxFunction(){
-        searchBox.sendKeys("Atm near Me");
+         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+         }.getClass().getEnclosingMethod().getName()));
+         searchBox.sendKeys("Atm near Me");
     }
      public void usernameInput(){
-        userName.sendKeys("luillo123");
+         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+         }.getClass().getEnclosingMethod().getName()));
+         userName.sendKeys("luillo123");
     }
      public void enrollButtonF(){
-        enrollButton.click();
+         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+         }.getClass().getEnclosingMethod().getName()));
+         enrollButton.click();
     }
      public void careersButtonF(){
-        careersButton.click();
+         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+         }.getClass().getEnclosingMethod().getName()));
+         careersButton.click();
     }
      public void userPasswordInput(){
-        userPassWord.click();
+         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+         }.getClass().getEnclosingMethod().getName()));
+         userPassWord.click();
      }
      public void costumerService(){
-        costumerService.click();
+         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+         }.getClass().getEnclosingMethod().getName()));
+         costumerService.click();
      }
      public void moveSlidesToRight (){
+         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+         }.getClass().getEnclosingMethod().getName()));
         moveSlidesToRight.click();
      }
      public void moveSlideToLeft(){
-        moveSlidesToLeft.click();
+         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+         }.getClass().getEnclosingMethod().getName()));
+         moveSlidesToLeft.click();
      }
      public void studentLoans(){
-         WebDriverWait wait = new WebDriverWait(webDriver, 20);
+         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+         }.getClass().getEnclosingMethod().getName()));WebDriverWait wait = new WebDriverWait(webDriver, 20);
          WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"taskbar\"]/div/ul/li[3]")));
         studentLoans.click();
     }
      public void earnKBonus(){
+         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+         }.getClass().getEnclosingMethod().getName()));
          WebDriverWait wait = new WebDriverWait(webDriver, 10);
          WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"taskbar\"]/div/ul/li[1]/div/div/a")));
          earnKBonus.click();
      }
     public void missPlacedDebitCard(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         MissplacedDebitCard.click();
         String Expected = "Pause Your Debit Card if Misplaced - Wells Fargo" ;
         String Actual = webDriver.getTitle();
@@ -66,7 +89,9 @@ public class HomeHelper extends CommonAPI {
         Assert.assertEquals(Actual, Expected);
     }
     public void HurricaneAlertLearnMoreF(){
-        HurricaneAlertLearnMore.click();
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+         HurricaneAlertLearnMore.click();
         String Expected = "Disaster Response Services - Wells Fargo";
         String Actual = webDriver.getTitle();
         System.out.println(Actual);

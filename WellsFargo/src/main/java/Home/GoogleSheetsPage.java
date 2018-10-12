@@ -5,6 +5,7 @@ import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.model.ValueRange;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 import javax.xml.xpath.XPath;
 import java.io.IOException;
@@ -26,6 +27,8 @@ public class GoogleSheetsPage extends CommonAPI {
     //ALI_GS_TC1
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
         // Build a new authorized API client service.
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         Sheets service = getSheetsService();
         ValueRange response = service.spreadsheets().values()
                 .get(spreadsheetId, range)
@@ -39,6 +42,8 @@ public class GoogleSheetsPage extends CommonAPI {
     }
     //LogIn by using Google Sheet sheet data
     public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList();
         for (List row : col2Value) {
@@ -54,9 +59,11 @@ public class GoogleSheetsPage extends CommonAPI {
         return actual;
     }
     public void testLogInByInvalidIdPassUsingGoogleSheet() throws IOException, InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         sleepFor(3);
         int i = 0;
-        String spreadsheetId = "1ydRwwCy8Ms_Bp4cCu7B6PnhKiqbIOOF48oxx82Su6Dc";
+        String spreadsheetId = "1RMDkIAP5kxxR679LfCKKtYOJC915zbWwuEw5HZce3wQ";
         String range = "Sheet1!A2:C";
         List<String> actualErrorMessage = signInByInvalidIdPass(spreadsheetId, range);
         List<List<Object>> expectedErrorMessage = getSpreadSheetRecords(spreadsheetId, range);

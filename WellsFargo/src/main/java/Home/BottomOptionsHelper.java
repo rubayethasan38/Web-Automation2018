@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 public class BottomOptionsHelper extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"pageFooter\"]/div[1]/nav/div/ul/li[1]/a") public static WebElement AboutWellsFargo;
@@ -16,6 +17,8 @@ public class BottomOptionsHelper extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"pageFooter\"]/div[1]/nav/div/ul/li[8]/a") public static WebElement AddChoices;
 
     public void AboutWellsFargoB(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         AboutWellsFargo.click();
         String Actual = webDriver.findElement(By.xpath("//*[@id=\"skip\"]")).getText();
         String Expected = "About Wells Fargo";
@@ -23,6 +26,8 @@ public class BottomOptionsHelper extends CommonAPI {
         System.out.println(Expected);
     }
     public void privacyButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         Privacy.click();
         String Actual = webDriver.findElement(By.xpath("//*[@id=\"skip\"]")).getText();
         String Expected = "Privacy, Security, and Legal";
@@ -30,6 +35,8 @@ public class BottomOptionsHelper extends CommonAPI {
         System.out.println(Expected);
     }
     public void reportFraudB(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         ReportFraud.click();
         String Actual = webDriver.findElement(By.xpath("//*[@id=\"skip\"]")).getText();
         String Expected = "How to Report Fraud";
@@ -37,6 +44,8 @@ public class BottomOptionsHelper extends CommonAPI {
         System.out.println(Expected);
     }
     public void siteMapB(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         SiteMap.click();
         String Actual = webDriver.findElement(By.xpath("//*[@id=\"skip\"]")).getText();
         String Expected = "Sitemap";
@@ -44,6 +53,8 @@ public class BottomOptionsHelper extends CommonAPI {
         System.out.println(Expected);
     }
     public void accesabilityB(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         Accesability.click();
         String Actual = webDriver.findElement(By.xpath("//*[@id=\"skip\"]")).getText();
         String Expected = "Diversity and Accessibility";
@@ -51,6 +62,8 @@ public class BottomOptionsHelper extends CommonAPI {
         System.out.println(Expected);
     }
     public void onlineAccesment(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         OnlineAccesment.click();
         String Actual = webDriver.findElement(By.xpath("//*[@id=\"skip\"]")).getText();
         String Expected = "Online Access Agreement";
@@ -58,6 +71,8 @@ public class BottomOptionsHelper extends CommonAPI {
         System.out.println(Expected);
     }
     public void addChoices(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         AddChoices.click();
         String Actual = webDriver.findElement(By.xpath("//*[@id=\"skip\"]")).getText();
         String Expected = "Wells Fargo Digital Privacy and Cookies Policy";

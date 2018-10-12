@@ -2,6 +2,8 @@ package Home;
 
 import base.CommonAPI;
 import databases.ConnectToSqlDB;
+import reporting.TestLogger;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,6 +43,8 @@ public class DataBase extends CommonAPI {
     }
     //bring data from db and search using them
     public void searchByDB() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
         //connectToSqlDB.insertDataFromArrayListToSqlTable(getItemValue(),"WellsFargo","ID");
         connectToSqlDB.insertDataFromArrayListToSqlTable(getItemValue(),"WellsFargo1","ID");
@@ -54,6 +58,8 @@ public class DataBase extends CommonAPI {
     public void searchByDBmultiple() throws Exception {
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
         List<String> items = connectToSqlDB.readDataBase("WellsFargo", "ID");
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         for (int i = 0; i < items.size(); i++) {
             typeByXpath("//*[@id=\"userid\"]", items.get(i));
             Thread.sleep(2000);

@@ -36,20 +36,30 @@ public class SignInHelper extends CommonAPI {
     public static WebElement SignOnB;
 
     public void signIn() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         UserInputField.sendKeys("luillo123");
         PasswordInputField.sendKeys("luilloluilllo");
         SignInButton.click();
     }
     public void signInButton() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         SignInButton.click();
     }
     public void forgotPasswordButton() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         ForgotPassword.click();
     }
     public void saveUserName() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         SaveUsernameBox.click();
     }
     public void signInUsingDataProvider(String email, String passCode, String message) throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         SendKeys(AccountUserInput, email, "account");
         AccountPasswordInput.sendKeys(passCode);
         Thread.sleep(3000);

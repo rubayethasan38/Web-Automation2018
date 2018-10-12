@@ -3,6 +3,7 @@ package FeaturesTest;
 import Home.HomeHelper;
 import base.CommonAPI;
 import org.openqa.selenium.InvalidArgumentException;
+import reporting.TestLogger;
 import utility.DataReader;
 
 import java.io.IOException;
@@ -11,12 +12,18 @@ public class Features extends CommonAPI {
     HomeHelper homeHelper;
 
     public void signInTest(){
-       homeHelper.signIn();
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homeHelper.signIn();
     }
     public void clickSignIn() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         homeHelper.clickOnSignIn();
     }
     public void selectAction(String featureName) throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         switch (featureName) {
             case "ClickOnSignIn":
                 clickSignIn();
@@ -35,7 +42,9 @@ public class Features extends CommonAPI {
         return output;
     }
     public void selectFeature() throws IOException, InterruptedException {
-        String[] keyword = getDataFromSignInKeyword("DataFile2.xls");
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String[] keyword = getDataFromSignInKeyword("Key.xls");
         for (int i = 0; i < keyword.length; i++) {
             selectAction(keyword[i]);
         }

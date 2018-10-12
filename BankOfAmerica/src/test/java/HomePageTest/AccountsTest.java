@@ -26,7 +26,6 @@ public class AccountsTest extends HomePageHelper {
         }.getClass().getEnclosingMethod().getName()));
         homePageHelper.enroll();
     }
-
     @Test(priority = 3, enabled = true)
     public void openAnAccount(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {

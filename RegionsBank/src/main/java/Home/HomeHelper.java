@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 public class HomeHelper  extends CommonAPI {
     @FindBy(xpath = "/html/body/div[1]/header/div/div[2]/ul[2]/li[1]/div/a") public static WebElement Locations;
@@ -39,62 +40,88 @@ public class HomeHelper  extends CommonAPI {
     @FindBy(css = "#userid") public static WebElement QuickDepositUserInputBox;
     @FindBy(css = "#pass") public static WebElement QuickDepositPasswordInputBox;
     public void locations(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         Locations.click();
     }
     public void smallBussinessBanking(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         SmallBussinessBanking.click();
     }
     public void commercial(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         Commercial.click();
     }
     public void searchBox(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         SearchBox.sendKeys("Atm Near Me", Keys.ENTER);
         String Expected = "Search Results";
         String Actual = searchText.getText();
         Assert.assertEquals(Actual, Expected);
     }
     public void signIn(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         UserInputBox.sendKeys("selenium");
         PasswordInputBox.sendKeys("100kAYear", Keys.ENTER);
         String ReplyText = signInReply.getText();
         System.out.println("Reply : "+ ReplyText);
     }
     public void forgotPassword(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         ForgotPassword.click();
         String Expected = "Forgot Your Password? - Reset Your Regions Online Banking Password - Regions Online Banking";
         String Actual = webDriver.getTitle();
         Assert.assertEquals(Actual, Expected);
     }
     public void clickOnSignIn(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         LogIn.click();
     }
     public void openAnAccount(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         OpenAnAccount.click();
     }
     public void careers(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         Careers.click();
         String Expected = "Careers | Regions";
         String Actual = webDriver.getTitle();
         Assert.assertEquals(Actual, Expected);
     }
     public void contactUs(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         ContactUs.click();
         String Expected = "Contact Us | Ask Us a Question | Regions";
         String Actual = webDriver.getTitle();
         Assert.assertEquals(Actual,Expected);
     }
     public void changeToSpanish(){
-       ChangeLanguageToSpanish.click();
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        ChangeLanguageToSpanish.click();
     }
     public void recoverPassword(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         ForgotPassword.click();
-       WebDriverWait wait = new WebDriverWait(webDriver,10);
-       wait.until(ExpectedConditions.elementToBeClickable(OnlineIdInputBox));
+        WebDriverWait wait = new WebDriverWait(webDriver,10);
+        wait.until(ExpectedConditions.elementToBeClickable(OnlineIdInputBox));
         OnlineIdInputBox.sendKeys("123123123");
         CardNumberInputBox.sendKeys("1232232375849765");
         PinInputbox.sendKeys("5555555",Keys.ENTER);
     }
     public void searchBranchByLocations(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         Locations.click();
         branchZipCodeInput.sendKeys("33025",Keys.ENTER);
         String Expected = "Locator | Regions";
@@ -102,6 +129,8 @@ public class HomeHelper  extends CommonAPI {
         Assert.assertEquals(Expected, Actual);
     }
     public void searchBranchByCityAndState(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         Locations.click();
         branchCityInput.sendKeys("Miramar");
         branchStateInput.sendKeys("FL",Keys.ENTER);
@@ -110,14 +139,20 @@ public class HomeHelper  extends CommonAPI {
         Assert.assertEquals(Actual,Expected);
     }
     public void applyForStudentLoan(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         ServicesInterface.click();
         MyStudentLoan.click();
     }
     public void collections(){
-    ServicesInterface.click();
-    collectionsButton.click();
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        ServicesInterface.click();
+         collectionsButton.click();
     }
     public void quickDeposit(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         ServicesInterface.click();
         QuickDeposit.click();
         QuickDepositUserInputBox.sendKeys("selenium123");

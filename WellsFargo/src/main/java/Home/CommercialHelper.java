@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 public class CommercialHelper  extends CommonAPI {
 
@@ -20,6 +21,8 @@ public class CommercialHelper  extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"NID1_8_3_1_1_1_4_7_1\"]") public static WebElement MoreIndustries;
     @FindBy(xpath = "//*[@id=\"insightsTab\"]/a") public static WebElement MoreInsights;
     public void SignOn(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         CommercialInterface.click();
         SignOnButton.click();
         CommercialCompanyId.sendKeys("12345");
@@ -27,11 +30,15 @@ public class CommercialHelper  extends CommonAPI {
         CommercialPasswordInput.sendKeys("amd123", Keys.ENTER);
     }
     public void succesStoriesVideo (){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         CommercialInterface.click();
         WatchVideo.click();
         PlayVideo.click();
     }
     public void productsAndServices(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         CommercialInterface.click();
         ProductsAndServices.click();
     }
@@ -39,10 +46,14 @@ public class CommercialHelper  extends CommonAPI {
         CommercialSignOnButton.click();
     }
     public void moreIndustrices(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         CommercialInterface.click();
         MoreIndustries.click();
     }
     public void moreInsights(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         CommercialInterface.click();
         MoreInsights.click();
 

@@ -39,61 +39,93 @@ public class HomePageHelper extends CommonAPI {
     @FindBy(id = "AutoLoans_GetStarted_2017mOAA2RS")public static WebElement ApplyForCarLoan;
     @FindBy(id = "SB_GetStarted_2017mOAA2RS")public static WebElement OpenSmallBussiness;
     public void searchBox() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         SearhBox.sendKeys("ATM near me ", Keys.ENTER);
     }
     public void changeLenguage(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         SpanishSite.click();
     }
     public void contactUs(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         ContactUs.click();
     }
     public void help(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         Help.click();
     }
     public void smallBussiness(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         SmallBussiness.click();
     }
     public void wealthManagement(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         WealthManagement.click();
     }
     public void bussinessAI(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         BussinessAndInstitutions.click();
     }
     public void aboutUs(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         AboutUs.click();
     }
     public void signIn(){
-    SignInInputBox.sendKeys("selenium123123");
-    PasswordInputBox.sendKeys("ddeddeefe");
-    SignInButton.click();
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+         SignInInputBox.sendKeys("selenium123123");
+         PasswordInputBox.sendKeys("ddeddeefe");
+         SignInButton.click();
     }
     public void forgotPassword(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         ForgotPassWord.click();
         AccountNumberInputBox.sendKeys("123123123123123");
         ssnInputBox.sendKeys("234234234234234",Keys.ENTER);
     }
     public void enroll(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         Enroll.click();
         EnrollAccountNumberInput.sendKeys("234234234234234");
         EnrollSSNInput.sendKeys("234234234",Keys.ENTER);
     }
     public void openAccount (){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         OpenAnAccount.click();
         GetStartedChecking.click();
     }
     public void openCreditCard(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         OpenAnAccount.click();
         GetStartedCreditCard.click();
     }
     public void homeLoan(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         OpenAnAccount.click();
         ApplyForHomeLoan.click();
     }
     public void carLoan(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         OpenAnAccount.click();
         ApplyForCarLoan.click();
     }
     public void startSmallBussiness(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         OpenAnAccount.click();
         OpenSmallBussiness.click();
     }
