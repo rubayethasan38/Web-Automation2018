@@ -13,6 +13,8 @@
         <module>KhanAcademy</module>
         <module>TreeHouse</module>
         <module>RESTapi</module>
+        <module>BHPhoto</module>
+        <module>BestBuy</module>
     </modules>
 
     <dependencyManagement>

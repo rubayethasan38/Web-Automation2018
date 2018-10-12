@@ -1,4 +1,4 @@
-package KeyWordDriven;
+package KeywordDriven;
 
 import Home.HomeHelper;
 import base.CommonAPI;
