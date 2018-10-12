@@ -13,17 +13,12 @@ public class KeyWordSignIn extends CommonAPI {
     HomePage homePage = PageFactory.initElements(webDriver, HomePage.class);
     LoginPage loginPage =PageFactory.initElements(webDriver, LoginPage.class);
 
-
     public void goToLoginpage(){
     }
     public void validSetLogin(){
-
     }
-
     public void login(){
-
     }
-
     public void selectAction(String featureName) throws IOException, InterruptedException {
         switch (featureName) {
             case "ClickLogin":
