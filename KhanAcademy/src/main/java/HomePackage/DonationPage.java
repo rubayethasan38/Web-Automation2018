@@ -15,8 +15,9 @@ public class DonationPage extends CommonAPI {
 
     //methods
     public void donateTenDollers (){donate.click();}
-    public void typeInName () {
+    public void typeInName () throws InterruptedException {
         donate.click();
+        sleepFor(2);
         yourName.sendKeys("Saleem", Keys.ENTER);
     }
 }

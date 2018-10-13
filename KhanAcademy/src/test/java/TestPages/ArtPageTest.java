@@ -8,68 +8,68 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 public class ArtPageTest extends ArtPage {
+    ArtPage artPage;
     @BeforeMethod
-    public void artAndHumanities() {
-        ArtPage artPage = PageFactory.initElements(webDriver, ArtPage.class);
+    public void artAndHumanities() { artPage = PageFactory.initElements(webDriver, ArtPage.class);
     }
 
     //ArtAndHumanities
     @Test
     public void artHumanities() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickArt();
+    artPage.clickArt();
     }
     @Test void chooseHistory () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickHistory();
+    artPage.clickHistory();
     }
     @Test void studyUsHistory () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickUsHistory();
+    artPage.clickUsHistory();
     }
     @Test void setWorldHistory () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickWorldHistory();
+    artPage.clickWorldHistory();
     }
     @Test void pickArtHistory() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickArtHistory();}
+    artPage.clickArtHistory();}
     //Science and engineering section
 
     @Test
     public void setPhysics () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickPhysics();
+    artPage.clickPhysics();
     }
     @Test
     public void pickChemistry () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickChemistry();
+    artPage.clickChemistry();
     }
     @Test
     public void chooseBiology () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickBiology();
+    artPage.clickBiology();
     }
     @Test void setHealthAndMedicine () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickHealthAndMedicine();
+    artPage.clickHealthAndMedicine();
     }
     @Test void getHourOfCode () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickHourOfCode();
+    artPage.clickHourOfCode();
     }
     @Test public void getComputerAnimation(){TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickComputerAnimation();
+    artPage.clickComputerAnimation();
     }
     @Test
     public void getComputerEngineering(){TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickElectricalEngineering();
+    artPage.clickElectricalEngineering();
     }
     @Test void getGovernmentCivics(){TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickGovernmentAndCivics();
+    artPage.clickGovernmentAndCivics();
     }
 }

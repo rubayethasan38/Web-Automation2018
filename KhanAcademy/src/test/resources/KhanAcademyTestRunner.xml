@@ -13,14 +13,15 @@
 
     <test name = "Search Test">
         <classes>
-            <class name="TestPages.MathEnterPageTest"/>
-            <class name="TestPages.SearchPageTest"/>
-            <!--<class name="menu.MenuPage"/>-->
-            <class name="TestPages.ArtPageTest"/>
-            <class name="TestPages.DonationPageTest"/>
-            <class name="TestPages.LoginPageTest"/>
-            <class name="TestPages.CoursesTest"/>
-            <class name="TestPages.SingUpPageTest"/>
+            <!--<class name="TestPages.MathEnterPageTest"/>-->
+            <!--<class name="TestPages.SearchPageTest"/>-->
+            <!--&lt;!&ndash;<class name="menu.MenuPage"/>&ndash;&gt;-->
+            <!--<class name="TestPages.ArtPageTest"/>-->
+            <!--<class name="TestPages.DonationPageTest"/>-->
+            <!--<class name="TestPages.LoginPageTest"/>-->
+            <!--<class name="TestPages.CoursesTest"/>-->
+            <!--<class name="TestPages.SingUpPageTest"/>-->
+            <class name="TestPages.SignInByExcelFile"/>
         </classes>
     </test>
 </suite>

@@ -2,8 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b27728c-a8c4-4787-9627-779c06ea66a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/data/DataFile2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/main/java/DataBases/ConnectToMongoDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/main/java/DataBases/SearchElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestDatabases/ConnecToMongoDBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SignInByExcelFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/data/ExcelData.xls" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/data/ExcelData.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/data/keyword.xls" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/data/keyword.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/DonationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/DonationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/KeyWordSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/KeyWordSignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/ArtPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/ArtPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/CoursesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/CoursesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/DonationPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/DonationPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/KeyWordSignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/KeyWordSignInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/MathEnterPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/MathEnterPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SearchPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SearchPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SingUpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SingUpPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/src/test/resources/KhanAcademyTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/src/test/resources/KhanAcademyTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/classes/HomePackage/DonationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/classes/HomePackage/DonationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/classes/HomePackage/KeyWordSignIn$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/classes/HomePackage/KeyWordSignIn$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/classes/HomePackage/KeyWordSignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/classes/HomePackage/KeyWordSignIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/classes/HomePackage/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/classes/HomePackage/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/KhanAcademyTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/KhanAcademyTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/ArtPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/ArtPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/CoursesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/DonationPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/DonationPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/KeyWordSignInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/KeyWordSignInTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/LoginPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/MathEnterPageTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/MathEnterPageTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/MathEnterPageTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/MathEnterPageTest$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/MathEnterPageTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/MathEnterPageTest$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/MathEnterPageTest$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/MathEnterPageTest$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/MathEnterPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/MathEnterPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/SearchPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/SearchPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/SingUpPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/KhanAcademy/target/test-classes/TestPages/SingUpPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTapi/target/test-classes/JSONServer/PostsResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/target/test-classes/JSONServer/PostsResource.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,17 +77,18 @@
     <session id="75069078">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -43,10 +96,11 @@
           <entry key="class" value="4" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="322" />
+          <entry key="java" value="415" />
           <entry key="json" value="3" />
           <entry key="png" value="4" />
-          <entry key="xml" value="45" />
+          <entry key="server/khan/collection" value="5" />
+          <entry key="xml" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -55,23 +109,24 @@
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="322" />
+          <entry key="JAVA" value="415" />
           <entry key="JSON" value="3" />
-          <entry key="XML" value="45" />
+          <entry key="MONGO" value="5" />
+          <entry key="XML" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="43" />
-          <entry key="java" value="10763" />
-          <entry key="xml" value="467" />
+          <entry key="java" value="11325" />
+          <entry key="xml" value="473" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10763" />
+          <entry key="JAVA" value="11325" />
           <entry key="PLAIN_TEXT" value="43" />
-          <entry key="XML" value="467" />
+          <entry key="XML" value="473" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -87,10 +142,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/KeyWordSignInTest.java">
+        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/ExcelFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SignInByExcelFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/CoursesPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/ArtPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/DataBases/ConnectToMongoDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="23" column="80" lean-forward="true" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,76 +195,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
+        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestDatabases/ConnecToMongoDBTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+            <state relative-caret-position="285">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/OpenWeatherMap/GetRequestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="300">
               <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RESTapi/pom.xml">
+        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/DataBases/SearchElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/LoginPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,8 +232,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
+            <state relative-caret-position="1303">
               <caret line="110" column="25" lean-forward="true" selection-start-line="110" selection-start-column="25" selection-end-line="110" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/ArtPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1110">
+              <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -205,12 +270,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/DonationHome.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/EnterPage.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/EnterPageTest.java" />
-        <option value="$PROJECT_DIR$/TreeHouse/pom.xml" />
-        <option value="$PROJECT_DIR$/KhanAcademy/pom.xml" />
-        <option value="$PROJECT_DIR$/TreeHouse/src/main/java/HomePackage/TrialPage.java" />
         <option value="$PROJECT_DIR$/TreeHouse/src/test/java/TestPages/TeamPageTest.java" />
         <option value="$PROJECT_DIR$/TreeHouse/src/test/java/TestPages/TrialPageTest.java" />
         <option value="$PROJECT_DIR$/TreeHouse/src/main/java/HomePackage/TeamPage.java" />
@@ -218,44 +277,50 @@
         <option value="$PROJECT_DIR$/TreeHouse/src/test/resources/TreeHouseTestRunner.xml" />
         <option value="$PROJECT_DIR$/TreeHouse/src/test/java/TestPages/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/TreeHouse/src/main/java/HomePackage/LoginPage.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/MathEnterPageTest.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/CoursesHoverOverTest.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/CoursesHoverOverPage.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/CoursesTest.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/ArtPageTest.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/CoursesPage.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/DonationPage.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SingUpPageTest.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/SearchPage.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/test/resources/KhanAcademyTestRunner.xml" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/ArtPage.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/SignUpPage.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/DonationPageTest.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SearchPageTest.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/MathEnterPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/SheetsScopes.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/ExcelFileReader.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/GoogleSheetReader.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/HomePageTest.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/HomePage.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/KeyWordSignInTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/GoogleSheetPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/GoogleSheetTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestDatabases/TestDBExcel.java" />
         <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/DataBases/DBExcel.java" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/LoginPage.java" />
         <option value="$PROJECT_DIR$/RESTapi/src/main/java/JSONServer/PostsResource.java" />
         <option value="$PROJECT_DIR$/RESTapi/src/main/java/OpenWeatherMap/GetRequestTest.java" />
-        <option value="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java" />
         <option value="$PROJECT_DIR$/RESTapi/src/test/java/OpenWeatherMap/GetRequestTest.java" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
-        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/KeyWordSignIn.java" />
         <option value="$PROJECT_DIR$/RESTapi/pom.xml" />
+        <option value="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/resources/KhanAcademyTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/LoginPage.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SignInByExcelFile.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/HomePage.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/DonationPage.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/KeyWordSignInTest.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/KeyWordSignIn.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SingUpPageTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/ArtPageTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/CoursesTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/DonationPageTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/LoginPageTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/MathEnterPageTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SearchPageTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/DataBases/CoonectToMongoDB.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/test/java/TestDatabases/ConnecToMongoDBTest.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/DataBases/SearchElements.java" />
+        <option value="$PROJECT_DIR$/KhanAcademy/src/main/java/DataBases/ConnectToMongoDB.java" />
       </list>
     </option>
   </component>
@@ -304,7 +369,6 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="353" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="967" />
@@ -336,6 +400,77 @@
             <path>
               <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DataBases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestDatabases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestPages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="KhanAcademy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="RESTapi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -343,6 +478,13 @@
               <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="RESTapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="RESTapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -381,13 +523,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539307308395" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539396858271" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -395,11 +537,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/KhanAcademy/data" />
       <recent name="$PROJECT_DIR$/Generic/resources" />
       <recent name="$PROJECT_DIR$/Generic" />
       <recent name="$PROJECT_DIR$/Generic/src/main/java/resources" />
       <recent name="$PROJECT_DIR$/TreeHouse/src/test" />
-      <recent name="$PROJECT_DIR$/KhanAcademy/src/test" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -428,7 +570,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PostsResource.putNullPost">
+  <component name="RunManager" selected="TestNG.GetRequestTest.testResponseID">
+    <configuration name="ConnecToMongoDBTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="KhanAcademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestDatabases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestDatabases" />
+      <option name="MAIN_CLASS_NAME" value="TestDatabases.ConnecToMongoDBTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetRequestTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTapi" />
       <extension name="coverage">
@@ -439,24 +597,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="OpenWeatherMap" />
       <option name="MAIN_CLASS_NAME" value="OpenWeatherMap.GetRequestTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequestTest.testResponseCity" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RESTapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OpenWeatherMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="OpenWeatherMap" />
-      <option name="MAIN_CLASS_NAME" value="OpenWeatherMap.GetRequestTest" />
-      <option name="METHOD_NAME" value="testResponseCity" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -474,6 +614,24 @@
       <option name="PACKAGE_NAME" value="OpenWeatherMap" />
       <option name="MAIN_CLASS_NAME" value="OpenWeatherMap.GetRequestTest" />
       <option name="METHOD_NAME" value="testResponseID" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostsResource.postTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RESTapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JSONServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JSONServer" />
+      <option name="MAIN_CLASS_NAME" value="JSONServer.PostsResource" />
+      <option name="METHOD_NAME" value="postTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -499,38 +657,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDBExcel.validLoginSign" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="KhanAcademy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestDatabases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestDatabases" />
-      <option name="MAIN_CLASS_NAME" value="TestDatabases.TestDBExcel" />
-      <option name="METHOD_NAME" value="validLoginSign" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.TestDBExcel.validLoginSign" />
-      <item itemvalue="TestNG.GetRequestTest.testResponseID" />
-      <item itemvalue="TestNG.GetRequestTest.testResponseCity" />
+      <item itemvalue="TestNG.ConnecToMongoDBTest" />
       <item itemvalue="TestNG.GetRequestTest" />
+      <item itemvalue="TestNG.PostsResource.postTest" />
       <item itemvalue="TestNG.PostsResource.putNullPost" />
+      <item itemvalue="TestNG.GetRequestTest.testResponseID" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PostsResource.putNullPost" />
-        <item itemvalue="TestNG.GetRequestTest" />
-        <item itemvalue="TestNG.GetRequestTest.testResponseCity" />
         <item itemvalue="TestNG.GetRequestTest.testResponseID" />
-        <item itemvalue="TestNG.TestDBExcel.validLoginSign" />
+        <item itemvalue="TestNG.PostsResource.putNullPost" />
+        <item itemvalue="TestNG.PostsResource.postTest" />
+        <item itemvalue="TestNG.GetRequestTest" />
+        <item itemvalue="TestNG.ConnecToMongoDBTest" />
       </list>
     </recent_temporary>
   </component>
@@ -548,42 +688,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KeyWordSignInTest_testLogIn - 2018.10.10 at 23h 17m 14s.xml">
+    <history-entry file="KeyWordSignInTest_testLogIn - 2018.10.12 at 19h 40m 13s.xml">
       <configuration name="KeyWordSignInTest.testLogIn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSheetTest_testLogInByInvalidIdPassUsingGoogleSheet - 2018.10.10 at 23h 20m 55s.xml">
-      <configuration name="GoogleSheetTest.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    <history-entry file="KeyWordSignInTest_testLogIn - 2018.10.12 at 19h 47m 50s.xml">
+      <configuration name="KeyWordSignInTest.testLogIn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSheetTest_testLogInByInvalidIdPassUsingGoogleSheet - 2018.10.10 at 23h 21m 36s.xml">
-      <configuration name="GoogleSheetTest.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_validLoginSign - 2018.10.12 at 19h 50m 42s.xml">
+      <configuration name="LoginPageTest.validLoginSign" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSheetTest_testLogInByInvalidIdPassUsingGoogleSheet - 2018.10.10 at 23h 22m 32s.xml">
-      <configuration name="GoogleSheetTest.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_validLoginSign - 2018.10.12 at 19h 51m 05s.xml">
+      <configuration name="LoginPageTest.validLoginSign" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSheetTest_testLogInByInvalidIdPassUsingGoogleSheet - 2018.10.10 at 23h 23m 43s.xml">
-      <configuration name="GoogleSheetTest.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    <history-entry file="KeyWordSignInTest_testLogIn - 2018.10.12 at 19h 53m 07s.xml">
+      <configuration name="KeyWordSignInTest.testLogIn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestDBExcel_validLoginSign - 2018.10.11 at 16h 51m 11s.xml">
-      <configuration name="TestDBExcel.validLoginSign" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_validLoginSign - 2018.10.12 at 20h 02m 46s.xml">
+      <configuration name="LoginPageTest.validLoginSign" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetRequestTest_testResponseID - 2018.10.11 at 18h 34m 21s.xml">
-      <configuration name="GetRequestTest.testResponseID" configurationId="TestNG" />
+    <history-entry file="LoginPageTest - 2018.10.12 at 20h 03m 28s.xml">
+      <configuration name="LoginPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetRequestTest_testResponseCity - 2018.10.11 at 18h 34m 33s.xml">
-      <configuration name="GetRequestTest.testResponseCity" configurationId="TestNG" />
+    <history-entry file="LoginPageTest - 2018.10.12 at 20h 30m 57s.xml">
+      <configuration name="LoginPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetRequestTest - 2018.10.11 at 18h 34m 44s.xml">
-      <configuration name="GetRequestTest" configurationId="TestNG" />
+    <history-entry file="ConnecToMongoDBTest - 2018.10.12 at 21h 59m 09s.xml">
+      <configuration name="ConnecToMongoDBTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetRequestTest - 2018.10.11 at 18h 36m 31s.xml">
-      <configuration name="GetRequestTest" configurationId="TestNG" />
+    <history-entry file="ConnecToMongoDBTest - 2018.10.12 at 22h 01m 15s.xml">
+      <configuration name="ConnecToMongoDBTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="353" y="23" width="1680" height="967" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49657065" visible="true" weight="0.16544567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49657065" visible="true" weight="0.24420024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -592,12 +732,41 @@
       <window_info id="Favorites" order="6" sideWeight="0.50342935" side_tool="true" weight="0.13858365" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" visible="true" weight="0.3462857" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38870433" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" visible="true" weight="0.31428573" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38857144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35918367" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35885715" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501221" side_tool="true" weight="0.25714287" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295063" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.498779" weight="0.2902857" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" weight="0.2728938" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.17765568" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49657065" visible="true" weight="0.16032812" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50342935" side_tool="true" weight="0.13858365" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" weight="0.56114286" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38857144" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35885715" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501221" side_tool="true" weight="0.25714287" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295063" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.498779" weight="0.2902857" />
@@ -610,35 +779,6 @@
       <window_info anchor="right" id="Mongo Explorer" order="6" weight="0.32967034" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.17765568" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49657065" visible="true" weight="0.1996337" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50342935" side_tool="true" weight="0.13858365" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" weight="0.3091837" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38870433" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3594625" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501221" side_tool="true" weight="0.25714287" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295063" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.498779" weight="0.29047072" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Mongo Explorer" order="6" weight="0.32967034" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.33455434" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -667,102 +807,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/2.3.1/selenium-chrome-driver-2.3.1-sources.jar!/org/openqa/selenium/chrome/ChromeDriverService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/api-client/google-api-client/1.23.0/google-api-client-1.23.0.jar!/com/google/api/client/googleapis/auth/oauth2/GoogleClientSecrets.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/TestResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="650" selection-start-line="650" selection-end-line="650" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/resources/client_secret_1.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/resources/client_secret.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/resources/client_secret_2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="123" selection-start-column="123" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/HomePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/javafx.controls/javafx/scene/control/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3119">
-          <caret line="336" column="13" selection-start-line="336" selection-start-column="13" selection-end-line="336" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2580">
-          <caret line="199" column="30" selection-start-line="199" selection-start-column="30" selection-end-line="199" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/org/apache/poi/ss/usermodel/Cell.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17-sources.jar!/org/apache/poi/ss/usermodel/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="284" column="50" selection-start-line="284" selection-start-column="50" selection-end-line="284" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -791,36 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SingUpPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SearchPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/MathEnterPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
@@ -846,9 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,177 +880,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/ArtPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/SuiteRunnerWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="e#2672#2673#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/ArtPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3763">
-          <caret line="88" column="41" lean-forward="true" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3150#3151#0" expanded="true" />
-            <element signature="e#3180#3181#0" expanded="true" />
-            <element signature="e#18181#18182#0" expanded="true" />
-            <element signature="e#18224#18225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/DataBases/DBExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestDatabases/TestDBExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/ExcelFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/Xls_Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/GoogleSheetPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
-            <element signature="e#2394#2395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RESTapi/src/main/java/OpenWeatherMap/GetRequestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RESTapi/src/main/java/JSONServer/PostsResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/GoogleSheetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/KeyWordSignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/KeyWordSignInTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/OpenWeatherMap/GetRequestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/DataBases/DBExcel.java" />
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestDatabases/TestDBExcel.java" />
+    <entry file="file://$PROJECT_DIR$/RESTapi/src/main/java/OpenWeatherMap/GetRequestTest.java" />
+    <entry file="file://$PROJECT_DIR$/RESTapi/src/main/java/JSONServer/PostsResource.java" />
     <entry file="file://$PROJECT_DIR$/RESTapi/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -1050,40 +905,310 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        <state relative-caret-position="-64">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/resources/KhanAcademyTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3150#3151#0" expanded="true" />
+            <element signature="e#3180#3181#0" expanded="true" />
+            <element signature="e#18181#18182#0" expanded="true" />
+            <element signature="e#18224#18225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="116" column="1" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/Xls_Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/SignUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/CoursesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/DonationPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/GoogleSheetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/KeyWordSignInTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/MathEnterPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SearchPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SingUpPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/DonationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/GoogleSheetPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2394#2395#0" expanded="true" />
+            <element signature="e#2481#2482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/KeyWordSignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/MathEnterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/ExcelFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/SignInByExcelFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/CoursesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestPages/ArtPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/DataBases/CoonectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/HomePackage/ArtPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
+        <state relative-caret-position="1303">
           <caret line="110" column="25" lean-forward="true" selection-start-line="110" selection-start-column="25" selection-end-line="110" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java">
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/DataBases/SearchElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/main/java/DataBases/ConnectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="80" lean-forward="true" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KhanAcademy/src/test/java/TestDatabases/ConnecToMongoDBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/OpenWeatherMap/GetRequestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -11,10 +11,4 @@ public class HomePage extends CommonAPI {
     public static WebElement login;
 
     public void goToLoginpage(){login.click();}
-
-
-
-
-
-
 }

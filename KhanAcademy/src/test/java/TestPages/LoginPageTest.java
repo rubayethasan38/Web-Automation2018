@@ -8,32 +8,32 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 public class LoginPageTest extends LoginPage {
+    LoginPage loginPage;
     @BeforeMethod
-            public void LogInTo () {
-    LoginPage loginPage = PageFactory.initElements(webDriver, LoginPage.class);
+            public void LogInTo () { loginPage = PageFactory.initElements(webDriver, LoginPage.class);
 }
     @Test
     public void selectSignIn() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        loginpage();
+        loginPage.loginpage();
     }
     @Test
-    public void loginTest() {
+    public void loginTest() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        setLogin();
+        loginPage.setLogin();
     }
     @Test
     public void validLoginTest() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        validLoginpage();
+        loginPage.validLoginpage();
     }
     @Test
-    public void validLoginSign() {
+    public void validLoginSign() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        validSetLogin();
+        loginPage.validSetLogin();
     }
 }

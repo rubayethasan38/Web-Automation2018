@@ -24,7 +24,7 @@ public class PostsResource {
         JSONObject jsonObject = new JSONObject();
 
         jsonObject.put("id", 91);
-        jsonObject.put("title", "juned");
+        jsonObject.put("title", "saleem");
         jsonObject.put("author", "QA");
 
         request.body(jsonObject.toJSONString());

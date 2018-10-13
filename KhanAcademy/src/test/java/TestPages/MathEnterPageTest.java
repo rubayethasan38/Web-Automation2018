@@ -8,43 +8,40 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 public class MathEnterPageTest extends MathEnterPage {
+    MathEnterPage mathEnterPage;
     @BeforeMethod
     public void khanAcademy() {
-        MathEnterPage enterPage = PageFactory.initElements(webDriver, MathEnterPage.class);
+        mathEnterPage = PageFactory.initElements(webDriver, MathEnterPage.class);
     }
 
     @Test
     public void clickOnKhanAcademy() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage();
+        mathEnterPage.mainPage();
     }
-
     @Test
     public void clickMath() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        math();
+        mathEnterPage.math();
     }
-
     @Test
     void clickGeometry() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        selectGeometry();
+        mathEnterPage.selectGeometry();
     }
-
     @Test
     public void setPrecalculas() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        clickPrecalculas();
+        mathEnterPage.clickPrecalculas();
     }
-
     @Test
     void clickAlgebra2() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        subAlgebra2();
+        mathEnterPage.subAlgebra2();
     }
 }

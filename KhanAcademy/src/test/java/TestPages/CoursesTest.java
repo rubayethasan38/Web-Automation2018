@@ -8,55 +8,56 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 public class CoursesTest extends CoursesPage {
+    CoursesPage coursesPage;
     @BeforeMethod
-    public void init() {
-        CoursesPage coursesHoverOverPage = PageFactory.initElements(webDriver, CoursesPage.class);}
+    public void init() { coursesPage = PageFactory.initElements(webDriver, CoursesPage.class);
+    }
     @Test
     public void getCourses() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        clickCourses();
+        coursesPage.clickCourses();
     }
     @Test
     public void getGrammer() {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickGrammer();
+    coursesPage.clickGrammer();
     }
     @Test
     public void getSat() {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickSat();
+    coursesPage.clickSat();
     }
     @Test
     public void getmCat() {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickMcat();
+    coursesPage.clickMcat();
     }
     @Test
     public void getGmat() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickGmat();
+    coursesPage.clickGmat();
     }
     @Test
     public void getLsat() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickLsat();
+    coursesPage.clickLsat();
     }
     //Science and engineering
     @Test
     public void getPhysics() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickPhysic();
+    coursesPage.clickPhysic();
     }
     @Test
     public void getPhysics1() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickPhysic1();
+    coursesPage.clickPhysic1();
     }
     @Test
     public void getPhysics2() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickPhysics2();
+    coursesPage.clickPhysics2();
     }
 }
 

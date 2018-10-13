@@ -8,73 +8,73 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 public class SearchPageTest extends SearchPage {
+    SearchPage searchPage;
     @BeforeMethod
-    public void search () {
-        SearchPage searchPage = PageFactory.initElements(webDriver, SearchPage.class);
+    public void search () { searchPage = PageFactory.initElements(webDriver, SearchPage.class);
     }
     @Test
     public void clickSearch () {  TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    searchIn();
+    searchPage.searchIn();
     }
     @Test
     public void searchMath () { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    searchItem();}
+    searchPage.searchItem();}
     @Test
     public void searchComputer() {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    searchIT();}
+    searchPage.searchIT();}
     @Test void biology () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    searchScience();}
+    searchPage.searchScience();}
     @Test
     public void english () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    searchEnglish();}
+    searchPage.searchEnglish();}
     @Test
     public void art () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    searchArts(); }
+    searchPage.searchArts(); }
     @Test
     public void test () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    searchTest();}
+    searchPage.searchTest();}
     @Test
     public void career () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    searchCareer();}
+    searchPage.searchCareer();}
 
     //bottom section of the page
 
     @Test
     public void about() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickAbout();}
+    searchPage.clickAbout();}
     @Test
     public void team() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickTeam();}
+    searchPage.clickTeam();}
     @Test
     public void leader() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickLeader();}
+    searchPage.clickLeader();}
     @Test
     public void help() {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickHelp();}
+    searchPage.clickHelp();}
     @Test
     public void press() {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickPress();}
+    searchPage.clickPress();}
     @Test
     public void IOSApp() {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickIOS();}
+    searchPage.clickIOS();}
     @Test
     public void androidApp() {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickAndroid();
+    searchPage.clickAndroid();
     }
 }
 

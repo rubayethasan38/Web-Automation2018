@@ -8,18 +8,18 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 public class DonationPageTest extends DonationPage {
-@BeforeMethod
-public void initDonation(){
-    DonationPage donationPage= PageFactory.initElements(webDriver,DonationPage.class);
+    DonationPage donationPage;
+    @BeforeMethod
+    public void initDonation(){ donationPage= PageFactory.initElements(webDriver,DonationPage.class);
 }
     @Test
     public void clickDonate() {  TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    donateTenDollers();
+    donationPage.donateTenDollers();
 }
     @Test
-    public void giveUserName() { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void giveUserName() throws InterruptedException { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    typeInName();
+    donationPage.typeInName();
     }
 }

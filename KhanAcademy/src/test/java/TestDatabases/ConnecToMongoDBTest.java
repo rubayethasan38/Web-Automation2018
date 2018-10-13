@@ -1,4 +1,35 @@
 package TestDatabases;
 
-public class ConnecToMongoDBTest {
+import DataBases.ConnectToMongoDB;
+import DataBases.SearchElements;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import reporting.TestLogger;
+
+import java.util.List;
+
+public class ConnecToMongoDBTest extends SearchElements {
+
+    SearchElements object;
+
+    @BeforeMethod
+    public void init() {
+        object = PageFactory.initElements(webDriver, SearchElements.class);
+    }
+
+    @Test
+    public void testsearch() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        List<String> text = ConnectToMongoDB.readFromMongoDB("items");
+
+        System.out.println("\n\n\n");
+        for (int index = 0; index < text.size(); index++) {
+            Assert.assertEquals(text.get(index), text.get(index));
+        }
+    }
 }
+
+
