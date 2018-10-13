@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
+import javax.security.auth.x500.X500Principal;
 import javax.xml.xpath.XPath;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -20,10 +21,12 @@ import static org.openqa.selenium.support.How.XPATH;
 public class GoogleSheetsPage extends CommonAPI {
     @FindBy(css = "#userid")
     public static WebElement account;
-    @FindBy(css = "#password")
+    @FindBy(css = "#j_password")
     public static WebElement password;
-    @FindBy(xpath = "//*[@id=\"pageerrors\"]/div")
-    public static WebElement signInErrorMesage;
+    @FindBy(xpath = "//*[@id=\"j_username\"]")
+    public static WebElement account2;
+    @FindBy (xpath = "//*[@id=\"btnSignon\"]")
+    public static WebElement signOn;
     //ALI_GS_TC1
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
         // Build a new authorized API client service.
@@ -47,14 +50,11 @@ public class GoogleSheetsPage extends CommonAPI {
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList();
         for (List row : col2Value) {
-            sleepFor(2);
-            inputValueInTextBoxByWebElement(account, row.get(1).toString());
+            inputValueInTextBoxByWebElement(account,row.get(1).toString());
+            sleepFor(1);
+            inputValueInTextBoxByWebElement(account2,row.get(1).toString());
             inputValueInTextBoxByWebElement(password, row.get(2).toString());
-            sleepFor(2);
-            actual.add(getTextByWebElement(signInErrorMesage));
-            System.out.println(getTextByWebElement(signInErrorMesage));
-            clearInputBox(account);
-            clearInputBox(password);
+             break;
         }
         return actual;
     }
@@ -63,8 +63,8 @@ public class GoogleSheetsPage extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         sleepFor(3);
         int i = 0;
-        String spreadsheetId = "1RMDkIAP5kxxR679LfCKKtYOJC915zbWwuEw5HZce3wQ";
-        String range = "Sheet1!A2:C";
+        String spreadsheetId = "1rmlhLW8vC7qh76TmPtJam7JpNPzstYXy0TTYmP_6aoE";
+        String range = "Sheet1!B2:D";
         List<String> actualErrorMessage = signInByInvalidIdPass(spreadsheetId, range);
         List<List<Object>> expectedErrorMessage = getSpreadSheetRecords(spreadsheetId, range);
         for (List row : expectedErrorMessage) {

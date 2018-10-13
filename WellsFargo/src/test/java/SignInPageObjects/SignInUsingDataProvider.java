@@ -3,6 +3,7 @@ package SignInPageObjects;
 import Home.HomeHelper;
 import Home.SignInHelper;
 import Home.SmallBussiness;
+import base.CommonAPI;
 import datProviderUtilityWIthXlsReader.XlsDataReaderUtil;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
@@ -29,6 +30,8 @@ public class SignInUsingDataProvider extends SignInHelper {
     }
     @Test(dataProvider = "supplyData")
     public void signIn(String email, String passCode, String message) throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         TestLogger.log("email: " + email);
         TestLogger.log("password: " + passCode);
         TestLogger.log("message: " + message);
