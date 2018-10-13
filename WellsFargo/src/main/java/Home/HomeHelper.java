@@ -68,7 +68,7 @@ public class HomeHelper extends CommonAPI {
      }
      public void studentLoans(){
          TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-         }.getClass().getEnclosingMethod().getName()));WebDriverWait wait = new WebDriverWait(webDriver, 20);
+         }.getClass().getEnclosingMethod().getName()));WebDriverWait wait = new WebDriverWait(webDriver, 10);
          WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"taskbar\"]/div/ul/li[3]")));
         studentLoans.click();
     }
@@ -83,7 +83,7 @@ public class HomeHelper extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         MissplacedDebitCard.click();
-        String Expected = "Pause Your Debit Card if Misplaced - Wells Fargo" ;
+        String Expected = "Checking Account - Wells Fargo" ;
         String Actual = webDriver.getTitle();
         System.out.println(Actual);
         Assert.assertEquals(Actual, Expected);

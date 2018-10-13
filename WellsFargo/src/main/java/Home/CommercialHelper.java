@@ -56,6 +56,5 @@ public class CommercialHelper  extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         CommercialInterface.click();
         MoreInsights.click();
-
     }
 }

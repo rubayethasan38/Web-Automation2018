@@ -12,10 +12,10 @@
     <parameter name="url" value="https://www.regions.com/"/>
     <test name = "Test">
 <classes>
-    <!--<class name="HomePageTest.HomeTest"></class>-->
-    <!--<class name="HomePageTest.FeaturesTests"></class>-->
-    <!--<class name="HomePageTest.InterfacesTest"></class>-->
-    <!--<class name="HomePageTest.ServicesTest"></class>-->
+    <class name="HomePageTest.HomeTest"></class>
+    <class name="HomePageTest.FeaturesTests"></class>
+    <class name="HomePageTest.InterfacesTest"></class>
+    <class name="HomePageTest.ServicesTest"></class>
     <class name="HomePageTest.FeaturesTests"></class>
 </classes>
     </test>

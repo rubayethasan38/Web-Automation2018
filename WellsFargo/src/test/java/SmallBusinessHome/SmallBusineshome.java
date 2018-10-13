@@ -21,7 +21,7 @@ public class SmallBusineshome extends SmallBussiness {
         smallBussiness = PageFactory.initElements(webDriver, SmallBussiness.class);
     }
     @Test(priority = 1, enabled = true)
-    public void signOnT(){
+    public void signOnT() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         smallBussiness.smallBussinessInterface();

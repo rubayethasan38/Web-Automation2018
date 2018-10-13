@@ -15,7 +15,6 @@ public class FeaturesTests extends Features {
     public void init(){
         features = PageFactory.initElements(webDriver, Features.class);
     }
-
     @Test
     public void testSignInWithInvalidIdAndPassword() throws IOException, InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
