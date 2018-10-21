@@ -6,10 +6,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.List;
-
 public class GoogleSheetReaderTest extends GoogleSheetReader {
     GoogleSheetReader objGoogleSheet;
-
     @BeforeMethod
     public void initialization(){
         objGoogleSheet = PageFactory.initElements(CommonAPI.webDriver, GoogleSheetReader.class);

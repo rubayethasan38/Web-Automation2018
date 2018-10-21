@@ -9,17 +9,14 @@ import org.bson.Document;
 import org.openqa.selenium.WebElement;
 import java.util.ArrayList;
 import java.util.List;
-
 public class ConnectToMongoDB extends CommonAPI {
     public static MongoDatabase mongoDatabase = null;
-
     public static MongoDatabase connectToMongoDB() {
         MongoClient mongoClient = new MongoClient();
-        mongoDatabase = mongoClient.getDatabase("homedepot");
+        mongoDatabase = mongoClient.getDatabase("bhphoto");
         System.out.println("Database Connected");
         return mongoDatabase;
     }
-
     public static String insertToMongoDB(WebElement element, String tableName) {
         MongoDatabase mongoDatabase = connectToMongoDB();
         String menu = element.getText();
@@ -30,7 +27,6 @@ public class ConnectToMongoDB extends CommonAPI {
         collection.insertOne(doc);
         return menu + " added.";
     }
-
     public static List<String> readFromMongoDB(String tableName) {
         List<String> list = new ArrayList<>();
         //User user = new User();
@@ -47,6 +43,4 @@ public class ConnectToMongoDB extends CommonAPI {
         }
         return list;
     }
-
-
 }

@@ -10,28 +10,32 @@ public class OpticsTest extends Optics {
     Optics optics = PageFactory.initElements(webDriver, Optics.class);
     @Test
     public void FirstTest() throws InterruptedException {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        optics.clickOnOpticsBinoculars();
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    optics.clickOnOpticsBinoculars();
     }
     @Test
-    public void SecondTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void SecondTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        optics.clickOnOpticsTelescopesAstronomy();
+    optics.clickOnOpticsTelescopesAstronomy();
     }
     @Test
-    public void ThirdTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void ThirdTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        optics.clickOnOpticsSpottingScopesAccessories();
+    optics.clickOnOpticsSpottingScopesAccessories();
     }
     @Test
-    public void FourthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void FourthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        optics.clickOnOpticsRiflescopesAccessories();
+    optics.clickOnOpticsRiflescopesAccessories();
     }
     @Test
-    public void FifthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void FifthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        optics.clickOnOpticsNightThermalVisionOptics();
+    optics.clickOnOpticsNightThermalVisionOptics();
     }
 }

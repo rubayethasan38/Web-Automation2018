@@ -2,8 +2,9 @@ package Page;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 public class Bottom extends CommonAPI {
-    @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[3]/div/div[2]/div[1]/a[1]")
+    @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[3]/div/div[1]/div[2]/a/span[1]")
     public static WebElement TrackRequestReturn;
     @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[3]/div/div[2]/div[1]/a[2]")
     public static WebElement UnsubscribeCatalog;
@@ -21,24 +22,34 @@ public class Bottom extends CommonAPI {
     public static WebElement CustomsVAT;
     //methods
     public void setTrackRequestReturn() {
-        TrackRequestReturn.click();
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    TrackRequestReturn.click();
     }
     public void setUnsubscribeCatalog() {
-        UnsubscribeCatalog.click();
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    UnsubscribeCatalog.click();
     }
-    public void setUnsubscribeEmail() { UnsubscribeEmail.click(); }
+    public void setUnsubscribeEmail() {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    UnsubscribeEmail.click(); }
     public void setPayments() {
-        Payments.click();
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    Payments.click();
     }
     public void setAllHelpTopics() {
-        AllHelpTopics.click();
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    AllHelpTopics.click();
     }
     public void setWorldwideShipping() {
-        WorldwideShipping.click();
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    WorldwideShipping.click();
     }
     public void setPaymentOptions() {
-        PaymentOptions.click();
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    PaymentOptions.click();
     }
-    public void setCustomsVAT() { CustomsVAT.click(); }
+    public void setCustomsVAT() {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    CustomsVAT.click(); }
 }
 

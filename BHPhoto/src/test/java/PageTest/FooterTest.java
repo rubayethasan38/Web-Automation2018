@@ -8,43 +8,50 @@ public class FooterTest extends Footer {
     Footer footer = PageFactory.initElements(webDriver, Footer.class);
     @Test
     public void Shipping () {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        footer.setShippingShipping();
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    footer.clickShipping();
     }
     @Test
-    public void setSearchBox () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void Returns () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        footer.setReturns();
+    footer.clickReturns();
     }
     @Test
-    public void setProductsTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void GiftCards () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        footer.setGiftCards();
+    footer.clickGiftCards();
     }
     @Test
-    public void setBrandsTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void EventSpace () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        footer.setEventSpace();
+    footer.clickEventSpace();
     }
     @Test
-    public void setDealsTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void ContactUs () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        footer.setContactUs();
+    footer.clickContactUs();
     }
     @Test
-    public void setServicesTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void LiveChat () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        footer.setLiveChat();
+    footer.clickLiveChat();
     }
     @Test
-    public void setWeeklyAdTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void HoursOfService () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        footer.setHoursOfService();
+        footer.clickHoursOfService();
     }
     @Test
-    public void setDealOfTheDayTab () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void AddressDirections () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        footer.setAddressDirections();
+    footer.clickAddressDirections();
     }
 }

@@ -4,12 +4,23 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
+import reporting.TestLogger;
 public class TVEntertainment extends CommonAPI {
     @FindBy(css = "#cat4600 > a > span")
     public static WebElement TVEntertainment;
+    @FindBy(xpath = "//*[@id=\"menu-4600\"]/div/div/div/ul/li[1]/a/div[1]")
+    public static WebElement Televisions;
+    @FindBy(xpath = "//*[@id=\"menu-4600\"]/div/div/div/ul/li[2]/a/div[1]")
+    public static WebElement HomeTheaterProjectors;
+    @FindBy(xpath = "//*[@id=\"menu-4600\"]/div/div/div/ul/li[3]/a/div[1]")
+    public static WebElement BlurayDVDPlayers;
+    @FindBy(xpath = "//*[@id=\"menu-4600\"]/div/div/div/ul/li[4]/a/div[1]")
+    public static WebElement StreamingMediaPlayers;
+    @FindBy(xpath = "//*[@id=\"menu-4600\"]/div/div/div/ul/li[5]/a/div[1]")
+    public static WebElement Gaming;
     //methods
     public void clickOnTVEntertainmentTelevisions() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         waitUntilClickAble(By.cssSelector("#cat4600 > a > span"));
         sleepFor(1);
         mouseHoverByCSS("#cat4600 > a > span");
@@ -21,6 +32,7 @@ public class TVEntertainment extends CommonAPI {
         Assert.assertEquals(actual, expected);
     }
     public void clickOnTVEntertainmentHomeTheaterProjectors() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         waitUntilClickAble(By.cssSelector("#cat4600 > a > span"));
         sleepFor(1);
         mouseHoverByCSS("#cat4600 > a > span");
@@ -32,6 +44,7 @@ public class TVEntertainment extends CommonAPI {
         Assert.assertEquals(actual, expected);
     }
     public void clickOnTVEntertainmentBlurayDVDPlayers() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         waitUntilClickAble(By.cssSelector("#cat4600 > a > span"));
         sleepFor(1);
         mouseHoverByCSS("#cat4600 > a > span");
@@ -43,6 +56,7 @@ public class TVEntertainment extends CommonAPI {
         Assert.assertEquals(actual, expected);
     }
     public void clickOnTVEntertainmentStreamingMediaPlayers() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         waitUntilClickAble(By.cssSelector("#cat4600 > a > span"));
         sleepFor(1);
         mouseHoverByCSS("#cat4600 > a > span");
@@ -54,6 +68,7 @@ public class TVEntertainment extends CommonAPI {
         Assert.assertEquals(actual, expected);
     }
     public void clickOnTVEntertainmentGaming() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         waitUntilClickAble(By.cssSelector("#cat4600 > a > span"));
         sleepFor(1);
         mouseHoverByCSS("#cat4600 > a > span");

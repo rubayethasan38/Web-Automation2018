@@ -10,28 +10,32 @@ public class ComputerTest extends Computer {
     Computer computer = PageFactory.initElements(webDriver, Computer.class);
     @Test
     public void sixthTest() throws InterruptedException {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        computer.clickOnComputersLaptops();
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    computer.clickOnComputersLaptops();
     }
     @Test
-    public void seventhTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void seventhTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        computer.clickOnComputersMac();
+    computer.clickOnComputersMac();
     }
     @Test
-    public void eightTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void eightTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        computer.clickOnComputersiPadsMediaTablets();
+    computer.clickOnComputersiPadsMediaTablets();
     }
     @Test
-    public void ninthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void ninthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        computer.clickOnComputersDesktopsWorkstations();
+    computer.clickOnComputersDesktopsWorkstations();
     }
     @Test
-    public void tenthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void tenthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        computer.clickOnComputersComponents();
+    computer.clickOnComputersComponents();
     }
 }

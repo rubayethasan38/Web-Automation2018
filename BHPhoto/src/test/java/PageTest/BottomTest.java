@@ -1,52 +1,57 @@
 package PageTest;
-
 import Page.Bottom;
 import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-
 public class BottomTest extends Bottom {
     Bottom bottom = PageFactory.initElements(webDriver, Bottom.class);
     @Test
     public void TrackRequestReturn () {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        bottom.setTrackRequestReturn();
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    bottom.setTrackRequestReturn();
     }
     @Test
-    public void UnsubscribeCatalog () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void UnsubscribeCatalog () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        bottom.setUnsubscribeCatalog();
+    bottom.setUnsubscribeCatalog();
     }
     @Test
-    public void UnsubscribeEmail () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void UnsubscribeEmail () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        bottom.setUnsubscribeEmail();
+    bottom.setUnsubscribeEmail();
     }
     @Test
-    public void Payments () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void Payments () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        bottom.setPayments();
+    bottom.setPayments();
     }
     @Test
-    public void AllHelpTopics () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void AllHelpTopics () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        bottom.setAllHelpTopics();
+    bottom.setAllHelpTopics();
     }
     @Test
-    public void WorldwideShipping () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void WorldwideShipping () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        bottom.setWorldwideShipping();
+    bottom.setWorldwideShipping();
     }
     @Test
-    public void PaymentOptions () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void PaymentOptions () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        bottom.setPaymentOptions();
+    bottom.setPaymentOptions();
     }
     @Test
-    public void CustomsVAT () {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void CustomsVAT () {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        bottom.setCustomsVAT();
+    bottom.setCustomsVAT();
     }
 }

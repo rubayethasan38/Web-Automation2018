@@ -5,15 +5,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import utility.DataReader;
 import java.io.IOException;
-
 public class ExcelFileReader extends CommonAPI {
     @FindBy(how = How.CSS, using = "headerSearch")
     public static WebElement searchBox;
     @FindBy(xpath = "//*[@id='topnavCore']/div/h1")
     public static WebElement resultText;
-
     DataReader dtr = new DataReader();
-
     //Read data for input search
     public String[] getExcelData(String fileName) throws IOException {
         String path = "../BHPhoto/data/" + fileName;

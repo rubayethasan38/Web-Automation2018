@@ -9,13 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 import static googleAPIs.GoogleSheetReader.getSheetsService;
 import static org.openqa.selenium.support.How.ID;
-
 public class GoogleSheetReader extends CommonAPI {
     @FindBy(how = ID, using = "headerSearch")
     public static WebElement searchBox;
     @FindBy(xpath = "//*[@id='topnavCore']/div/h1")
     public static WebElement resultText;
-
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
         // Build a new authorized API client service.
         Sheets service = getSheetsService();

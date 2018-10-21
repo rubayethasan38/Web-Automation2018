@@ -9,78 +9,93 @@ import reporting.TestLogger;
 public class CameraTest extends Camera {
     Camera camera = PageFactory.initElements(webDriver, Camera.class);
     @Test
-    public void firstTest() throws InterruptedException { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void firstTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnPhotographyDigitalCameraTypes();
+    camera.clickOnPhotographyDigitalCameraTypes();
     }
     @Test
-    public void secondTest() throws InterruptedException { TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void secondTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnPhotographyLenses();
+    camera.clickOnPhotographyLenses();
     }
     @Test
-    public void thirdTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void thirdTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnPhotographyDrones();
+    camera.clickOnPhotographyDrones();
     }
     @Test
-    public void fourthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void fourthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnPhotographyTripods();
+    camera.clickOnPhotographyTripods();
     }
     @Test
-    public void fifthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void fifthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnPhotographyBags();
+    camera.clickOnPhotographyBags();
     }
     @Test
-    public void sixthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void sixthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnCamcordersVideo();
+    camera.clickOnCamcordersVideo();
     }
     @Test
-    public void seventhTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void seventhTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnCamcordersActionCamerasAccessories();
+    camera.clickOnCamcordersActionCamerasAccessories();
     }
     @Test
-    public void eighthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void eighthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnCamcordersProfessionalCamcorders();
+    camera.clickOnCamcordersProfessionalCamcorders();
     }
     @Test
-    public void ninthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void ninthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnCamcordersPALConsumerCamcorders();
+    camera.clickOnCamcordersPALConsumerCamcorders();
     }
     @Test
-    public void tenthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void tenthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnCamcordersDronesAerialImaging();
+    camera.clickOnCamcordersDronesAerialImaging();
     }
     @Test
-    public void eleventhTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void eleventhTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnSurveillanceVideo();
+    camera.clickOnSurveillanceVideo();
     }
     @Test
-    public void twelevthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void twelevthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnSurveillanceWiFiWirelessCameras();
+    camera.clickOnSurveillanceWiFiWirelessCameras();
     }
     @Test
-    public void thirteenthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void thirteenthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnSurveillanceHiddenCameras();
+    camera.clickOnSurveillanceHiddenCameras();
     }
     @Test
-    public void fourteenthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void fourteenthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnSurveillanceBodyCamerasAccessories();
+    camera.clickOnSurveillanceBodyCamerasAccessories();
     }
     @Test
-    public void fifteenthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void fifteenthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        camera.clickOnSurveillanceIntercomSystems();
+    camera.clickOnSurveillanceIntercomSystems();
     }
 }

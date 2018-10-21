@@ -3,11 +3,11 @@ import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 public class Footer extends CommonAPI {
     public void clickOnCss(String locator){
         webDriver.findElement(By.cssSelector(locator)).click();
     }
-
     @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[3]/div/div[1]/div[1]/a/span[1]")
     public static WebElement Shipping;
     @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[3]/div/div[1]/div[2]/a/span[1]")
@@ -24,30 +24,37 @@ public class Footer extends CommonAPI {
     public static WebElement HoursOfService;
     @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[1]/a[2]")
     public static WebElement AddressDirections;
-
     //methods
-    public void setShippingShipping() {
-        Shipping.click();
+    public void clickShipping() {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    Shipping.click();
     }
-    public void setReturns() {
-        Returns.click();
+    public void clickReturns() {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    Returns.click();
     }
-    public void setGiftCards() {
-        GiftCards.click();
+    public void clickGiftCards() {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    GiftCards.click();
     }
-    public void setEventSpace() {
-        EventSpace.click();
+    public void clickEventSpace() {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    EventSpace.click();
     }
-    public void setContactUs() {
-        ContactUs.click();
+    public void clickContactUs() {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    ContactUs.click();
     }
-    public void setLiveChat() {
-        LiveChat.click();
+    public void clickLiveChat() {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    LiveChat.click();
     }
-    public void setHoursOfService() {
-        HoursOfService.click();
+    public void clickHoursOfService() {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    HoursOfService.click();
     }
-    public void setAddressDirections() {
-        AddressDirections.click();
+    public void clickAddressDirections() {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    AddressDirections.click();
     }
 }

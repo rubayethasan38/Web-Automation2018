@@ -1,28 +1,35 @@
 package DataReaderTest;
 import DataReader.ExcelFileReader;
+import Database.SearchData;
+import datProviderUtilityWIthXlsReader.XlsDataReaderUtil;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-import java.io.IOException;
-
+import sun.jvm.hotspot.debugger.Page;
+import java.util.ArrayList;
+import java.util.Iterator;
 public class ExcelFileReaderTest extends ExcelFileReader {
-    ExcelFileReader objExcelFile;
+    Page objOfPage;
+     SearchData searchData;
     @BeforeMethod
-    public void initialization(){
-        objExcelFile = PageFactory.initElements(webDriver, ExcelFileReader.class);
+    public void initializePageObject() {
+        //objExcelFile = PageFactory.initElements(webDriver, ExcelFileReaderTest.class);
+        searchData = PageFactory.initElements(webDriver, SearchData.class);
     }
-    //T3HOM_ER _TC01 Search Product using Excel file
-    @Test
-    public void searchProductUsingExcel() throws IOException, InterruptedException {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        String[] expectedItems = objExcelFile.getAssertData("Data.xls");
-        String[] actualItems = objExcelFile.searchProduct("Data.xls");
-        for (int i = 0; i < actualItems.length; i++) {
-            Assert.assertTrue(actualItems[i].contains(expectedItems[i]));
-            System.out.println(expectedItems[i] + ": Test - Passed"+actualItems[i]);
-        }
-        System.out.println("searchProductUsingExcel test pass");
+    @DataProvider
+    public Iterator<Object[]> supplyDataExcel() {
+        ArrayList<Object[]> testDataExcel = XlsDataReaderUtil.getDataFromExcel();
+        return testDataExcel.iterator();
+    }
+    @Test(priority = 5, dataProvider = "supplyDataExcel")
+    public void searchTest(String items) throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        //  objExcelFile.xcelElement.signInByDataProvider(items);
+        String actual = SearchData.search.getText();
+        TestLogger.log("Search successful");
+        //Assert.assertEquals(message,errormessage);
     }
 }

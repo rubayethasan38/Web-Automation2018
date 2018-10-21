@@ -1,11 +1,9 @@
 package PageTest;
-
 import Page.ProVideo;
 import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-
 public class ProVideoTest extends ProVideo {
     ProVideo proVideo = PageFactory.initElements(webDriver, ProVideo.class);
     @Test

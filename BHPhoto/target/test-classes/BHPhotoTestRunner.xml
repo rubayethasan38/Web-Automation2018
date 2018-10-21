@@ -19,6 +19,9 @@
             <class name="PageTest.ProAudioTest"/>
             <class name="PageTest.ProVideoTest"/>
             <class name="PageTest.TVEntertainmentTest"/>
+            <class name="PageTest.BottomTest"/>
+            <class name="PageTest.FooterTest"/>
+            <class name="PageTest.LowerTest"/>
         </classes>
     </test>
 </suite>

@@ -9,23 +9,26 @@ public class LightingTest extends Lighting {
     Lighting lighting = PageFactory.initElements(webDriver, Lighting.class);
     @Test
     public void FirstTest() throws InterruptedException {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        lighting.clickOnLightingContinuousLighting();
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+    lighting.clickOnLightingContinuousLighting();
     }
     @Test
-    public void SecondTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void SecondTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        lighting.clickOnLightingStrobeFlash();
+    lighting.clickOnLightingStrobeFlash();
     }
     @Test
-    public void ThirdTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void ThirdTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        lighting.clickOnLightingFlashesOnCameraLights();
+    lighting.clickOnLightingFlashesOnCameraLights();
     }
     @Test
-    public void FourthTest() throws InterruptedException {TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+    public void FourthTest() throws InterruptedException {
+    TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-        lighting.clickOnLightingLightModifiers();
+    lighting.clickOnLightingLightModifiers();
     }
 }
