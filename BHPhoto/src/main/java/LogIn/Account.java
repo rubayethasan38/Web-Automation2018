@@ -5,18 +5,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 public class Account extends CommonAPI {
-    @FindBy (xpath= "//*[@id=\"js-login\"]/span[3]")
+    @FindBy (xpath= "//div[@class='user login-account']//a")
     public static WebElement MyAccount;
-    @FindBy(css = "#account-cart > div.cart-alert-tab.js-cart-alert-tab > div.account-notifications")
-    public static WebElement LogInBox;
-    @FindBy(xpath = "//*[@id=\"my-account-guest-notification\"]/div[1]/a[1]/button")
+    @FindBy(xpath = "//button[@class='login']")
     public static WebElement LogIn;
-    @FindBy(xpath = "//*[@id=\"user-input\"]")
+    @FindBy(xpath = "//input[@id='user-input']")
     public static WebElement enterEmail;
-    @FindBy(xpath = "//*[@id=\"password-input\"]")
+    @FindBy(xpath = "//input[@id='password-input']")
     public static WebElement enterPassword;
-    @FindBy(xpath = "//*[@id=\"onePopupLayer\"]/div[2]/div/div/div/div[1]/form/input[1]")
-    public static WebElement clickLogin;
+    @FindBy(xpath = "//input[@value='Log In']")
+    public static WebElement Loginclick;
     // methods
     public void clickOnMyAccount() {
         waitUntilClickAble(By.cssSelector("#js-login > span.bold.myaccount-header"));

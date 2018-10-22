@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import reporting.TestLogger;
 public class Lighting extends CommonAPI {
-    @FindBy(css = "#cat1161 > a > span")
+    @FindBy(xpath = "//a[@name='Top Nav-Lighting and Studio']//span[contains(text(),'Lighting')]")
     public static WebElement Lighting;
     @FindBy(xpath = "//*[@id=\"menu-1161\"]/div/div/div/ul/li[1]/a/div[1]")
     public static WebElement ContinuousLighting;
@@ -21,9 +21,9 @@ public class Lighting extends CommonAPI {
     //methods
     public void clickOnLightingContinuousLighting() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat1161 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Lighting and Studio']//span[contains(text(),'Lighting')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat1161 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Lighting and Studio']//span[contains(text(),'Lighting')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-1161\"]/div/div/div/ul/li[1]/a/div[1]");
         String expected = "Continuous Lighting";
@@ -33,9 +33,9 @@ public class Lighting extends CommonAPI {
     }
     public void clickOnLightingStrobeFlash() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat1161 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Lighting and Studio']//span[contains(text(),'Lighting')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat1161 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Lighting and Studio']//span[contains(text(),'Lighting')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-1161\"]/div/div/div/ul/li[2]/a/div[1]");
         String expected = "Strobe (Flash) Lighting";
@@ -45,9 +45,9 @@ public class Lighting extends CommonAPI {
     }
     public void clickOnLightingFlashesOnCameraLights() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat1161 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Lighting and Studio']//span[contains(text(),'Lighting')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat1161 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Lighting and Studio']//span[contains(text(),'Lighting')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-1161\"]/div/div/div/ul/li[3]/a/div[1]");
         String expected = "Flashes & On Camera Lights";
@@ -57,9 +57,9 @@ public class Lighting extends CommonAPI {
     }
     public void clickOnLightingLightModifiers() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat1161 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Lighting and Studio']//span[contains(text(),'Lighting')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat1161 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Lighting and Studio']//span[contains(text(),'Lighting')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-1161\"]/div/div/div/ul/li[4]/a/div[1]");
         String expected = "Light Modifiers";

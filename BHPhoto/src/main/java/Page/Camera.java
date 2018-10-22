@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import reporting.TestLogger;
 public class Camera extends CommonAPI {
-    @FindBy(css = "#cat989 > a > span")
+    @FindBy(xpath = "//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]")
     public static WebElement Photography;
     @FindBy(xpath = "//*[@id=\"menu-989\"]/div/div/div/ul/li[1]/a/div[1]")
     public static WebElement DigitalCameras;
@@ -18,7 +18,7 @@ public class Camera extends CommonAPI {
     public static WebElement TripodsSupport;
     @FindBy(xpath = "//*[@id=\"menu-989\"]/div/div/div/ul/li[5]/a/div[1]")
     public static WebElement PhotographyBagsCases;
-    @FindBy(css = "#cat1820 > a > span")
+    @FindBy(xpath = "//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]")
     public static WebElement Camcorders;
     @FindBy(xpath = "//*[@id=\"menu-1820\"]/div/div/div/ul/li[1]/a/div[1]")
     public static WebElement ConsumerCamcorders;
@@ -30,7 +30,7 @@ public class Camera extends CommonAPI {
     public static WebElement PALCamcorders;
     @FindBy(xpath = "//*[@id=\"menu-1820\"]/div/div/div/ul/li[5]/a/div[1]")
     public static WebElement DronesImaging;
-    @FindBy(css = "#cat3496 > a > span")
+    @FindBy(css = "//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]")
     public static WebElement Surveillance;
     @FindBy(xpath = "//*[@id=\"menu-3496\"]/div/div/div/ul/li[1]/a/div[1]")
     public static WebElement SurveillanceVideo;
@@ -45,9 +45,9 @@ public class Camera extends CommonAPI {
     //methods
     public void clickOnPhotographyDigitalCameraTypes() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat989 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat989 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-989\"]/div/div/div/ul/li[1]/a/div[1]");
         String expected = "Digital Camera Types";
@@ -57,9 +57,9 @@ public class Camera extends CommonAPI {
     }
     public void clickOnPhotographyLenses() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat989 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat989 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-989\"]/div/div/div/ul/li[2]/a/div[1]");
         String expected = "Lenses";
@@ -69,9 +69,9 @@ public class Camera extends CommonAPI {
     }
     public void clickOnPhotographyDrones() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat989 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat989 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-989\"]/div/div/div/ul/li[3]/a/div[1]");
         String expected = "Drones & Aerial Imaging";
@@ -81,9 +81,9 @@ public class Camera extends CommonAPI {
     }
     public void clickOnPhotographyTripods() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat989 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat989 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-989\"]/div/div/div/ul/li[4]/a/div[1]");
         String expected = "Photography Tripods & Support";
@@ -93,9 +93,9 @@ public class Camera extends CommonAPI {
     }
     public void clickOnPhotographyBags() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat989 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat989 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-989\"]/div/div/div/ul/li[4]/a/div[1]");
         String expected = "Photography Bags & Cases";
@@ -105,8 +105,8 @@ public class Camera extends CommonAPI {
     }
     public void clickOnCamcordersVideo() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat1820 > a > span"));
-        mouseHoverByCSS("#cat1820 > a > span");
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]"));
+        mouseHoverByXpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]");
         clickByXpath("//*[@id=\"menu-1820\"]/div/div/div/ul/li[1]/a/div[1]");
         String expected = "Consumer Video Cameras";
         sleepFor(3);
@@ -115,9 +115,9 @@ public class Camera extends CommonAPI {
     }
     public void clickOnCamcordersActionCamerasAccessories() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat1820 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat1820 > a > span");
+        mouseHoverByCSS("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-1820\"]/div/div/div/ul/li[2]/a/div[1]");
         String expected = "Action Cameras & Accessories";
@@ -127,9 +127,9 @@ public class Camera extends CommonAPI {
     }
     public void clickOnCamcordersProfessionalCamcorders() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat1820 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat1820 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-1820\"]/div/div/div/ul/li[2]/a/div[1]");
         String expected = "Professional Camcorders";
@@ -139,9 +139,9 @@ public class Camera extends CommonAPI {
     }
     public void clickOnCamcordersPALConsumerCamcorders() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat1820 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat1820 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]");
         sleepFor(1);
         clickOnCss("//*[@id=\"menu-1820\"]/div/div/div/ul/li[2]/a/div[1]");
         String expected = "PAL Consumer Camcorders (Non USA)";
@@ -151,9 +151,9 @@ public class Camera extends CommonAPI {
     }
     public void clickOnCamcordersDronesAerialImaging() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat1820 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat1820 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-1820\"]/div/div/div/ul/li[5]/a/div[1]");
         String expected = "Drones & Aerial Imaging\n";
@@ -163,9 +163,9 @@ public class Camera extends CommonAPI {
     }
     public void clickOnSurveillanceVideo() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("cat3496 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat3496 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-3496\"]/div/div/div/ul/li[1]/a/div[1]");
         String expected = "SurveillanceVideo";
@@ -175,9 +175,9 @@ public class Camera extends CommonAPI {
     }
     public void clickOnSurveillanceWiFiWirelessCameras() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("cat3496 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat3496 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-3496\"]/div/div/div/ul/li[2]/a/div[1]");
         String expected = "WiFi & Wireless Cameras";
@@ -187,9 +187,9 @@ public class Camera extends CommonAPI {
     }
     public void clickOnSurveillanceHiddenCameras() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("cat3496 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat3496 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-3496\"]/div/div/div/ul/li[3]/a/div[1]");
         String expected = "Hidden Cameras";
@@ -199,9 +199,9 @@ public class Camera extends CommonAPI {
     }
     public void clickOnSurveillanceBodyCamerasAccessories() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("cat3496 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat3496 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-3496\"]/div/div/div/ul/li[4]/a/div[1]");
         String expected = "Body Cameras & Accessories";
@@ -211,9 +211,9 @@ public class Camera extends CommonAPI {
     }
     public void clickOnSurveillanceIntercomSystems() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("cat3496 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat3496 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-3496\"]/div/div/div/ul/li[5]/a/div[1]");
         String expected = "Intercom";

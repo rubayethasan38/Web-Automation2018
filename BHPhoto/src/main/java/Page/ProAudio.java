@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import reporting.TestLogger;
 public class ProAudio extends CommonAPI {
-    @FindBy(css = "#cat12154 > a > span")
+    @FindBy(xpath = "//a[@name='Top Nav-Audio Professional']")
     public static WebElement ProAudio;
     @FindBy(xpath = "//*[@id=\"menu-12154\"]/div/div/div/ul/li[1]/a/div[1]")
     public static WebElement Recording;
@@ -21,9 +21,9 @@ public class ProAudio extends CommonAPI {
     //methods
     public void clickOnProAudioProRecording() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat12154 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Audio Professional']"));
         sleepFor(1);
-        mouseHoverByCSS("#cat12154 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Audio Professional']");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-12154\"]/div/div/div/ul/li[1]/a/div[1]");
         String expected = "Pro Audio Recording";
@@ -33,9 +33,9 @@ public class ProAudio extends CommonAPI {
     }
     public void clickOnProAudioComputer() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat12154 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Audio Professional']"));
         sleepFor(1);
-        mouseHoverByCSS("#cat12154 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Audio Professional']");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-12154\"]/div/div/div/ul/li[2]/a/div[1]");
         String expected = "Computer Audio";
@@ -45,9 +45,9 @@ public class ProAudio extends CommonAPI {
     }
     public void clickOnProAudioLocationSoundAudioEquipment() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat12154 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Audio Professional']"));
         sleepFor(1);
-        mouseHoverByCSS("#cat12154 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Audio Professional']");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-12154\"]/div/div/div/ul/li[3]/a/div[1]");
         String expected = "Location Sound Audio Equipment";
@@ -57,9 +57,9 @@ public class ProAudio extends CommonAPI {
     }
     public void clickOnProAudioLiveSound() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat12154 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Audio Professional']"));
         sleepFor(1);
-        mouseHoverByCSS("#cat12154 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Audio Professional']");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-12154\"]/div/div/div/ul/li[4]/a/div[1]");
         String expected = "Live Sound";
@@ -69,9 +69,9 @@ public class ProAudio extends CommonAPI {
     }
     public void clickOnProAudioMicrophones() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat12154 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Audio Professional']"));
         sleepFor(1);
-        mouseHoverByCSS("#cat12154 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Audio Professional']");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-12154\"]/div/div/div/ul/li[5]/a/div[1]");
         String expected = "Microphones";

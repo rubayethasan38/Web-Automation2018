@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import reporting.TestLogger;
 public class TVEntertainment extends CommonAPI {
-    @FindBy(css = "#cat4600 > a > span")
+    @FindBy(xpath = "//a[@name='Top Nav-TVs & Home Entertainment']//span[contains(text(),'TVs & Entertainment')]")
     public static WebElement TVEntertainment;
     @FindBy(xpath = "//*[@id=\"menu-4600\"]/div/div/div/ul/li[1]/a/div[1]")
     public static WebElement Televisions;
@@ -21,9 +21,9 @@ public class TVEntertainment extends CommonAPI {
     //methods
     public void clickOnTVEntertainmentTelevisions() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat4600 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-TVs & Home Entertainment']//span[contains(text(),'TVs & Entertainment')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat4600 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-TVs & Home Entertainment']//span[contains(text(),'TVs & Entertainment')]");
         sleepFor(1);
         clickOnCss("#menu-4600 > div > div > div > ul > li:nth-child(1) > a > div.category-image");
         String expected = "Televisions";
@@ -33,9 +33,9 @@ public class TVEntertainment extends CommonAPI {
     }
     public void clickOnTVEntertainmentHomeTheaterProjectors() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat4600 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-TVs & Home Entertainment']//span[contains(text(),'TVs & Entertainment')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat4600 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-TVs & Home Entertainment']//span[contains(text(),'TVs & Entertainment')]");
         sleepFor(1);
         clickOnCss("#menu-4600 > div > div > div > ul > li:nth-child(2) > a > div.category-image");
         String expected = "Home Theater Projectors";
@@ -45,9 +45,9 @@ public class TVEntertainment extends CommonAPI {
     }
     public void clickOnTVEntertainmentBlurayDVDPlayers() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat4600 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-TVs & Home Entertainment']//span[contains(text(),'TVs & Entertainment')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat4600 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-TVs & Home Entertainment']//span[contains(text(),'TVs & Entertainment')]");
         sleepFor(1);
         clickOnCss("#menu-4600 > div > div > div > ul > li:nth-child(3) > a > div.category-image");
         String expected = "Blu-ray & DVD Players";
@@ -57,9 +57,9 @@ public class TVEntertainment extends CommonAPI {
     }
     public void clickOnTVEntertainmentStreamingMediaPlayers() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat4600 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-TVs & Home Entertainment']//span[contains(text(),'TVs & Entertainment')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat4600 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-TVs & Home Entertainment']//span[contains(text(),'TVs & Entertainment')]");
         sleepFor(1);
         clickOnCss("#menu-4600 > div > div > div > ul > li:nth-child(4) > a > div.category-image");
         String expected = "Streaming & Media Players";
@@ -69,9 +69,9 @@ public class TVEntertainment extends CommonAPI {
     }
     public void clickOnTVEntertainmentGaming() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat4600 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-TVs & Home Entertainment']//span[contains(text(),'TVs & Entertainment')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat4600 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-TVs & Home Entertainment']//span[contains(text(),'TVs & Entertainment')]");
         sleepFor(1);
         clickOnCss("#menu-4600 > div > div > div > ul > li:nth-child(5) > a > div.category-image");
         String expected = "Gaming";

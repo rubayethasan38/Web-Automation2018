@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import reporting.TestLogger;
 public class Computer extends CommonAPI {
-    @FindBy(css = "#cat9581 > a > span")
+    @FindBy(xpath = "//a[@name='Top Nav-Computers and Solutions']//span[contains(text(),'Computers')]")
     public static WebElement Computers;
     @FindBy(xpath = "//*[@id=\"menu-9581\"]/div/div/div/ul/li[1]/a/div[1]")
     public static WebElement Laptops;
@@ -21,9 +21,9 @@ public class Computer extends CommonAPI {
     //methods
     public void clickOnComputersLaptops() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat9581 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Computers and Solutions']//span[contains(text(),'Computers')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat9581 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Computers and Solutions']//span[contains(text(),'Computers')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-9581\"]/div/div/div/ul/li[1]/a/div[1]");
         String expected = "Laptops";
@@ -33,9 +33,9 @@ public class Computer extends CommonAPI {
     }
     public void clickOnComputersMac() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat9581 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Computers and Solutions']//span[contains(text(),'Computers')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat9581 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Computers and Solutions']//span[contains(text(),'Computers')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-9581\"]/div/div/div/ul/li[2]/a/div[1]]");
         String expected = "Mac";
@@ -45,9 +45,9 @@ public class Computer extends CommonAPI {
     }
     public void clickOnComputersiPadsMediaTablets() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat9581 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Computers and Solutions']//span[contains(text(),'Computers')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat9581 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Computers and Solutions']//span[contains(text(),'Computers')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-9581\"]/div/div/div/ul/li[3]/a/div[1]");
         String expected = "iPads & Media Tablets";
@@ -57,9 +57,9 @@ public class Computer extends CommonAPI {
     }
     public void clickOnComputersDesktopsWorkstations() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat9581 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Computers and Solutions']//span[contains(text(),'Computers')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat9581 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Computers and Solutions']//span[contains(text(),'Computers')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-9581\"]/div/div/div/ul/li[4]/a/div[1]");
         String expected = "Desktops & Workstations";
@@ -69,9 +69,9 @@ public class Computer extends CommonAPI {
     }
     public void clickOnComputersComponents() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat9581 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Computers and Solutions']//span[contains(text(),'Computers')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat9581 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Computers and Solutions']//span[contains(text(),'Computers')]");
         sleepFor(1);
         clickByXpath("//*[@id=\"menu-9581\"]/div/div/div/ul/li[5]/a/div[1]");
         String expected = "Computer Components";

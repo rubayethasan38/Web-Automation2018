@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import reporting.TestLogger;
 public class AudioVisual extends CommonAPI {
-    @FindBy(css = "#cat3644> a >span")
+    @FindBy(xpath = "//a[@name='Top Nav-AV Presentation']//span[contains(text(),'Audio-Visual')]")
     public static WebElement menuAudioVisual;
     @FindBy (xpath ="//*[@id=\"menu-3644\"]/div/div/div/ul/li[1]/a/div[1]")
     public static WebElement Projectors;

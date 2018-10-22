@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import reporting.TestLogger;
 public class ProVideo extends CommonAPI {
-    @FindBy(css = "#cat3755 > a > span")
+    @FindBy(xpath = "//span[contains(text(),'Pro Video')]")
     public static WebElement ProVideo;
     @FindBy(xpath = "//*[@id=\"menu-3755\"]/div/div/div/ul/li[1]/a/div[1]")
     public static WebElement ProfessionalCamcorders;
@@ -21,8 +21,8 @@ public class ProVideo extends CommonAPI {
     //methods
     public void clickOnProVideoCamcorders() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat3755 > a"));
-        mouseHoverByCSS("#cat3755 > a");
+        waitUntilClickAble(By.xpath("//span[contains(text(),'Pro Video')]"));
+        mouseHoverByXpath("//span[contains(text(),'Pro Video')]");
         sleepFor(1);
         clickByXpath("#menu-3755 > div > div > div > ul > li:nth-child(1) > a > div.category-image");
         sleepFor(1);
@@ -33,9 +33,9 @@ public class ProVideo extends CommonAPI {
     }
     public void clickOnProVideoDigitalCineCamera() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat3755 > a"));
+        waitUntilClickAble(By.xpath("//span[contains(text(),'Pro Video')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat3755 > a");
+        mouseHoverByXpath("//span[contains(text(),'Pro Video')]");
         sleepFor(1);
         clickByXpath("#menu-3755 > div > div > div > ul > li:nth-child(2) > a > div.category-image");
         String expected = "Digital Cine Cameras";
@@ -45,9 +45,9 @@ public class ProVideo extends CommonAPI {
     }
     public void clickOnProVideoTelevisionStudioEFPCameras() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat3755 > a"));
+        waitUntilClickAble(By.xpath("//span[contains(text(),'Pro Video')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat3755 > a");
+        mouseHoverByXpath("//span[contains(text(),'Pro Video')]");
         sleepFor(1);
         clickByXpath("#menu-3755 > div > div > div > ul > li:nth-child(3) > a > div.category-image");
         String expected = "Television Studio & EFP Cameras";
@@ -57,9 +57,9 @@ public class ProVideo extends CommonAPI {
     }
     public void clickOnProVideoBroadcastVideoCameras() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat3755 > a"));
+        waitUntilClickAble(By.xpath("//span[contains(text(),'Pro Video')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat3755 > a");
+        mouseHoverByXpath("//span[contains(text(),'Pro Video')]");
         sleepFor(1);
         clickByXpath("#menu-3755 > div > div > div > ul > li:nth-child(4) > a > div.category-image");
         String expected = "Broadcast Video Cameras";
@@ -69,9 +69,9 @@ public class ProVideo extends CommonAPI {
     }
     public void clickOnProVideoIndustrialMultiPurposeCameras() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat3755 > a"));
+        waitUntilClickAble(By.xpath("//span[contains(text(),'Pro Video')]"));
         sleepFor(1);
-        mouseHoverByCSS("#cat3755 > a");
+        mouseHoverByXpath("//span[contains(text(),'Pro Video')]");
         sleepFor(1);
         clickByXpath("#menu-3755 > div > div > div > ul > li:nth-child(5) > a > div.category-image");
         String expected = "Industrial & Multi-Purpose Cameras";

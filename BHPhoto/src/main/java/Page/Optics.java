@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import reporting.TestLogger;
 public class Optics extends CommonAPI {
-    @FindBy(css = "#cat978 > a > span")
+    @FindBy(xpath = "//a[@name='Top Nav-Binoculars and Scopes']")
     public static WebElement menuOptics;
     @FindBy(xpath = "//*[@id=\"menu-978\"]/div/div/div/ul/li[1]/a/div[1]")
     public static WebElement Binoculars;
@@ -21,9 +21,9 @@ public class Optics extends CommonAPI {
     //methods
     public void clickOnOpticsBinoculars() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat978 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Binoculars and Scopes']"));
         sleepFor(1);
-        mouseHoverByCSS("#cat978 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Binoculars and Scopes']");
         sleepFor(1);
         clickByXpath("#menu-978 > div > div > div > ul > li:nth-child(1) > a > div.category-image");
         String expected = "Binoculars";
@@ -33,9 +33,9 @@ public class Optics extends CommonAPI {
     }
     public void clickOnOpticsTelescopesAstronomy() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat978 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Binoculars and Scopes']"));
         sleepFor(1);
-        mouseHoverByCSS("#cat978 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Binoculars and Scopes']");
         sleepFor(1);
         clickByXpath("#menu-978 > div > div > div > ul > li:nth-child(2) > a > div.category-image");
         String expected = "Telescopes & Astronomy";
@@ -45,9 +45,9 @@ public class Optics extends CommonAPI {
     }
     public void clickOnOpticsSpottingScopesAccessories() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat978 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Binoculars and Scopes']"));
         sleepFor(1);
-        mouseHoverByCSS("#cat978 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Binoculars and Scopes']");
         sleepFor(1);
         clickByXpath("#menu-978 > div > div > div > ul > li:nth-child(3) > a > div.category-image");
         String expected = "Spotting Scopes & Accessories";
@@ -57,9 +57,9 @@ public class Optics extends CommonAPI {
     }
     public void clickOnOpticsRiflescopesAccessories() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat978 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Binoculars and Scopes']"));
         sleepFor(1);
-        mouseHoverByCSS("#cat978 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Binoculars and Scopes']");
         sleepFor(1);
         clickByXpath("#menu-978 > div > div > div > ul > li:nth-child(4) > a > div.category-image");
         String expected = "Riflescopes & Accessories";
@@ -69,9 +69,9 @@ public class Optics extends CommonAPI {
     }
     public void clickOnOpticsNightThermalVisionOptics() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        waitUntilClickAble(By.cssSelector("#cat978 > a > span"));
+        waitUntilClickAble(By.xpath("//a[@name='Top Nav-Binoculars and Scopes']"));
         sleepFor(1);
-        mouseHoverByCSS("#cat978 > a > span");
+        mouseHoverByXpath("//a[@name='Top Nav-Binoculars and Scopes']");
         sleepFor(1);
         clickByXpath("#menu-978 > div > div > div > ul > li:nth-child(5) > a > div.category-image");
         String expected = "Night & Thermal Vision Optics";

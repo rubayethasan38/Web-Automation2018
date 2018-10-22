@@ -2,118 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b27728c-a8c4-4787-9627-779c06ea66a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/KeywordDriven/Features.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Keyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/XcelElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/XcelReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BHPhoto/src/test/java/KeywordDrivenTest/FeaturesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/KeywordTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BHPhoto/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/data/BHPhoto.xls" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/data/BHPhoto.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/data/ExcelData.xls" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/data/ExcelData.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/LogIn/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/LogIn/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/AudioVisual.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/AudioVisual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Bottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Bottom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/src/test/java/DataReaderTest/ExcelFileReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/test/java/DataReaderTest/ExcelFileReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/DataReader/ExcelFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/DataReader/ExcelFileReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/DataReader/GoogleSheetReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/DataReader/GoogleSheetReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Database/ConnectToMongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Database/ConnectToMongoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Database/SearchData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Database/SearchData$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Database/SearchData.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Database/SearchData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/LogIn/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/LogIn/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Bottom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/DataReaderTest/GoogleSheetReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/DataReaderTest/GoogleSheetReaderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/DatabaseTest/SearchTestMongoDB$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/DatabaseTest/SearchTestMongoDB$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/DatabaseTest/SearchTestMongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/DatabaseTest/SearchTestMongoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/BottomTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/ProVideoTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/ProVideoTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/ProVideoTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/ProVideoTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/ProVideoTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/ProVideoTest$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/ProVideoTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/ProVideoTest$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/ProVideoTest$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/ProVideoTest$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/ProVideoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/ProVideoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/TVEntertainmentTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/TVEntertainmentTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/TVEntertainmentTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/TVEntertainmentTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/TVEntertainmentTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/TVEntertainmentTest$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/TVEntertainmentTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/TVEntertainmentTest$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/TVEntertainmentTest$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/TVEntertainmentTest$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/TVEntertainmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/PageTest/TVEntertainmentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lighting.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lighting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Optics.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Optics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProAudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProAudio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/TVEntertainment.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/TVEntertainment.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -199,18 +99,19 @@
     <session id="1098326330">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="html" value="2" />
-          <entry key="java" value="368" />
+          <entry key="java" value="384" />
           <entry key="server/bhphoto/collection" value="1" />
           <entry key="xml" value="19" />
         </counts>
@@ -219,7 +120,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="368" />
+          <entry key="JAVA" value="384" />
           <entry key="MONGO" value="1" />
           <entry key="XML" value="19" />
         </counts>
@@ -227,13 +128,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="41" />
-          <entry key="java" value="4916" />
+          <entry key="java" value="5037" />
           <entry key="xml" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4916" />
+          <entry key="JAVA" value="5037" />
           <entry key="PLAIN_TEXT" value="41" />
           <entry key="XML" value="69" />
         </counts>
@@ -246,22 +147,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/ProVideoTest.java">
+        <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/AudioVisual.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Bottom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/XcelReaderTest.java">
+        <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Mobile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1020">
+              <caret line="73" column="87" selection-start-line="73" selection-start-column="87" selection-end-line="73" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -314,10 +224,7 @@
         <option value="$PROJECT_DIR$/BestBuy/src/main/java/Page/SearchProductPage.java" />
         <option value="$PROJECT_DIR$/BestBuy/src/main/java/Page/Home.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lower.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Optics.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/ProVideoTest.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/TVEntertainment.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProVideo.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/resources/BHPhotoTestRunner.xml" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/TVEntertainmentTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/BottomTest.java" />
@@ -326,25 +233,28 @@
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Database/SearchData.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Database/ConnectToMongoDB.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/DataReader/ExcelFileReader.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Camera.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Computer.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Footer.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lighting.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Mobile.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProAudio.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/DataReader/GoogleSheetReader.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/KeywordDrivenTest/FeaturesTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Bottom.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/KeywordTest.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/LogIn/Account.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Keyword.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/DataReaderTest/ExcelFileReaderTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/KeywordDriven/Features.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/AudioVisual.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/XcelElement.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/XcelReaderTest.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/LogIn/Account.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/AudioVisual.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Camera.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Computer.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lighting.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProAudio.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProVideo.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/TVEntertainment.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Optics.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Mobile.java" />
       </list>
     </option>
   </component>
@@ -391,6 +301,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -593,12 +504,11 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540241755753" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540245703601" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -640,7 +550,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.XcelReaderTest">
+  <component name="RunManager" selected="TestNG.FeaturesTest">
     <configuration name="AudioVisualTest.fiftyTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BHPhoto" />
       <extension name="coverage">
@@ -677,18 +587,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CameraTest.firstTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FeaturesTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BHPhoto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PageTest.*" />
+          <option name="PATTERN" value="KeywordDrivenTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PageTest" />
-      <option name="MAIN_CLASS_NAME" value="PageTest.CameraTest" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="KeywordDrivenTest" />
+      <option name="MAIN_CLASS_NAME" value="KeywordDrivenTest.FeaturesTest" />
       <properties />
       <listeners />
       <method v="2">
@@ -730,19 +638,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.CameraTest.firstTest" />
       <item itemvalue="TestNG.AudioVisualTest.fiftyTest" />
       <item itemvalue="TestNG.AudioVisualTest.fiftyoneTest" />
       <item itemvalue="TestNG.XcelReaderTest" />
       <item itemvalue="TestNG.ProVideoTest.FirstTest" />
+      <item itemvalue="TestNG.FeaturesTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FeaturesTest" />
         <item itemvalue="TestNG.XcelReaderTest" />
         <item itemvalue="TestNG.ProVideoTest.FirstTest" />
         <item itemvalue="TestNG.AudioVisualTest.fiftyoneTest" />
         <item itemvalue="TestNG.AudioVisualTest.fiftyTest" />
-        <item itemvalue="TestNG.CameraTest.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -760,9 +668,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BottomTest_UnsubscribeCatalog - 2018.10.22 at 15h 10m 14s.xml">
-      <configuration name="BottomTest.UnsubscribeCatalog" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CameraTest_firstTest - 2018.10.22 at 15h 11m 00s.xml">
       <configuration name="CameraTest.firstTest" configurationId="TestNG" />
     </history-entry>
@@ -790,12 +695,15 @@
     <history-entry file="XcelReaderTest - 2018.10.22 at 16h 55m 01s.xml">
       <configuration name="XcelReaderTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="FeaturesTest - 2018.10.22 at 17h 19m 36s.xml">
+      <configuration name="FeaturesTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49657065" visible="true" weight="0.26009694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49657065" visible="true" weight="0.26009694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -804,12 +712,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.50342935" side_tool="true" weight="0.13858365" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.498779" visible="true" weight="0.3739726" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" weight="0.3739726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38870433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3109589" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3068493" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501221" side_tool="true" weight="0.25714287" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295063" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.498779" weight="0.37945205" />
@@ -879,139 +787,25 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/PageTest/LogInTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/main/java/Page/LogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/PageTest/LogInTest.java" />
+    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml" />
+    <entry file="file://$PROJECT_DIR$/BestBuy/src/main/java/Page/LogIn.java" />
     <entry file="file://$PROJECT_DIR$/RESTapi/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/PageTest/SearchProductPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/PageTest/SearchProductPageTest.java" />
     <entry file="file://$PROJECT_DIR$/BHPhoto/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/PageTest/HomeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/main/java/Page/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/main/java/Page/SearchProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/main/java/Page/SearchProductPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/PageTest/SearchProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/PageTest/HomeTest.java" />
+    <entry file="file://$PROJECT_DIR$/BestBuy/src/main/java/Page/Home.java" />
+    <entry file="file://$PROJECT_DIR$/BestBuy/src/main/java/Page/SearchProduct.java" />
+    <entry file="file://$PROJECT_DIR$/BestBuy/src/main/java/Page/SearchProductPage.java" />
+    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/PageTest/SearchProductTest.java" />
     <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/OpticsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lighting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-611">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Mobile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-791">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Optics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProAudio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-791">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-536">
-          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1040,9 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1053,30 +844,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/ProAudioTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/KeywordDriven/Features.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1094,13 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Bottom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/AudioVisualTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1112,26 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
           <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/AudioVisual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/KeywordDrivenTest/FeaturesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1170,9 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1180,36 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/DataReaderTest/GoogleSheetReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/TVEntertainment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/DataReader/GoogleSheetReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1227,9 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1254,13 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/LogIn/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -1275,13 +976,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/DataReaderTest/GoogleSheetReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/LogIn/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/DataReader/GoogleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/XcelReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="261">
           <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/KeywordDrivenTest/FeaturesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/KeywordDriven/Features.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/AudioVisual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="834">
+          <caret line="165" column="115" selection-start-line="165" selection-start-column="115" selection-end-line="165" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1074">
+          <caret line="73" column="107" selection-start-line="73" selection-start-column="107" selection-end-line="73" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lighting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="61" column="28" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProAudio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="73" column="63" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Optics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="71" column="79" selection-start-line="71" selection-start-column="79" selection-end-line="71" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/TVEntertainment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="73" column="118" selection-start-line="73" selection-start-column="118" selection-end-line="73" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Bottom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Mobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="73" column="87" selection-start-line="73" selection-start-column="87" selection-end-line="73" selection-end-column="87" />
         </state>
       </provider>
     </entry>
