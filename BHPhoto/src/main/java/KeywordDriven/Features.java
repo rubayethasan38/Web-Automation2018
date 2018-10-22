@@ -1,0 +1,36 @@
+package KeywordDriven;
+import LogIn.Account;
+import base.CommonAPI;
+import org.openqa.selenium.InvalidArgumentException;
+import org.openqa.selenium.support.PageFactory;
+import utility.DataReader;
+import java.io.IOException;
+public class Features extends CommonAPI {
+    Account account = PageFactory.initElements(CommonAPI.webDriver,Account.class);
+    //KeyWord ClickSigIn
+    public void clickSignIn() throws InterruptedException {
+        account.clickAccount();
+        account.loginpage();
+    }
+    public void selectAction(String featureName) throws IOException, InterruptedException {
+        switch (featureName) {
+            case "ClickSignIn":
+                clickSignIn();
+                break;
+            default:
+                throw new InvalidArgumentException("Invalid feature choice");
+        }
+    }
+    DataReader reader = new DataReader();
+    public String[] getDataFromKeyWordExcelFile(String fileName) throws IOException {
+        String path = "../BHPhoto/data/" +fileName;
+        String [] outPut = reader.colReader(path, 2);
+        return outPut;
+    }
+    public void selectFeature() throws IOException, InterruptedException {
+        String[] keyword = getDataFromKeyWordExcelFile("BHPhoto.xls");
+        for (int i = 0; i < keyword.length; i++) {
+            selectAction(keyword[i]);
+        }
+    }
+}

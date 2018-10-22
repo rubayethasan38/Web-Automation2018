@@ -7,15 +7,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-import sun.jvm.hotspot.debugger.Page;
 import java.util.ArrayList;
 import java.util.Iterator;
-public class ExcelFileReaderTest extends ExcelFileReader {
-    Page objOfPage;
+public class ExcelFileReaderTest extends SearchData {
+    ExcelFileReader objOfExcelFileReader;
      SearchData searchData;
     @BeforeMethod
     public void initializePageObject() {
-        //objExcelFile = PageFactory.initElements(webDriver, ExcelFileReaderTest.class);
+        //objExcelFileReader = PageFactory.initElements(webDriver, ExcelFileReaderTest.class);
         searchData = PageFactory.initElements(webDriver, SearchData.class);
     }
     @DataProvider
@@ -27,7 +26,7 @@ public class ExcelFileReaderTest extends ExcelFileReader {
     public void searchTest(String items) throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        //  objExcelFile.xcelElement.signInByDataProvider(items);
+        //objExcelFile.xcelElement.signInByDataProvider(items);
         String actual = SearchData.search.getText();
         TestLogger.log("Search successful");
         //Assert.assertEquals(message,errormessage);

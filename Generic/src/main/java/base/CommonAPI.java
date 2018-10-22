@@ -81,7 +81,7 @@ public class CommonAPI {
     }
     @AfterSuite
     public void generateReport() {
-        extent.close();
+      //  extent.close();
     }
     private Date getTime(long millis) {
         Calendar calendar = Calendar.getInstance();

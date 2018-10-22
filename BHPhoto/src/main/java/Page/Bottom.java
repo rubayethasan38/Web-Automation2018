@@ -31,7 +31,8 @@ public class Bottom extends CommonAPI {
     }
     public void setUnsubscribeEmail() {
     TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-    UnsubscribeEmail.click(); }
+    UnsubscribeEmail.click();
+    }
     public void setPayments() {
     TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
     Payments.click();
