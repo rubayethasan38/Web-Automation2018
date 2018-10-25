@@ -8,15 +8,15 @@ import reporting.TestLogger;
 public class Optics extends CommonAPI {
     @FindBy(xpath = "//a[@name='Top Nav-Binoculars and Scopes']")
     public static WebElement menuOptics;
-    @FindBy(xpath = "//*[@id=\"menu-978\"]/div/div/div/ul/li[1]/a/div[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[10]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/div[1]")
     public static WebElement Binoculars;
-    @FindBy(xpath = "//*[@id=\"menu-978\"]/div/div/div/ul/li[2]/a/div[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[10]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/div[1]")
     public static WebElement Telescope;
-    @FindBy(xpath = "//*[@id=\"menu-978\"]/div/div/div/ul/li[3]/a/div[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[10]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/div[1]")
     public static WebElement SpottingScopes;
-    @FindBy(xpath = "//*[@id=\"menu-978\"]/div/div/div/ul/li[4]/a/div[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[10]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/div[1]")
     public static WebElement RiflescopesSights;
-    @FindBy(xpath = "//*[@id=\"menu-978\"]/div/div/div/ul/li[5]/a/div[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[10]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]/div[1]")
     public static WebElement NightThermalVision;
     //methods
     public void clickOnOpticsBinoculars() throws InterruptedException {
@@ -25,7 +25,7 @@ public class Optics extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Binoculars and Scopes']");
         sleepFor(1);
-        clickByXpath("#menu-978 > div > div > div > ul > li:nth-child(1) > a > div.category-image");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[10]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/div[1]");
         String expected = "Binoculars";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#categoryLandingContent > div.clp-content.clearfix > div.new-page-width > h1")).getText();
@@ -37,7 +37,7 @@ public class Optics extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Binoculars and Scopes']");
         sleepFor(1);
-        clickByXpath("#menu-978 > div > div > div > ul > li:nth-child(2) > a > div.category-image");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[10]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/div[1]");
         String expected = "Telescopes & Astronomy";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#categoryLandingContent > div.clp-content.clearfix > div.new-page-width > h1")).getText();
@@ -49,7 +49,7 @@ public class Optics extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Binoculars and Scopes']");
         sleepFor(1);
-        clickByXpath("#menu-978 > div > div > div > ul > li:nth-child(3) > a > div.category-image");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[10]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/div[1]");
         String expected = "Spotting Scopes & Accessories";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#categoryLandingContent > div.clp-content.clearfix > div.new-page-width > h1")).getText();
@@ -61,7 +61,7 @@ public class Optics extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Binoculars and Scopes']");
         sleepFor(1);
-        clickByXpath("#menu-978 > div > div > div > ul > li:nth-child(4) > a > div.category-image");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[10]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/div[1]");
         String expected = "Riflescopes & Accessories";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#categoryLandingContent > div.clp-content.clearfix > div.new-page-width > h1")).getText();
@@ -73,7 +73,7 @@ public class Optics extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Binoculars and Scopes']");
         sleepFor(1);
-        clickByXpath("#menu-978 > div > div > div > ul > li:nth-child(5) > a > div.category-image");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[10]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]/div[1]");
         String expected = "Night & Thermal Vision Optics";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#categoryLandingContent > div.clp-content.clearfix > div.new-page-width > h1")).getText();

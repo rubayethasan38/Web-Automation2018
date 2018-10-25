@@ -8,15 +8,15 @@ import reporting.TestLogger;
 public class ProVideo extends CommonAPI {
     @FindBy(xpath = "//span[contains(text(),'Pro Video')]")
     public static WebElement ProVideo;
-    @FindBy(xpath = "//*[@id=\"menu-3755\"]/div/div/div/ul/li[1]/a/div[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[3]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/div[1]")
     public static WebElement ProfessionalCamcorders;
-    @FindBy(xpath = "//*[@id=\"menu-3755\"]/div/div/div/ul/li[2]/a/div[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[3]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/div[1]")
     public static WebElement DigitalCineCameras;
-    @FindBy(xpath = "//*[@id=\"menu-3755\"]/div/div/div/ul/li[3]/a/div[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[3]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/div[1]")
     public static WebElement StudioEFPCameras;
-    @FindBy(xpath = "//*[@id=\"menu-3755\"]/div/div/div/ul/li[4]/a/div[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[3]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/div[1]")
     public static WebElement BroadcastCameras;
-    @FindBy(xpath = "//*[@id=\"menu-3755\"]/div/div/div/ul/li[5]/a/div[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[3]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]/div[1]")
     public static WebElement IndustrialMultiPurposeCameras;
     //methods
     public void clickOnProVideoCamcorders() throws InterruptedException {
@@ -24,8 +24,8 @@ public class ProVideo extends CommonAPI {
         waitUntilClickAble(By.xpath("//span[contains(text(),'Pro Video')]"));
         mouseHoverByXpath("//span[contains(text(),'Pro Video')]");
         sleepFor(1);
-        clickByXpath("#menu-3755 > div > div > div > ul > li:nth-child(1) > a > div.category-image");
-        sleepFor(1);
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[3]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/div[1]");
+        sleepFor(2);
         String expected = "PRO CAMCORDERS & CAMERAS";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
@@ -36,8 +36,8 @@ public class ProVideo extends CommonAPI {
         waitUntilClickAble(By.xpath("//span[contains(text(),'Pro Video')]"));
         sleepFor(1);
         mouseHoverByXpath("//span[contains(text(),'Pro Video')]");
-        sleepFor(1);
-        clickByXpath("#menu-3755 > div > div > div > ul > li:nth-child(2) > a > div.category-image");
+        sleepFor(2);
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[3]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/div[1]");
         String expected = "Digital Cine Cameras";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
@@ -48,8 +48,8 @@ public class ProVideo extends CommonAPI {
         waitUntilClickAble(By.xpath("//span[contains(text(),'Pro Video')]"));
         sleepFor(1);
         mouseHoverByXpath("//span[contains(text(),'Pro Video')]");
-        sleepFor(1);
-        clickByXpath("#menu-3755 > div > div > div > ul > li:nth-child(3) > a > div.category-image");
+        sleepFor(2);
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[3]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/div[1]");
         String expected = "Television Studio & EFP Cameras";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
@@ -60,8 +60,8 @@ public class ProVideo extends CommonAPI {
         waitUntilClickAble(By.xpath("//span[contains(text(),'Pro Video')]"));
         sleepFor(1);
         mouseHoverByXpath("//span[contains(text(),'Pro Video')]");
-        sleepFor(1);
-        clickByXpath("#menu-3755 > div > div > div > ul > li:nth-child(4) > a > div.category-image");
+        sleepFor(2);
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[3]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/div[1]");
         String expected = "Broadcast Video Cameras";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
@@ -72,8 +72,8 @@ public class ProVideo extends CommonAPI {
         waitUntilClickAble(By.xpath("//span[contains(text(),'Pro Video')]"));
         sleepFor(1);
         mouseHoverByXpath("//span[contains(text(),'Pro Video')]");
-        sleepFor(1);
-        clickByXpath("#menu-3755 > div > div > div > ul > li:nth-child(5) > a > div.category-image");
+        sleepFor(2);
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[3]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]/div[1]");
         String expected = "Industrial & Multi-Purpose Cameras";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();

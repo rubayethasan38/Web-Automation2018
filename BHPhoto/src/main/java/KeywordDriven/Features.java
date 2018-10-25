@@ -7,7 +7,7 @@ import utility.DataReader;
 import java.io.IOException;
 public class Features extends CommonAPI {
     Account account = PageFactory.initElements(CommonAPI.webDriver,Account.class);
-    //KeyWord ClickSigIn
+    //KeyWord ClickSignIn
     public void clickSignIn() throws InterruptedException {
         account.clickAccount();
         account.loginpage();

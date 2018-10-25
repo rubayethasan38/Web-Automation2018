@@ -49,7 +49,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]");
         sleepFor(1);
-        clickByXpath("//*[@id=\"menu-989\"]/div/div/div/ul/li[1]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[1]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/div[1]");
         String expected = "Digital Camera Types";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
@@ -61,7 +61,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]");
         sleepFor(1);
-        clickByXpath("//*[@id=\"menu-989\"]/div/div/div/ul/li[2]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[1]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/div[1]");
         String expected = "Lenses";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#categoryLandingContent > div.clp-content.clearfix > div.new-page-width > h1")).getText();
@@ -73,7 +73,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]");
         sleepFor(1);
-        clickByXpath("//*[@id=\"menu-989\"]/div/div/div/ul/li[3]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[1]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/div[1]");
         String expected = "Drones & Aerial Imaging";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#categoryLandingContent > div.clp-content.clearfix > div.new-page-width > h1")).getText();
@@ -85,7 +85,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]");
         sleepFor(1);
-        clickByXpath("//*[@id=\"menu-989\"]/div/div/div/ul/li[4]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[1]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/div[1]");
         String expected = "Photography Tripods & Support";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#categoryLandingContent > div.clp-content.clearfix > div.new-page-width > h1")).getText();
@@ -97,7 +97,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Digital Photography']//span[contains(text(),'Photography')]");
         sleepFor(1);
-        clickByXpath("//*[@id=\"menu-989\"]/div/div/div/ul/li[4]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[1]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]/div[1]");
         String expected = "Photography Bags & Cases";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#categoryLandingContent > div.clp-content.clearfix > div.new-page-width > h1")).getText();
@@ -107,7 +107,7 @@ public class Camera extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         waitUntilClickAble(By.xpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]"));
         mouseHoverByXpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]");
-        clickByXpath("//*[@id=\"menu-1820\"]/div/div/div/ul/li[1]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[8]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/div[1]");
         String expected = "Consumer Video Cameras";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#breadcrumbs > li:nth-child(3) > a")).getText();
@@ -119,7 +119,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByCSS("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]");
         sleepFor(1);
-        clickByXpath("//*[@id=\"menu-1820\"]/div/div/div/ul/li[2]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[8]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/div[1]");
         String expected = "Action Cameras & Accessories";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
@@ -131,7 +131,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]");
         sleepFor(1);
-        clickByXpath("//*[@id=\"menu-1820\"]/div/div/div/ul/li[2]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[8]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/div[1]");
         String expected = "Professional Camcorders";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
@@ -143,7 +143,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]");
         sleepFor(1);
-        clickOnCss("//*[@id=\"menu-1820\"]/div/div/div/ul/li[2]/a/div[1]");
+        clickOnCss("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[8]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/div[1]");
         String expected = "PAL Consumer Camcorders (Non USA)";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
@@ -155,7 +155,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Camcorders']//span[contains(text(),'Camcorders')]");
         sleepFor(1);
-        clickByXpath("//*[@id=\"menu-1820\"]/div/div/div/ul/li[5]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[8]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]/div[1]");
         String expected = "Drones & Aerial Imaging\n";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
@@ -167,7 +167,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]");
         sleepFor(1);
-        clickByXpath("//*[@id=\"menu-3496\"]/div/div/div/ul/li[1]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[9]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/div[1]");
         String expected = "SurveillanceVideo";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
@@ -179,7 +179,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]");
         sleepFor(1);
-        clickByXpath("//*[@id=\"menu-3496\"]/div/div/div/ul/li[2]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[9]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/div[1]");
         String expected = "WiFi & Wireless Cameras";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
@@ -191,7 +191,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]");
         sleepFor(1);
-        clickByXpath("//*[@id=\"menu-3496\"]/div/div/div/ul/li[3]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[9]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/div[1]");
         String expected = "Hidden Cameras";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
@@ -203,7 +203,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]");
         sleepFor(1);
-        clickByXpath("//*[@id=\"menu-3496\"]/div/div/div/ul/li[4]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[9]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/div[1]");
         String expected = "Body Cameras & Accessories";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();
@@ -215,7 +215,7 @@ public class Camera extends CommonAPI {
         sleepFor(1);
         mouseHoverByXpath("//a[@name='Top Nav-Surveillance Video']//span[contains(text(),'Surveillance')]");
         sleepFor(1);
-        clickByXpath("//*[@id=\"menu-3496\"]/div/div/div/ul/li[5]/a/div[1]");
+        clickByXpath("/html[1]/body[1]/div[1]/div[1]/header[1]/section[3]/div[1]/ul[1]/li[9]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]/div[1]");
         String expected = "Intercom";
         sleepFor(3);
         String actual = webDriver.findElement(By.cssSelector("#searchTermBannerHead > h2")).getText();

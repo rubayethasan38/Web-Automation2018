@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 import java.util.ArrayList;
 import java.util.Iterator;
-
 public class XcelReaderTest extends XcelElement {
     XcelReaderTest objExcelFile;
     XcelElement xcelElement;
@@ -24,7 +23,6 @@ public class XcelReaderTest extends XcelElement {
     }
     @Test(priority = 5, dataProvider = "supplyDataExcel")
     public void searchTest(String items) throws InterruptedException {
-
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         //  objExcelFile.xcelElement.signInByDataProvider(items);

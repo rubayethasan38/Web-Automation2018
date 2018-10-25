@@ -23,7 +23,7 @@ public class ConnectToMongoDB extends CommonAPI {
         MongoCollection<Document> collection = mongoDatabase.getCollection(tableName);
         //table names: infoMenu
         //using getCollection(String s) method.
-        Document doc = new Document().append("items", menu);
+        Document doc = new Document().append("Items", menu);
         collection.insertOne(doc);
         return menu + " added.";
     }
@@ -38,7 +38,7 @@ public class ConnectToMongoDB extends CommonAPI {
         for (Document doc : iterable) {
             String id = "";
             int idInt = 0;
-            String spanText = (String) doc.get("items");
+            String spanText = (String) doc.get("Items");
             list.add(spanText);
         }
         return list;

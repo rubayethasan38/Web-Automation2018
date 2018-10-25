@@ -11,21 +11,22 @@ public class AccountTest extends Account {
         Account account = PageFactory.initElements(webDriver, Account.class);
     }
     @Test
-    public void selectAmount() {
+    public void login() {
     TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
     loginpage();
     }
     @Test
-    public void loginTest() {
+    public void setLogin() throws InterruptedException {
     TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    setLogin();
+    setLogIn();
     }
     @Test
-    public void firstTest(){
+    public void LogIn(){
     TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
-    clickOnMyAccount();
+    LogIn();
+
     }
 }

@@ -17,7 +17,7 @@ public class SearchTestMongoDB extends SearchData {
         public void testsearch() {
             TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()));
-            List<String> text = ConnectToMongoDB.readFromMongoDB("items");
+            List<String> text = ConnectToMongoDB.readFromMongoDB("Items");
 
             System.out.println("\n\n\n");
             for (int index = 0; index < text.size(); index++) {

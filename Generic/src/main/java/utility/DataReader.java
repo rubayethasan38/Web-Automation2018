@@ -1,6 +1,4 @@
 package utility;
-
-
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
@@ -12,7 +10,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
 public class DataReader {
     HSSFWorkbook wb = null;
     HSSFSheet sheet = null;
@@ -29,7 +26,6 @@ public class DataReader {
         numberOfRows = sheet.getLastRowNum();
         numberOfCol = sheet.getRow(0).getLastCellNum();
         data = new String[numberOfRows + 1][numberOfCol + 1];
-
         for (int i = 1; i < data.length; i++) {
             HSSFRow rows = sheet.getRow(i);
             for (int j = 0; j < numberOfCol; j++) {
@@ -40,7 +36,6 @@ public class DataReader {
         }
         return data;
     }
-
     public String[] colReader(String path, int sheetIndex) throws IOException {
         String[] data = {};
         File file = new File(path);
@@ -50,7 +45,6 @@ public class DataReader {
         numberOfRows = sheet.getLastRowNum();
         numberOfCol = sheet.getRow(0).getLastCellNum();
         data = new String[numberOfRows + 1];
-
         for (int i = 1; i < data.length; i++) {
             HSSFRow rows = sheet.getRow(i);
             for (int j = 0; j < numberOfCol; j++) {
@@ -61,7 +55,6 @@ public class DataReader {
         }
         return data;
     }
-
     public String getCellValue(HSSFCell cell) {
         Object value = null;
 
@@ -78,15 +71,12 @@ public class DataReader {
                 break;
         }
         return value.toString();
-
     }
-
     public void writeBack(String value) throws IOException {
         wb = new HSSFWorkbook();
         sheet = wb.createSheet();
         Row row = sheet.createRow(rowNum);
         row.setHeightInPoints(10);
-
         fio = new FileOutputStream(new File("ExcelFile.xls"));
         wb.write(fio);
         for (int i = 0; i < row.getLastCellNum(); i++) {

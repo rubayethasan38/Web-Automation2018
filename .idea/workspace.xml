@@ -4,16 +4,48 @@
     <list default="true" id="0b27728c-a8c4-4787-9627-779c06ea66a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BHPhoto/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/data/BHPhoto.xls" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/data/BHPhoto.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Database/ConnectToMongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Database/ConnectToMongoDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/KeywordDriven/Features.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/KeywordDriven/Features.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/LogIn/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/LogIn/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/AudioVisual.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/AudioVisual.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Camera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Footer.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Footer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lighting.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lighting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Mobile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Optics.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Optics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProAudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProAudio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProVideo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/TVEntertainment.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/TVEntertainment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/XcelElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/main/java/Page/XcelElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/SearchTestMongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/SearchTestMongoDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/XcelReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/XcelReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/src/test/java/LogInTest/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/src/test/java/LogInTest/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Database/ConnectToMongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Database/ConnectToMongoDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/LogIn/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/LogIn/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/AudioVisual.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Camera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Footer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Lighting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Mobile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Optics.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/Optics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProAudio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProVideo.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/ProVideo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/classes/Page/TVEntertainment.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/classes/Page/TVEntertainment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/DatabaseTest/SearchTestMongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/DatabaseTest/SearchTestMongoDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BHPhoto/target/test-classes/LogInTest/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/BHPhoto/target/test-classes/LogInTest/AccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,28 +131,28 @@
     <session id="1098326330">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
+          <entry key="class" value="3" />
           <entry key="html" value="2" />
-          <entry key="java" value="384" />
+          <entry key="java" value="460" />
           <entry key="server/bhphoto/collection" value="1" />
           <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
+          <entry key="CLASS" value="3" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="384" />
+          <entry key="JAVA" value="460" />
           <entry key="MONGO" value="1" />
           <entry key="XML" value="19" />
         </counts>
@@ -128,13 +160,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="41" />
-          <entry key="java" value="5037" />
+          <entry key="java" value="5467" />
           <entry key="xml" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5037" />
+          <entry key="JAVA" value="5467" />
           <entry key="PLAIN_TEXT" value="41" />
           <entry key="XML" value="69" />
         </counts>
@@ -147,10 +179,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/AudioVisual.java">
+        <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Database/ConnectToMongoDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
+            <state relative-caret-position="480">
+              <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/XcelElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,19 +200,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Bottom.java">
+        <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/TVEntertainment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="22" column="144" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="144" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Mobile.java">
+        <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProAudio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="73" column="87" selection-start-line="73" selection-start-column="87" selection-end-line="73" selection-end-column="87" />
+            <state relative-caret-position="196">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -204,16 +254,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/FooterB.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/FooterC.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/LightingTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/ComputerTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/CameraTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/MobileTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/OpticsTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/ProAudioTest.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/LogInTest/AccountTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/AudioVisualTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/LowerTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/FooterTest.java" />
@@ -229,32 +275,36 @@
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/TVEntertainmentTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/BottomTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/DataReaderTest/GoogleSheetReaderTest.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/SearchTestMongoDB.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Database/SearchData.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Database/ConnectToMongoDB.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/DataReader/ExcelFileReader.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Footer.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/DataReader/GoogleSheetReader.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/KeywordDrivenTest/FeaturesTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Bottom.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/KeywordTest.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Keyword.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/test/java/DataReaderTest/ExcelFileReaderTest.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/KeywordDriven/Features.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/XcelElement.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/XcelReaderTest.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/LogIn/Account.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/AudioVisual.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Camera.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Computer.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lighting.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProAudio.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProVideo.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/TVEntertainment.java" />
-        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Optics.java" />
         <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Mobile.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Optics.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lighting.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Footer.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/TVEntertainment.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProVideo.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/SearchTestMongoDB.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Database/ConnectToMongoDB.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/KeywordDrivenTest/FeaturesTest.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Computer.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/XcelReaderTest.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/LogInTest/AccountTest.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/LogIn/Account.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/Demo.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/DemoTest.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/KeywordDriven/Features.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/XcelElement.java" />
+        <option value="$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProAudio.java" />
       </list>
     </option>
   </component>
@@ -288,10 +338,10 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="727" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -301,7 +351,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -455,60 +505,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datProviderUtilityWIthXlsReader" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540245703601" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540506159200" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -550,18 +556,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FeaturesTest">
-    <configuration name="AudioVisualTest.fiftyTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AccountTest.firstTest">
+    <configuration name="AccountTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BHPhoto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PageTest.*" />
+          <option name="PATTERN" value="LogInTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PageTest" />
-      <option name="MAIN_CLASS_NAME" value="PageTest.AudioVisualTest" />
-      <option name="METHOD_NAME" value="fiftyTest" />
+      <option name="PACKAGE_NAME" value="LogInTest" />
+      <option name="MAIN_CLASS_NAME" value="LogInTest.AccountTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.firstTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BHPhoto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LogInTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LogInTest" />
+      <option name="MAIN_CLASS_NAME" value="LogInTest.AccountTest" />
+      <option name="METHOD_NAME" value="firstTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -569,7 +591,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AudioVisualTest.fiftyoneTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BottomTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BHPhoto" />
       <extension name="coverage">
         <pattern>
@@ -578,9 +600,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="PageTest" />
-      <option name="MAIN_CLASS_NAME" value="PageTest.AudioVisualTest" />
-      <option name="METHOD_NAME" value="fiftyoneTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="PageTest.BottomTest" />
       <properties />
       <listeners />
       <method v="2">
@@ -603,7 +623,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProVideoTest.FirstTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FooterTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BHPhoto" />
       <extension name="coverage">
         <pattern>
@@ -612,25 +632,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="PageTest" />
-      <option name="MAIN_CLASS_NAME" value="PageTest.ProVideoTest" />
-      <option name="METHOD_NAME" value="FirstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XcelReaderTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BHPhoto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DatabaseTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DatabaseTest" />
-      <option name="MAIN_CLASS_NAME" value="DatabaseTest.XcelReaderTest" />
+      <option name="MAIN_CLASS_NAME" value="PageTest.FooterTest" />
       <properties />
       <listeners />
       <method v="2">
@@ -638,19 +640,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.AudioVisualTest.fiftyTest" />
-      <item itemvalue="TestNG.AudioVisualTest.fiftyoneTest" />
-      <item itemvalue="TestNG.XcelReaderTest" />
-      <item itemvalue="TestNG.ProVideoTest.FirstTest" />
+      <item itemvalue="TestNG.AccountTest" />
+      <item itemvalue="TestNG.BottomTest" />
+      <item itemvalue="TestNG.FooterTest" />
       <item itemvalue="TestNG.FeaturesTest" />
+      <item itemvalue="TestNG.AccountTest.firstTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AccountTest.firstTest" />
+        <item itemvalue="TestNG.AccountTest" />
         <item itemvalue="TestNG.FeaturesTest" />
-        <item itemvalue="TestNG.XcelReaderTest" />
-        <item itemvalue="TestNG.ProVideoTest.FirstTest" />
-        <item itemvalue="TestNG.AudioVisualTest.fiftyoneTest" />
-        <item itemvalue="TestNG.AudioVisualTest.fiftyTest" />
+        <item itemvalue="TestNG.FooterTest" />
+        <item itemvalue="TestNG.BottomTest" />
       </list>
     </recent_temporary>
   </component>
@@ -668,39 +670,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CameraTest_firstTest - 2018.10.22 at 15h 11m 00s.xml">
-      <configuration name="CameraTest.firstTest" configurationId="TestNG" />
+    <history-entry file="SearchTestMongoDB - 2018.10.23 at 00h 56m 53s.xml">
+      <configuration name="SearchTestMongoDB" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AudioVisualTest_fiftyTest - 2018.10.22 at 15h 21m 16s.xml">
-      <configuration name="AudioVisualTest.fiftyTest" configurationId="TestNG" />
+    <history-entry file="SearchTestMongoDB - 2018.10.23 at 00h 58m 21s.xml">
+      <configuration name="SearchTestMongoDB" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AudioVisualTest_fiftyoneTest - 2018.10.22 at 15h 25m 53s.xml">
-      <configuration name="AudioVisualTest.fiftyoneTest" configurationId="TestNG" />
+    <history-entry file="SearchTestMongoDB - 2018.10.23 at 00h 59m 32s.xml">
+      <configuration name="SearchTestMongoDB" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XcelReaderTest - 2018.10.22 at 16h 33m 04s.xml">
-      <configuration name="XcelReaderTest" configurationId="TestNG" />
+    <history-entry file="SearchTestMongoDB - 2018.10.23 at 01h 04m 18s.xml">
+      <configuration name="SearchTestMongoDB" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XcelReaderTest - 2018.10.22 at 16h 40m 22s.xml">
-      <configuration name="XcelReaderTest" configurationId="TestNG" />
+    <history-entry file="SearchTestMongoDB - 2018.10.23 at 01h 05m 55s.xml">
+      <configuration name="SearchTestMongoDB" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XcelReaderTest - 2018.10.22 at 16h 45m 34s.xml">
-      <configuration name="XcelReaderTest" configurationId="TestNG" />
+    <history-entry file="FooterTest - 2018.10.23 at 01h 07m 51s.xml">
+      <configuration name="FooterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XcelReaderTest - 2018.10.22 at 16h 49m 56s.xml">
-      <configuration name="XcelReaderTest" configurationId="TestNG" />
+    <history-entry file="BottomTest - 2018.10.23 at 01h 07m 58s.xml">
+      <configuration name="BottomTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProVideoTest_FirstTest - 2018.10.22 at 16h 52m 51s.xml">
-      <configuration name="ProVideoTest.FirstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="XcelReaderTest - 2018.10.22 at 16h 55m 01s.xml">
-      <configuration name="XcelReaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FeaturesTest - 2018.10.22 at 17h 19m 36s.xml">
+    <history-entry file="FeaturesTest - 2018.10.23 at 16h 10m 42s.xml">
       <configuration name="FeaturesTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AccountTest - 2018.10.23 at 16h 30m 37s.xml">
+      <configuration name="AccountTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AccountTest_firstTest - 2018.10.23 at 16h 33m 13s.xml">
+      <configuration name="AccountTest.firstTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="726" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49657065" visible="true" weight="0.26009694" />
@@ -712,12 +714,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.50342935" side_tool="true" weight="0.13858365" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" weight="0.3739726" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" weight="0.43059936" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38870433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3068493" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30547947" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501221" side_tool="true" weight="0.25714287" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295063" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.498779" weight="0.37945205" />
@@ -741,15 +743,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.50342935" side_tool="true" weight="0.13858365" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" weight="0.3739726" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" weight="0.43059936" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38870433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3109589" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30547947" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501221" side_tool="true" weight="0.25714287" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295063" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.498779" visible="true" weight="0.37945205" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.498779" weight="0.37945205" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -787,19 +789,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/PageTest/LogInTest.java" />
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml" />
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/main/java/Page/LogIn.java" />
-    <entry file="file://$PROJECT_DIR$/RESTapi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/PageTest/SearchProductPageTest.java" />
-    <entry file="file://$PROJECT_DIR$/BHPhoto/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/PageTest/HomeTest.java" />
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/main/java/Page/Home.java" />
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/main/java/Page/SearchProduct.java" />
     <entry file="file://$PROJECT_DIR$/BestBuy/src/main/java/Page/SearchProductPage.java" />
     <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/PageTest/SearchProductTest.java" />
     <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/OpticsTest.java">
@@ -816,27 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/FooterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Footer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/resources/BHPhotoTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -848,34 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/TVEntertainmentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/BottomTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/AudioVisualTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/CameraTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -896,55 +836,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/LogInTest/AccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Database/ConnectToMongoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/SearchTestMongoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/DataReaderTest/ExcelFileReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/DataReader/ExcelFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/XcelElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Database/SearchData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -952,13 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="83" column="10" lean-forward="true" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -986,37 +877,197 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/LogIn/Account.java">
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Mobile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="262">
+          <caret line="75" column="148" selection-start-line="75" selection-start-column="148" selection-end-line="75" selection-end-column="148" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/DataReader/GoogleSheetReader.java">
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Optics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="75" column="149" selection-start-line="75" selection-start-column="149" selection-end-line="75" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lighting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/TVEntertainmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="563" selection-start-line="563" selection-end-line="563" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/SearchTestMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/MobileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="423" column="23" lean-forward="true" selection-start-line="423" selection-start-column="23" selection-end-line="423" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/DatabaseTest/XcelReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/LogIn/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/KeywordDrivenTest/FeaturesTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/BottomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/GitHub/FarzadFramework/HDepot/src/main/java/dataRead/ConnectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/DemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Selenium2018/MidtermJuly2018/src/math/problems/Factorial.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/CameraTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/ComputerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/AudioVisualTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/PageTest/FooterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/test/java/LogInTest/AccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Footer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1025,11 +1076,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/KeywordDriven/Features.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="194">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/DataReader/GoogleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/DataReader/ExcelFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Database/SearchData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2289">
+          <caret line="217" column="148" selection-start-line="217" selection-start-column="148" selection-end-line="217" selection-end-column="148" />
         </state>
       </provider>
     </entry>
@@ -1043,58 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="165" column="115" selection-start-line="165" selection-start-column="115" selection-end-line="165" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1074">
-          <caret line="73" column="107" selection-start-line="73" selection-start-column="107" selection-end-line="73" selection-end-column="107" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Lighting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="61" column="28" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProAudio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="73" column="63" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Optics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="71" column="79" selection-start-line="71" selection-start-column="79" selection-end-line="71" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/TVEntertainment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="73" column="118" selection-start-line="73" selection-start-column="118" selection-end-line="73" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Bottom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1102,10 +1135,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/Mobile.java">
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Database/ConnectToMongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="73" column="87" selection-start-line="73" selection-start-column="87" selection-end-line="73" selection-end-column="87" />
+        <state relative-caret-position="480">
+          <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/XcelElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/TVEntertainment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="144" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BHPhoto/src/main/java/Page/ProAudio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

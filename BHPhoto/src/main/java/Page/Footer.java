@@ -8,21 +8,21 @@ public class Footer extends CommonAPI {
     public void clickOnCss(String locator){
         webDriver.findElement(By.cssSelector(locator)).click();
     }
-    @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[3]/div/div[1]/div[1]/a/span[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[2]/div[4]/footer[1]/div[3]/div[1]/div[1]/div[1]/a[1]/span[1]")
     public static WebElement Shipping;
-    @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[3]/div/div[1]/div[2]/a/span[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[2]/div[4]/footer[1]/div[3]/div[1]/div[1]/div[2]/a[1]/span[1]")
     public static WebElement Returns;
-    @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[3]/div/div[1]/div[3]/a/span[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[2]/div[4]/footer[1]/div[3]/div[1]/div[1]/div[3]/a[1]/span[1]")
     public static WebElement GiftCards;
-    @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[3]/div/div[1]/div[4]/a/span[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[2]/div[4]/footer[1]/div[3]/div[1]/div[1]/div[4]/a[1]/span[1]")
     public static WebElement EventSpace;
-    @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[2]/div[2]/div/a/span")
+    @FindBy(xpath = "/html[1]/body[1]/div[2]/div[4]/footer[1]/div[2]/div[2]/div[1]/a[1]/span[1]")
     public static WebElement ContactUs;
-    @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[2]/div[3]/div/a/span")
+    @FindBy(xpath = "/html[1]/body[1]/div[2]/div[4]/footer[1]/div[2]/div[3]/div[1]/a[1]/span[1]")
     public static WebElement LiveChat;
-    @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[1]/a[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[4]/footer[1]/div[1]/a[1]")
     public static WebElement HoursOfService;
-    @FindBy(xpath = "/html/body/div[1]/div[4]/footer/div[1]/a[2]")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[4]/footer[1]/div[1]/a[3]")
     public static WebElement AddressDirections;
     //methods
     public void clickShipping() {
